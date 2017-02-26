@@ -35,6 +35,10 @@ body {
 /* ===================
     ALL: Orange Theme
    =================== */
+.header-container, .main-container, .footer-container {
+    padding: 5px 10px 0 10px;
+}
+
 
 .header-container,
 .footer-container,
@@ -65,7 +69,6 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     color: white;
-    background: #e44d26;
 }
 
 nav a:hover,
@@ -116,6 +119,11 @@ nav a:hover {
    ==================== */
     nav ul {
         display: flex;
+        justify-content: space-between;
+    }
+
+    nav ul li {
+        margin-left: 5px;
     }
     
 }
