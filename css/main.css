@@ -1,9 +1,11 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Merriweather|Sansita');
+
 html {
     color: #222;
     font-size: 1em;
-    line-height: 1.4;
+
 }
 
 audio,
@@ -27,9 +29,6 @@ video {
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
 
-body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
-}
 
 
 /* ===================
@@ -78,6 +77,8 @@ nav a:visited {
 
 nav a:hover {
     text-decoration: underline;
+    outline-color: blue;
+    outline-style: outset;
 }
 
 
@@ -108,12 +109,36 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
+body {
+    font-family: 'Merriweather', serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Sansita', sans-serif;
+}
+
+aside h1, aside h2, aside h3 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.7em;
+}
+
+p, li {
+    line-height: 1.6;
+}
+
+.logo {
+    position: absolute;
+    right: 20px;
+    top: 2px;
+    width: 160px;
+    z-index: -1;
+}
 
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 650px) {
     /* ====================
     INTERMEDIATE: Menu
    ==================== */
@@ -123,9 +148,9 @@ nav a:hover {
     }
 
     nav ul li {
-        margin-left: 5px;
+        margin-left: 15px;
     }
-    
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -142,9 +167,9 @@ nav a:hover {
     WIDE: Menu
    ============ */
     .title {
-        float: left;
+
     }
-   
+
     /* ============
     WIDE: Main
    ============ */
