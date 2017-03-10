@@ -1,0 +1,29 @@
+.header-image {
+    height: 280px;
+    background-size: cover;
+}
+
+.header-image--wohnungen {
+    background-image: url('../img/wohnungen_header.jpg');
+    background-position: 50% 61%;
+}
+
+.header-image--garten {
+    background-image: url('../img/garten_header.jpg');
+    background-position: 50% 63%;
+}
+
+.header-image--strand {
+    background-image: url('../img/strand_header.jpg');
+    background-position: 50% 47%;
+}
+
+.header-image--preise {
+    background-image: url('../img/preise_header.jpg');
+    background-position: 50% 47%;
+}
+
+.header-image--impressum {
+    background-image: url('../img/impressum_header.jpg');
+    background-position: 50% 66%;
+}
