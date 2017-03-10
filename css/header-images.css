@@ -3,6 +3,13 @@
     background-size: cover;
 }
 
+
+.header-image--index {
+    background-image: url('../img/index_header.jpg');
+    background-position: 91% 69%;
+    height: 400px;
+}
+
 .header-image--wohnungen {
     background-image: url('../img/wohnungen_header.jpg');
     background-position: 50% 61%;
@@ -13,8 +20,8 @@
     background-position: 50% 63%;
 }
 
-.header-image--strand {
-    background-image: url('../img/strand_header.jpg');
+.header-image--umgebung {
+    background-image: url('../img/umgebung_header.jpg');
     background-position: 50% 47%;
 }
 
