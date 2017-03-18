@@ -1,0 +1,54 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>Müllerhaus - Garten und Sauna</title>
+    <!--#include virtual="_head.html" -->
+</head>
+
+<body>
+    <!--#include virtual="_menu.html" -->
+    <div class="header-image header-image--garten"></div>
+    <div class="main-container">
+        <div class="main wrapper clearfix">
+            <article>
+                <header>
+                    <h1>Garten und Sauna</h1>
+                </header>
+                <section>
+                    <h2>Der Garten: Blick über Feld und Wiese in Richtung Haff</h2>
+                    <p>Egal, ob Sie sich auf einer Liege entspannen oder mit Ihren Kindern toben möchten, der Garten ist groß
+                        genug für alle Bedürfnisse. Gartenmöbel, Spielgeräte, Sonnenschirme, ein Grill und eine Feuerstelle
+                        stehen unseren Gästen zur Verfügung.</p>
+                </section>
+                <section>
+                    <h2>Badespaß: Naturstrand in Laufnähe</h2>
+                    <p>Bis zum Sandstrand von Vogelsang sind es etwa 15 Gehminuten. Das Ufer fällt langsam ab und bietet somit
+                        eine optimale Bade- und Spielmöglichkeit für Kinder. Bei gutem Wetter können Sie bis nach Usedom
+                        blicken.
+                    </p>
+                    <p>
+                        Weitere Strände in der Umgebung sind bequem mit dem Fahrrad oder dem Auto erreichbar, beispielsweise in Bellin (5 Kilometer),
+                        Ueckermünde (8 Kilometer), Mönkebude (17 Kilometer).
+                    </p>
+                </section>
+            </article>
+            <aside>
+                <h3>Wellness: Ausspannen in der Scheunen-Sauna</h3>
+                <p>Lassen Sie Ihre Seele in der Außensauna des Müllerhauses baumeln. Genießen Sie dabei ein Glas Tee im Ruhebereich
+                    mit Blick über Feld und Wiese in Richtung Haff.</p>
+            </aside>
+        </div>
+        <!-- #main -->
+    </div>
+    <!-- #main-container -->
+    <div class="footer-container">
+        <footer class="wrapper">
+            <h3>footer</h3>
+        </footer>
+    </div>
+    <!--#include virtual="_scripts.html" -->
+</body>
+
+</html>

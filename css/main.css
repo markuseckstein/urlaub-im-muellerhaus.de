@@ -1,6 +1,6 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
-@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Merriweather|Sansita');
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Reenie+Beanie|Noto+Serif');
 @import url('header-images.css');
 
 html {
@@ -183,20 +183,29 @@ nav a:hover {
     padding: 20px 0;
 }
 
+.logo {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    z-index: -1;
+    width: 160px;
+}
+
+
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
 body {
-    font-family: 'Merriweather', serif;
+    font-family: 'Noto Serif', serif;
 }
 
 h1,
 h2,
 h3,
 h4 {
-    font-family: 'Sansita', sans-serif;
+    font-family: 'Architects Daughter', sans-serif;
 }
 
 aside h1,
@@ -211,13 +220,8 @@ li {
     line-height: 1.6;
 }
 
-.logo {
-    position: absolute;
-    right: 20px;
-    top: 2px;
-    width: 160px;
-    z-index: -1;
-}
+
+
 
 
 /* ==========================================================================
@@ -236,12 +240,15 @@ li {
     nav ul {
         display: flex;
         justify-content: space-between;
+        margin-top: 20px;
     }
     nav ul li {
-        margin-left: 15px;
+        margin-left: 22px;
     }
     h1.title {
-        display: initial;
+        display: block;
+        margin-left: 170px;
+        margin-top: 20px;
     }
     .header-container header {
         min-height: inherit;
@@ -249,6 +256,13 @@ li {
     div#navMenu {
         display: none;
     }
+
+    .logo {
+    position: absolute;
+    right: unset;
+    width: 140px;
+}
+
 }
 
 @media only screen and (min-width: 768px) {

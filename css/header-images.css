@@ -1,13 +1,13 @@
 .header-image {
-    height: 280px;
+    height: 50vmin;
     background-size: cover;
 }
 
 
 .header-image--index {
-    background-image: url('../img/index_header.jpg');
+    background-image: url('../img/index_header2.jpg');
     background-position: 91% 69%;
-    height: 400px;
+    height: 65vmin;
 }
 
 .header-image--wohnungen {
