@@ -11,7 +11,12 @@
             font-size: 2.6em;
             transform: rotate(-7deg);
         }
-
+        
+        .header-container,
+        .footer-container,
+        .main aside {
+            background-color: rgba(177, 134, 84, .8);
+        }
     </style>
 </head>
 

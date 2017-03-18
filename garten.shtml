@@ -5,6 +5,13 @@
     <meta charset="utf-8">
     <title>Müllerhaus - Garten und Sauna</title>
     <!--#include virtual="_head.html" -->
+    <style type="text/css">
+        .header-container,
+        .footer-container,
+        .main aside {
+            background: rgba(170, 196, 171, .8);
+        }
+    </style>
 </head>
 
 <body>

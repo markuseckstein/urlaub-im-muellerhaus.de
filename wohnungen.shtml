@@ -5,6 +5,13 @@
     <meta charset="utf-8">
     <title>Müllerhaus - Wohnungen</title>
     <!--#include virtual="_head.html" -->
+        <style type="text/css">
+        .header-container,
+        .footer-container,
+        .main aside {
+            background-color: rgba(170, 157, 152, .8);
+        }
+    </style>
 </head>
 
 <body>
