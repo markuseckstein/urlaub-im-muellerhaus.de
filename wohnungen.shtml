@@ -116,33 +116,31 @@
     <!-- #main-container -->
     <div class="footer-container">
         <footer class="wrapper">
-            <div class="gallery-wrapper">
-                <div class="gallery">
-                    <a href="img/gallery/wohnungen/DSC_0229.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0229.JPG"></a>
-                    <a href="img/gallery/wohnungen/DSC_0233.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0233.JPG"></a>
-                    <a href="img/gallery/wohnungen/DSC_0248.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0248.JPG"></a>
-                    <a href="img/gallery/wohnungen/DSC_0280.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0280.JPG"></a>
-                    <a href="img/gallery/wohnungen/DSC_0289.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0289.JPG"></a>
-                    <a href="img/gallery/wohnungen/DSC_0290.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0290.JPG"></a>
-                    <a href="img/gallery/wohnungen/DSC_0291.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0291.JPG"></a>
-                    <a href="img/gallery/wohnungen/DSC_0293.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0293.JPG"></a>
-                    <a href="img/gallery/wohnungen/DSC_0298.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0298.JPG"></a>
-                    <a href="img/gallery/wohnungen/DSC_0299.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0299.JPG"></a>
-                    <a href="img/gallery/wohnungen/DSC_0300.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0300.JPG"></a>
-                    <a href="img/gallery/wohnungen/DSC_0301.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0301.JPG"></a>
-                    <a href="img/gallery/wohnungen/DSC_0309.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0309.JPG"></a>
-                    <a href="img/gallery/wohnungen/DSC_0310.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0310.JPG"></a>
-                    <a href="img/gallery/wohnungen/DSC_0316.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0316.JPG"></a>
-                    <a href="img/gallery/wohnungen/DSC_0327.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0327.JPG"></a>
-                    <a href="img/gallery/wohnungen/DSC_0333.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0333.JPG"></a>
-                    <a href="img/gallery/wohnungen/DSC_0334.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0334.JPG"></a>
-                    <a href="img/gallery/wohnungen/DSC_0338.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0338.JPG"></a>
-                    <a href="img/gallery/wohnungen/DSC_0345.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0345.JPG"></a>                    
-                    <a href="img/gallery/wohnungen/DSC_0346.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0346.JPG"></a>                    
-                    <a href="img/gallery/wohnungen/DSC_0348.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0348.JPG"></a>                    
-                    <a href="img/gallery/wohnungen/DSC_0356.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0356.JPG"></a>                    
-                    <a href="img/gallery/wohnungen/DSC_0363.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0363.JPG"></a>                    
-                </div>
+            <div id="gallery" style="display:none">
+                <img data-image="img/gallery/wohnungen/DSC_0229.JPG" src="img/gallery/wohnungen/thumbs/DSC_0229.JPG">
+                <img data-image="img/gallery/wohnungen/DSC_0233.JPG" src="img/gallery/wohnungen/thumbs/DSC_0233.JPG">
+                <img data-image="img/gallery/wohnungen/DSC_0280.JPG" src="img/gallery/wohnungen/thumbs/DSC_0280.JPG">
+                <img data-image="img/gallery/wohnungen/DSC_0289.JPG" src="img/gallery/wohnungen/thumbs/DSC_0289.JPG">
+                <img data-image="img/gallery/wohnungen/DSC_0290.JPG" src="img/gallery/wohnungen/thumbs/DSC_0290.JPG">
+                <img data-image="img/gallery/wohnungen/DSC_0248.JPG" src="img/gallery/wohnungen/thumbs/DSC_0248.JPG">
+                <img data-image="img/gallery/wohnungen/DSC_0291.JPG" src="img/gallery/wohnungen/thumbs/DSC_0291.JPG">
+                <img data-image="img/gallery/wohnungen/DSC_0293.JPG" src="img/gallery/wohnungen/thumbs/DSC_0293.JPG">
+                <img data-image="img/gallery/wohnungen/DSC_0298.JPG" src="img/gallery/wohnungen/thumbs/DSC_0298.JPG">
+                <img data-image="img/gallery/wohnungen/DSC_0299.JPG" src="img/gallery/wohnungen/thumbs/DSC_0299.JPG">
+                <img data-image="img/gallery/wohnungen/DSC_0300.JPG" src="img/gallery/wohnungen/thumbs/DSC_0300.JPG">
+                <img data-image="img/gallery/wohnungen/DSC_0301.JPG" src="img/gallery/wohnungen/thumbs/DSC_0301.JPG">
+                <img data-image="img/gallery/wohnungen/DSC_0309.JPG" src="img/gallery/wohnungen/thumbs/DSC_0309.JPG">
+                <img data-image="img/gallery/wohnungen/DSC_0310.JPG" src="img/gallery/wohnungen/thumbs/DSC_0310.JPG">
+                <img data-image="img/gallery/wohnungen/DSC_0316.JPG" src="img/gallery/wohnungen/thumbs/DSC_0316.JPG">
+                <img data-image="img/gallery/wohnungen/DSC_0327.JPG" src="img/gallery/wohnungen/thumbs/DSC_0327.JPG">
+                <img data-image="img/gallery/wohnungen/DSC_0333.JPG" src="img/gallery/wohnungen/thumbs/DSC_0333.JPG">
+                <img data-image="img/gallery/wohnungen/DSC_0334.JPG" src="img/gallery/wohnungen/thumbs/DSC_0334.JPG">
+                <img data-image="img/gallery/wohnungen/DSC_0338.JPG" src="img/gallery/wohnungen/thumbs/DSC_0338.JPG">
+                <img data-image="img/gallery/wohnungen/DSC_0345.JPG" src="img/gallery/wohnungen/thumbs/DSC_0345.JPG">
+                <img data-image="img/gallery/wohnungen/DSC_0346.JPG" src="img/gallery/wohnungen/thumbs/DSC_0346.JPG">
+                <img data-image="img/gallery/wohnungen/DSC_0348.JPG" src="img/gallery/wohnungen/thumbs/DSC_0348.JPG">
+                <img data-image="img/gallery/wohnungen/DSC_0356.JPG" src="img/gallery/wohnungen/thumbs/DSC_0356.JPG">
+                <img data-image="img/gallery/wohnungen/DSC_0363.JPG" src="img/gallery/wohnungen/thumbs/DSC_0363.JPG">
             </div>
         </footer>
     </div>

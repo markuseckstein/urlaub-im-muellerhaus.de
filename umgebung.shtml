@@ -80,11 +80,9 @@
     <!-- #main-container -->
     <div class="footer-container">
         <footer class="wrapper">
-            <div class="gallery-wrapper">
-                <div class="gallery">
-                    <a href="img/gallery/umgebung/DSC_0259.JPG" rel="prettyPhoto[umgebung]"><img src="img/gallery/umgebung/thumbs/DSC_0259.JPG"></a>
-                    <a href="img/gallery/umgebung/DSC_0275.JPG" rel="prettyPhoto[umgebung]"><img src="img/gallery/umgebung/thumbs/DSC_0275.JPG"></a>
-                </div>
+            <div id="gallery" style="display:none">
+                <img data-image="img/gallery/umgebung/DSC_0259.JPG" src="img/gallery/umgebung/thumbs/DSC_0259.JPG">
+                <img data-image="img/gallery/umgebung/DSC_0275.JPG" src="img/gallery/umgebung/thumbs/DSC_0275.JPG">
             </div>
         </footer>
     </div>

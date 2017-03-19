@@ -35,11 +35,15 @@ $(function () {
 });
 
 $(function () {
-    $(".gallery a[rel^='prettyPhoto']").prettyPhoto({
-        animation_speed: 'normal',
-        //theme: 'default',
-        slideshow: 3500,
-        autoplay_slideshow: false,
-        social_tools:''
+    $("#gallery").unitegallery({
+        gallery_theme: "tiles",
+        gallery_width:"100%",
+        tiles_type: "justified",
+        tiles_justified_row_height: 100, //base row height of the justified type
+        tiles_justified_space_between: 7,
+        tile_enable_border: true,
+        tile_border_width:1,
+        tile_border_color:"white"
     });
+    console.log('gallery init')
 });

@@ -6,7 +6,8 @@
     <title>Müllerhaus - Garten und Sauna</title>
     <!--#include virtual="_head.html" -->
     <style type="text/css">
-      
+
+
     </style>
 </head>
 
@@ -37,12 +38,10 @@
     <!-- #main-container -->
     <div class="footer-container">
         <footer class="wrapper">
-            <div class="gallery-wrapper">
-                <div class="gallery">
-                    <a href="img/gallery/garten/DSC_9305.JPG" rel="prettyPhoto[garten]"><img src="img/gallery/garten/thumbs/DSC_9305.JPG"></a>
-                    <a href="img/gallery/garten/DSC_9277.JPG" rel="prettyPhoto[garten]"><img src="img/gallery/garten/thumbs/DSC_9277.JPG"></a>
-                    <a href="img/gallery/garten/DSC_9294.JPG" rel="prettyPhoto[garten]"><img src="img/gallery/garten/thumbs/DSC_9294.JPG"></a>
-                </div>
+            <div id="gallery" style="display:none">
+                <img data-image="img/gallery/garten/DSC_9305.JPG" src="img/gallery/garten/thumbs/DSC_9305.JPG">
+                <img data-image="img/gallery/garten/DSC_9277.JPG" src="img/gallery/garten/thumbs/DSC_9277.JPG">
+                <img data-image="img/gallery/garten/DSC_9294.JPG" src="img/gallery/garten/thumbs/DSC_9294.JPG">
             </div>
         </footer>
     </div>
