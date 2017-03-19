@@ -5,12 +5,9 @@
     <meta charset="utf-8">
     <title>Müllerhaus - Preise und Buchung</title>
     <!--#include virtual="_head.html" -->
-        <style type="text/css">
-        .header-container,
-        .footer-container,
-        .main aside {
-            background: rgba(162, 153, 136, .8);
-        }
+    <style type="text/css">
+
+
     </style>
 </head>
 
@@ -21,13 +18,13 @@
         <div class="main wrapper clearfix">
             <article>
                 <header>
-                    <h1>Preise und Buchung</h1>
+                    <h1 class="heading">Preise und Buchung</h1>
                     <p>Die angegebenen Preise verstehen sich pro Wohnung und Nacht, inkl. Sauna, Bad- und Bettwäsche, zzgl.
                         50 Euro Endreinigung, 100 Euro Kaution. Babybett und Kinderhochstuhl stehen Ihnen auf Anfrage kostenfrei
                         zur Verfügung. Die Mindestmietdauer beträgt zwei Nächte.
                     </p>
                     <h2>Wohnung Ueckermünde (2-6 Personen)</h2>
-                    1. Oktober bis 30. April: 75 Euro/Nacht<br/> 1. Mai bis 30. September: 95 Euro/Nacht Wohnung<br/>
+                    1. Oktober bis 30. April: 75 Euro/Nacht<br/> 1. Mai bis 30. September: 95 Euro/Nacht<br/>
                     <h2>Wohnung Altwarp (2-4 Personen)</h2>
                     1. Oktober bis 30. April: 65 Euro/Nacht<br/> 1. Mai bis 30. September: 85 Euro/Nacht<br/>
                 </header>

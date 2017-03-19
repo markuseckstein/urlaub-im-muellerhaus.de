@@ -6,11 +6,7 @@
     <title>Müllerhaus - Garten und Sauna</title>
     <!--#include virtual="_head.html" -->
     <style type="text/css">
-        .header-container,
-        .footer-container,
-        .main aside {
-            background: rgba(170, 196, 171, .8);
-        }
+      
     </style>
 </head>
 
@@ -21,24 +17,13 @@
         <div class="main wrapper clearfix">
             <article>
                 <header>
-                    <h1>Garten und Sauna</h1>
+                    <h1 class="heading">Garten und Sauna</h1>
                 </header>
                 <section>
                     <h2>Der Garten: Blick über Feld und Wiese in Richtung Haff</h2>
                     <p>Egal, ob Sie sich auf einer Liege entspannen oder mit Ihren Kindern toben möchten, der Garten ist groß
                         genug für alle Bedürfnisse. Gartenmöbel, Spielgeräte, Sonnenschirme, ein Grill und eine Feuerstelle
                         stehen unseren Gästen zur Verfügung.</p>
-                </section>
-                <section>
-                    <h2>Badespaß: Naturstrand in Laufnähe</h2>
-                    <p>Bis zum Sandstrand von Vogelsang sind es etwa 15 Gehminuten. Das Ufer fällt langsam ab und bietet somit
-                        eine optimale Bade- und Spielmöglichkeit für Kinder. Bei gutem Wetter können Sie bis nach Usedom
-                        blicken.
-                    </p>
-                    <p>
-                        Weitere Strände in der Umgebung sind bequem mit dem Fahrrad oder dem Auto erreichbar, beispielsweise in Bellin (5 Kilometer),
-                        Ueckermünde (8 Kilometer), Mönkebude (17 Kilometer).
-                    </p>
                 </section>
             </article>
             <aside>

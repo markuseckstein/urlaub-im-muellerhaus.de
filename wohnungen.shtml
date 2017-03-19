@@ -5,24 +5,20 @@
     <meta charset="utf-8">
     <title>Müllerhaus - Wohnungen</title>
     <!--#include virtual="_head.html" -->
-        <style type="text/css">
-        .header-container,
-        .footer-container,
-        .main aside {
-            background-color: rgba(170, 157, 152, .8);
-        }
+    <style type="text/css">
+
+
     </style>
 </head>
 
 <body>
     <!--#include virtual="_menu.html" -->
     <div class="header-image header-image--wohnungen"></div>
-
     <div class="main-container">
         <div class="main wrapper clearfix">
             <article>
                 <header>
-                    <h1>Die Ferienwohnungen: Ursprünglichkeit sorgfältig ausgestattet</h1>
+                    <h1 class="heading">Die Ferienwohnungen: Ursprünglichkeit sorgfältig ausgestattet</h1>
                     <p>Im Dachgeschoss des Hauses befinden sich zwei 70-80 Quadratmeter große Ferienwohnungen. Die Ausstattung
                         lässt keine Wünsche offen:</p>
                     <p>
@@ -102,7 +98,7 @@
                         <li>Holzkohlegrill</li>
                         <li>Gartenmöbel</li>
                         <li>Liegen</li>
-                        <li>Diverse Spielgeräte (Fußballtor, Badmintoschläger etc.)</li>
+                        <li>Diverse Spielgeräte (Fußballtor, Badmintonschläger etc.)</li>
                         <li>Waschmaschine im Nebengebäude</li>
                         <li>Autostellplatz</li>
                         <li>Absperrbare Scheune zur Unterbringung von Fahrrädern, Kinderwägen etc.

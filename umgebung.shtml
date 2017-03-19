@@ -6,11 +6,7 @@
     <title>Müllerhaus - Strand und Umgebung</title>
     <!--#include virtual="_head.html" -->
     <style type="text/css">
-        .header-container,
-        .footer-container,
-        .main aside {
-            background: rgba(130, 181, 218, .7);
-        }
+    
     </style>
 </head>
 
@@ -21,7 +17,7 @@
         <div class="main wrapper clearfix">
             <article>
                 <header>
-                    <h1>Strand und Umgebung</h1>
+                    <h1 class="heading">Strand und Umgebung</h1>
                     <h2>Badespaß: Naturstrand in Laufnähe</h2>
                     <p>Vogelsang liegt direkt an der Küste des Stettiner Haffs. Der Sandstrand mit kleinem Bootshafen ist rund
                         15 Gehminuten vom Müllerhaus entfernt. Das Ufer fällt langsam ab und bietet somit eine optimale Bade-
@@ -46,7 +42,7 @@
                         vor Ort verspeisen: Altwarp gilt als Geheimtipp für köstliche Fischrestaurants.</p>
                 </section>
                 <footer>
-                    <h3>Entfernungen</h3>
+                    <h2>Entfernungen</h2>
                     <p>
                         <ul>
                             <li>Ueckermünde: 8 Kilometer</li>

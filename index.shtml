@@ -9,13 +9,7 @@
         .greeting {
             font-family: 'Reenie Beanie', cursive;
             font-size: 2.6em;
-            transform: rotate(-7deg);
-        }
-        
-        .header-container,
-        .footer-container,
-        .main aside {
-            background-color: rgba(177, 134, 84, .8);
+            transform: rotate(2deg);
         }
     </style>
 </head>
@@ -27,7 +21,7 @@
         <div class="main wrapper clearfix">
             <article>
                 <header>
-                    <h1>Das Müllerhaus in Vogelsang: modernes Leben in historischem Ambiente</h1>
+                    <h1 class="heading">Das Müllerhaus in Vogelsang</h1>
                     <p>Verbringen Sie erholsame Tage in einer der beiden liebevoll ausgestatteten Ferienwohnungen. Genießen
                         Sie dabei Garten, Sauna, die Strandnähe und Natur.</p>
                     <p>Wir freuen uns auf Ihren Besuch!</p>
@@ -37,7 +31,7 @@
                 </header>
             </article>
             <aside>
-                <h3>Lage</h3>
+                <h3>Modernes Leben in historischem Ambiente</h3>
                 <p>Das denkmalgeschützte Fachwerkhaus liegt an der vorpommerschen Küste. Es wurde 1830 erbaut und diente einst
                     einer wohlhabenden Müllerfamilie als Wohnhaus. In den vergangenen knapp 200 Jahren hatte es viele Bewohner
                     und Gesichter. 2001 entdeckte ein Liebhaber das Objekt und sanierte von Grund auf. Dabei legte er großen
@@ -49,11 +43,16 @@
         <!-- #main -->
     </div>
     <!-- #main-container -->
-    <!--<div class="footer-container">
+    <div class="footer-container">
         <footer class="wrapper">
-            <h3>footer</h3>
+            <div class="gallery-wrapper">
+                <div class="gallery">
+                    
+                </div>
+
+            </div>
         </footer>
-    </div>-->
+    </div>
     <!--#include virtual="_scripts.html" -->
 </body>
 

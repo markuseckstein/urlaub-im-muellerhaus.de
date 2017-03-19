@@ -5,12 +5,9 @@
     <meta charset="utf-8">
     <title>Müllerhaus - Impressum und Kontakt</title>
     <!--#include virtual="_head.html" -->
-        <style type="text/css">
-        .header-container,
-        .footer-container,
-        .main aside {
-            background: rgba(175, 191, 195, .9);
-        }
+    <style type="text/css">
+
+
     </style>
 </head>
 
