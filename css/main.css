@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Architects+Daughter|Harmattan|Reenie+Beanie');
 @import url('header-images.css');
+@import url('gallery.css');
+
 html {
     
     font-size: 1em;

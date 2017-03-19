@@ -1,4 +1,3 @@
-
 (function () {
     var isOpen = false;
     var button = document.getElementById('navMenu');
@@ -6,7 +5,7 @@
 
     function toggle() {
         var className = 'unhide';
-        var aniClassName ='animate';
+        var aniClassName = 'animate';
         isOpen = !isOpen;
 
         var navEl = document.getElementById('navMain');
@@ -22,11 +21,25 @@
         }
     };
 
-    
+
     button.addEventListener('click', toggle);
 })();
 
 
-$(function() {
-  $('nav a[href^="' + location.pathname.split("/")[1] + '"]').addClass('active');
+$(function () {
+    var theHref = location.pathname.split("/")[1];
+    if (!theHref) {
+        theHref = "index.shtml";
+    }
+    $('nav a[href^="' + theHref + '"]').addClass('active');
+});
+
+$(function () {
+    $(".gallery a[rel^='prettyPhoto']").prettyPhoto({
+        animation_speed: 'normal',
+        //theme: 'default',
+        slideshow: 3500,
+        autoplay_slideshow: false,
+        social_tools:''
+    });
 });

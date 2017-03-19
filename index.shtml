@@ -43,7 +43,7 @@
         <!-- #main -->
     </div>
     <!-- #main-container -->
-    <div class="footer-container">
+    <!--<div class="footer-container">
         <footer class="wrapper">
             <div class="gallery-wrapper">
                 <div class="gallery">
@@ -52,7 +52,7 @@
 
             </div>
         </footer>
-    </div>
+    </div>-->
     <!--#include virtual="_scripts.html" -->
 </body>
 

@@ -37,7 +37,13 @@
     <!-- #main-container -->
     <div class="footer-container">
         <footer class="wrapper">
-            <h3>footer</h3>
+            <div class="gallery-wrapper">
+                <div class="gallery">
+                    <a href="img/gallery/garten/DSC_9305.JPG" rel="prettyPhoto[garten]"><img src="img/gallery/garten/thumbs/DSC_9305.JPG"></a>
+                    <a href="img/gallery/garten/DSC_9277.JPG" rel="prettyPhoto[garten]"><img src="img/gallery/garten/thumbs/DSC_9277.JPG"></a>
+                    <a href="img/gallery/garten/DSC_9294.JPG" rel="prettyPhoto[garten]"><img src="img/gallery/garten/thumbs/DSC_9294.JPG"></a>
+                </div>
+            </div>
         </footer>
     </div>
     <!--#include virtual="_scripts.html" -->

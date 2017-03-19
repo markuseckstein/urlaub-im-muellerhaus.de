@@ -63,8 +63,10 @@
                         Die helle Küche mit Blick in den Garten und einem Esstisch für bis zu sechs Personen lädt zum Beisammensein ein. Über einen
                         kleinen Flur gelangen Sie in das geräumige Badezimmer mit Fußbodenheizung und Dusche, in die Schlafkammer
                         mit Einzelbett und in das Wohnzimmer, in dem einst der Müllergeselle wohnte. Der Raum mit zum Teil
-                        naturbelassenen Wänden strahlt eine besonders gemütliche und warme Atmosphäre aus. Brettspiele, Sat-TV,
-                        Sitzmöbel und eine Eckcouch (ausziehbar) ermöglichen gemütliche Familienabende. Eine schmale Wendeltreppe
+                        naturbelassenen Wänden strahlt eine besonders gemütliche und warme Atmosphäre aus.
+                    </p>
+                    <p>
+                        Brettspiele, Sat-TV, Sitzmöbel und eine Eckcouch (ausziehbar) ermöglichen gemütliche Familienabende. Eine schmale Wendeltreppe
                         führt vom Eingangsbereich der Wohnung in die obere Etage zum Schlafraum mit einem Doppelbett, zwei
                         Einzelbetten und, bei Bedarf, weiteren Kinderbetten.
                     </p>
@@ -82,9 +84,11 @@
                     </p>
                     <p>Eine große Fensterfront ermöglicht bei gutem Wetter einen Ausblick bis zum Haff und verleiht der Wohnung
                         mit offener Küche ein wunderschönes Licht. Verbringen Sie im Wohnbereich mit den zum Teil lehmbelassenen
-                        Wänden, großer> Eckcouch und TV gemütliche Spiele-, Lese und Fernsehabende. Der Esstisch bietet Platz
-                        für bis zu vier Personen. Von der Küche gelangen Sie in das Bad mit Dusche und Fußbodenheizung. Im
-                        separaten Schlafzimmer finden zwei Personen Ruhe (Zusatzbett oder Kinderbett möglich), im offenen
+                        Wänden, großer Eckcouch und TV gemütliche Spiele-, Lese und Fernsehabende.
+                    </p>
+                    <p>
+                        Der Esstisch bietet Platz für bis zu vier Personen. Von der Küche gelangen Sie in das Bad mit Dusche und Fußbodenheizung.
+                        Im separaten Schlafzimmer finden zwei Personen Ruhe (Zusatzbett oder Kinderbett möglich), im offenen
                         Galeriezimmer, das über eine schmale Wendeltreppe zu erreichen ist, weitere zwei Personen.</p>
                 </section>
             </article>
@@ -112,7 +116,34 @@
     <!-- #main-container -->
     <div class="footer-container">
         <footer class="wrapper">
-            <h3>footer</h3>
+            <div class="gallery-wrapper">
+                <div class="gallery">
+                    <a href="img/gallery/wohnungen/DSC_0229.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0229.JPG"></a>
+                    <a href="img/gallery/wohnungen/DSC_0233.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0233.JPG"></a>
+                    <a href="img/gallery/wohnungen/DSC_0248.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0248.JPG"></a>
+                    <a href="img/gallery/wohnungen/DSC_0280.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0280.JPG"></a>
+                    <a href="img/gallery/wohnungen/DSC_0289.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0289.JPG"></a>
+                    <a href="img/gallery/wohnungen/DSC_0290.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0290.JPG"></a>
+                    <a href="img/gallery/wohnungen/DSC_0291.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0291.JPG"></a>
+                    <a href="img/gallery/wohnungen/DSC_0293.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0293.JPG"></a>
+                    <a href="img/gallery/wohnungen/DSC_0298.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0298.JPG"></a>
+                    <a href="img/gallery/wohnungen/DSC_0299.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0299.JPG"></a>
+                    <a href="img/gallery/wohnungen/DSC_0300.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0300.JPG"></a>
+                    <a href="img/gallery/wohnungen/DSC_0301.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0301.JPG"></a>
+                    <a href="img/gallery/wohnungen/DSC_0309.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0309.JPG"></a>
+                    <a href="img/gallery/wohnungen/DSC_0310.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0310.JPG"></a>
+                    <a href="img/gallery/wohnungen/DSC_0316.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0316.JPG"></a>
+                    <a href="img/gallery/wohnungen/DSC_0327.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0327.JPG"></a>
+                    <a href="img/gallery/wohnungen/DSC_0333.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0333.JPG"></a>
+                    <a href="img/gallery/wohnungen/DSC_0334.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0334.JPG"></a>
+                    <a href="img/gallery/wohnungen/DSC_0338.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0338.JPG"></a>
+                    <a href="img/gallery/wohnungen/DSC_0345.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0345.JPG"></a>                    
+                    <a href="img/gallery/wohnungen/DSC_0346.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0346.JPG"></a>                    
+                    <a href="img/gallery/wohnungen/DSC_0348.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0348.JPG"></a>                    
+                    <a href="img/gallery/wohnungen/DSC_0356.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0356.JPG"></a>                    
+                    <a href="img/gallery/wohnungen/DSC_0363.JPG" rel="prettyPhoto[wohnungen]"><img src="img/gallery/wohnungen/thumbs/DSC_0363.JPG"></a>                    
+                </div>
+            </div>
         </footer>
     </div>
     <!--#include virtual="_scripts.html" -->
