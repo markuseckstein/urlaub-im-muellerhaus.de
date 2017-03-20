@@ -21,14 +21,13 @@
                     <h1 class="heading">Garten und Sauna</h1>
                 </header>
                 <section>
-                    <h2>Der Garten: Blick über Feld und Wiese in Richtung Haff</h2>
-                    <p>Egal, ob Sie sich auf einer Liege entspannen oder mit Ihren Kindern toben möchten, der Garten ist groß
-                        genug für alle Bedürfnisse. Gartenmöbel, Spielgeräte, Sonnenschirme, ein Grill und eine Feuerstelle
-                        stehen unseren Gästen zur Verfügung.</p>
+                    <p>Egal ob Sie sich auf einer Liege entspannen oder mit Ihren Kindern toben möchten, der Garten ist groß
+                        genug für alle Bedürfnisse. Nach Belieben stehen Ihnen Gartenmöbel, Spielgeräte, Sandkasten, Schaukel,
+                        Sonnenschirme, Grill und eine Feuerstelle zur Verfügung.</p>
                 </section>
             </article>
             <aside>
-                <h3>Wellness: Ausspannen in der Scheunen-Sauna</h3>
+                <h2>Wellness: Ausspannen in der Scheunen-Sauna</h2>
                 <p>Lassen Sie Ihre Seele in der Außensauna des Müllerhauses baumeln. Genießen Sie dabei ein Glas Tee im Ruhebereich
                     mit Blick über Feld und Wiese in Richtung Haff.</p>
             </aside>
@@ -39,9 +38,9 @@
     <div class="footer-container">
         <footer class="wrapper">
             <div id="gallery" style="display:none">
-                <img data-image="img/gallery/garten/DSC_9305.JPG" src="img/gallery/garten/thumbs/DSC_9305.JPG">
-                <img data-image="img/gallery/garten/DSC_9277.JPG" src="img/gallery/garten/thumbs/DSC_9277.JPG">
-                <img data-image="img/gallery/garten/DSC_9294.JPG" src="img/gallery/garten/thumbs/DSC_9294.JPG">
+                <img alt="Hier kann man schon ein schärferes Bildla hin machen" data-image="img/gallery/garten/DSC_9305.JPG" src="img/gallery/garten/thumbs/DSC_9305.JPG">
+                <img alt="" data-image="img/gallery/garten/DSC_9277.JPG" src="img/gallery/garten/thumbs/DSC_9277.JPG">
+                <img alt="Tolle Blume" data-image="img/gallery/garten/DSC_9294.JPG" src="img/gallery/garten/thumbs/DSC_9294.JPG">
             </div>
         </footer>
     </div>

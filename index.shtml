@@ -11,6 +11,7 @@
             font-size: 2.6em;
             transform: rotate(2deg);
         }
+
     </style>
 </head>
 
@@ -22,8 +23,9 @@
             <article>
                 <header>
                     <h1 class="heading">Das Müllerhaus in Vogelsang</h1>
-                    <p>Verbringen Sie erholsame Tage in einer der beiden liebevoll ausgestatteten Ferienwohnungen. Genießen
-                        Sie dabei Garten, Sauna, die Strandnähe und Natur.</p>
+                    <p>Verbringen Sie erholsame Tage in einer der beiden liebevoll eingerichteten Ferienwohnungen des Müllerhauses.
+                        Genießen Sie dabei den großen Garten mit Grill, Liegen und Spielgeräten, die Sauna, die Nähe zum
+                        Strand und viel Natur.</p>
                     <p>Wir freuen uns auf Ihren Besuch!</p>
                     <p>
                         <div class="greeting">Ihre Familie Lochner</div>

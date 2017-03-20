@@ -19,34 +19,7 @@
             <article>
                 <header>
                     <h1 class="heading">Die Ferienwohnungen: Ursprünglichkeit sorgfältig ausgestattet</h1>
-                    <p>Im Dachgeschoss des Hauses befinden sich zwei 70-80 Quadratmeter große Ferienwohnungen. Die Ausstattung
-                        lässt keine Wünsche offen:</p>
-                    <p>
-                        Allgemein:
-                        <ul>
-                            <li>Wandheizung in den Wohnräumen, Fußbodenheizung im Badezimmer</li>
-                            <li>Parkettböden in den Wohnräumen, Laminat in den Schlafgalerien</li>
-                            <li>Handtücher, Bettwäsche inklusive</li>
-                            <li>WLAN kostenfrei</li>
-                            <li>Sat-TV</li>
-                            <li>Fön</li>
-                            <li>Bügelbrett und -eisen</li>
-                        </ul>
-                    </p>
-                    <p>
-                        Küche:
-                        <ul>
-                            <li>4-Plattenherd</li>
-                            <li>Backofen</li>
-                            <li>Kaffeemaschine</li>
-                            <li>Wasserkocher</li>
-                            <li>Geschirr für bis zu 6 Personen</li>
-                            <li>übliche Kochutensilien (Töpfe, Pfannen, Auflaufform, Kochbesteck etc.)</li>
-                            <li>Geschirrspülmaschine</li>
-                            <li>Kühlschrank</li>
-                            <li>Toaster</li>
-                            <li>Kinderhochstuhl und -bettchen bei Bedarf</li>
-                        </ul>
+                    <p>Im Dachgeschoss des Hauses befinden sich zwei 70-80 Quadratmeter große Ferienwohnungen:
                     </p>
                 </header>
                 <section>
@@ -91,9 +64,40 @@
                         Im separaten Schlafzimmer finden zwei Personen Ruhe (Zusatzbett oder Kinderbett möglich), im offenen
                         Galeriezimmer, das über eine schmale Wendeltreppe zu erreichen ist, weitere zwei Personen.</p>
                 </section>
+                <section>
+                    <h2>
+                        Die Ausstattung lässt keine Wünsche offen:</h2>
+                    <p>
+                        Allgemein:
+                        <ul>
+                            <li>Wandheizung in den Wohnräumen, Fußbodenheizung im Badezimmer</li>
+                            <li>Parkettböden in den Wohnräumen, Laminat in den Schlafgalerien</li>
+                            <li>Handtücher, Bettwäsche inklusive</li>
+                            <li>WLAN kostenfrei</li>
+                            <li>Sat-TV</li>
+                            <li>Fön</li>
+                            <li>Bügelbrett und -eisen</li>
+                        </ul>
+                    </p>
+                    <p>
+                        Küche:
+                        <ul>
+                            <li>4-Plattenherd</li>
+                            <li>Backofen</li>
+                            <li>Kaffeemaschine</li>
+                            <li>Wasserkocher</li>
+                            <li>Geschirr für bis zu 6 Personen</li>
+                            <li>übliche Kochutensilien (Töpfe, Pfannen, Auflaufform, Kochbesteck etc.)</li>
+                            <li>Geschirrspülmaschine</li>
+                            <li>Kühlschrank</li>
+                            <li>Toaster</li>
+                            <li>Kinderhochstuhl und -bettchen bei Bedarf</li>
+                        </ul>
+                    </p>
+                </section>
             </article>
             <aside>
-                <h3>Feriengästen steht außerdem zur Verfügung</h3>
+                <h2>Unseren Gästen stehen außerdem zur Verfügung</h2>
                 <p>
                     <ul>
                         <li>Sauna im Nebengebäude</li>
@@ -117,30 +121,30 @@
     <div class="footer-container">
         <footer class="wrapper">
             <div id="gallery" style="display:none">
-                <img data-image="img/gallery/wohnungen/DSC_0229.JPG" src="img/gallery/wohnungen/thumbs/DSC_0229.JPG">
-                <img data-image="img/gallery/wohnungen/DSC_0233.JPG" src="img/gallery/wohnungen/thumbs/DSC_0233.JPG">
-                <img data-image="img/gallery/wohnungen/DSC_0280.JPG" src="img/gallery/wohnungen/thumbs/DSC_0280.JPG">
-                <img data-image="img/gallery/wohnungen/DSC_0289.JPG" src="img/gallery/wohnungen/thumbs/DSC_0289.JPG">
+                <img alt="Das ist ein Titel" data-description="Hier kann eine ganz lange Beschreibung für jedes Bild hin" data-image="img/gallery/wohnungen/DSC_0229.JPG" src="img/gallery/wohnungen/thumbs/DSC_0229.JPG">
+                <img alt="Das ist ein Titel2" data-description="Hier kann eine ganz lange Beschreibung für jedes Bild hin2" data-image="img/gallery/wohnungen/DSC_0233.JPG" src="img/gallery/wohnungen/thumbs/DSC_0233.JPG">
+                <img alt="Das ist eine Überschrift" data-description="Hier kann eine ganz lange Beschreibung für jedes Bild hin3" data-image="img/gallery/wohnungen/DSC_0280.JPG" src="img/gallery/wohnungen/thumbs/DSC_0280.JPG">
+                <img alt="Das ist ein Titel3" data-description="Hier kann eine ganz lange Beschreibung für jedes Bild hin4" data-image="img/gallery/wohnungen/DSC_0289.JPG" src="img/gallery/wohnungen/thumbs/DSC_0289.JPG">
                 <img data-image="img/gallery/wohnungen/DSC_0290.JPG" src="img/gallery/wohnungen/thumbs/DSC_0290.JPG">
-                <img data-image="img/gallery/wohnungen/DSC_0248.JPG" src="img/gallery/wohnungen/thumbs/DSC_0248.JPG">
+                <img alt="Das ist ein Titel4" data-description="Hier kann eine ganz lange Beschreibung für jedes Bild hin5" data-image="img/gallery/wohnungen/DSC_0248.JPG" src="img/gallery/wohnungen/thumbs/DSC_0248.JPG">
                 <img data-image="img/gallery/wohnungen/DSC_0291.JPG" src="img/gallery/wohnungen/thumbs/DSC_0291.JPG">
                 <img data-image="img/gallery/wohnungen/DSC_0293.JPG" src="img/gallery/wohnungen/thumbs/DSC_0293.JPG">
-                <img data-image="img/gallery/wohnungen/DSC_0298.JPG" src="img/gallery/wohnungen/thumbs/DSC_0298.JPG">
-                <img data-image="img/gallery/wohnungen/DSC_0299.JPG" src="img/gallery/wohnungen/thumbs/DSC_0299.JPG">
-                <img data-image="img/gallery/wohnungen/DSC_0300.JPG" src="img/gallery/wohnungen/thumbs/DSC_0300.JPG">
-                <img data-image="img/gallery/wohnungen/DSC_0301.JPG" src="img/gallery/wohnungen/thumbs/DSC_0301.JPG">
-                <img data-image="img/gallery/wohnungen/DSC_0309.JPG" src="img/gallery/wohnungen/thumbs/DSC_0309.JPG">
-                <img data-image="img/gallery/wohnungen/DSC_0310.JPG" src="img/gallery/wohnungen/thumbs/DSC_0310.JPG">
-                <img data-image="img/gallery/wohnungen/DSC_0316.JPG" src="img/gallery/wohnungen/thumbs/DSC_0316.JPG">
-                <img data-image="img/gallery/wohnungen/DSC_0327.JPG" src="img/gallery/wohnungen/thumbs/DSC_0327.JPG">
-                <img data-image="img/gallery/wohnungen/DSC_0333.JPG" src="img/gallery/wohnungen/thumbs/DSC_0333.JPG">
-                <img data-image="img/gallery/wohnungen/DSC_0334.JPG" src="img/gallery/wohnungen/thumbs/DSC_0334.JPG">
-                <img data-image="img/gallery/wohnungen/DSC_0338.JPG" src="img/gallery/wohnungen/thumbs/DSC_0338.JPG">
-                <img data-image="img/gallery/wohnungen/DSC_0345.JPG" src="img/gallery/wohnungen/thumbs/DSC_0345.JPG">
-                <img data-image="img/gallery/wohnungen/DSC_0346.JPG" src="img/gallery/wohnungen/thumbs/DSC_0346.JPG">
-                <img data-image="img/gallery/wohnungen/DSC_0348.JPG" src="img/gallery/wohnungen/thumbs/DSC_0348.JPG">
-                <img data-image="img/gallery/wohnungen/DSC_0356.JPG" src="img/gallery/wohnungen/thumbs/DSC_0356.JPG">
-                <img data-image="img/gallery/wohnungen/DSC_0363.JPG" src="img/gallery/wohnungen/thumbs/DSC_0363.JPG">
+                <img alt="Das ist ein Titel5" data-description="Hier kann eine ganz lange Beschreibung für jedes Bild hin7" data-image="img/gallery/wohnungen/DSC_0298.JPG" src="img/gallery/wohnungen/thumbs/DSC_0298.JPG">
+                <img alt="" data-image="img/gallery/wohnungen/DSC_0299.JPG" src="img/gallery/wohnungen/thumbs/DSC_0299.JPG">
+                <img alt=""  data-image="img/gallery/wohnungen/DSC_0300.JPG" src="img/gallery/wohnungen/thumbs/DSC_0300.JPG">
+                <img alt=""  data-image="img/gallery/wohnungen/DSC_0301.JPG" src="img/gallery/wohnungen/thumbs/DSC_0301.JPG">
+                <img alt=""  data-image="img/gallery/wohnungen/DSC_0309.JPG" src="img/gallery/wohnungen/thumbs/DSC_0309.JPG">
+                <img alt=""  data-image="img/gallery/wohnungen/DSC_0310.JPG" src="img/gallery/wohnungen/thumbs/DSC_0310.JPG">
+                <img alt=""  data-image="img/gallery/wohnungen/DSC_0316.JPG" src="img/gallery/wohnungen/thumbs/DSC_0316.JPG">
+                <img alt=""  data-image="img/gallery/wohnungen/DSC_0327.JPG" src="img/gallery/wohnungen/thumbs/DSC_0327.JPG">
+                <img alt=""  data-image="img/gallery/wohnungen/DSC_0333.JPG" src="img/gallery/wohnungen/thumbs/DSC_0333.JPG">
+                <img alt=""  data-image="img/gallery/wohnungen/DSC_0334.JPG" src="img/gallery/wohnungen/thumbs/DSC_0334.JPG">
+                <img alt=""  data-image="img/gallery/wohnungen/DSC_0338.JPG" src="img/gallery/wohnungen/thumbs/DSC_0338.JPG">
+                <img alt=""  data-image="img/gallery/wohnungen/DSC_0345.JPG" src="img/gallery/wohnungen/thumbs/DSC_0345.JPG">
+                <img alt=""  data-image="img/gallery/wohnungen/DSC_0346.JPG" src="img/gallery/wohnungen/thumbs/DSC_0346.JPG">
+                <img alt=""  data-image="img/gallery/wohnungen/DSC_0348.JPG" src="img/gallery/wohnungen/thumbs/DSC_0348.JPG">
+                <img alt=""  data-image="img/gallery/wohnungen/DSC_0356.JPG" src="img/gallery/wohnungen/thumbs/DSC_0356.JPG">
+                <img alt=""  data-image="img/gallery/wohnungen/DSC_0363.JPG" src="img/gallery/wohnungen/thumbs/DSC_0363.JPG">
             </div>
         </footer>
     </div>

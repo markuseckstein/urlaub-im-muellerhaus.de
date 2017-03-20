@@ -19,7 +19,7 @@
             <article>
                 <header>
                     <h1 class="heading">Strand und Umgebung</h1>
-                    <h2>Badespaß: Naturstrand in Laufnähe</h2>
+                    <h2>Naturstrand in Laufnähe</h2>
                     <p>Vogelsang liegt direkt an der Küste des Stettiner Haffs. Der Sandstrand mit kleinem Bootshafen ist rund
                         15 Gehminuten vom Müllerhaus entfernt. Das Ufer fällt langsam ab und bietet somit eine optimale Bade-
                         und Spielmöglichkeit für Kinder. Bei gutem Wetter können Sie bis nach Usedom blicken.</p>
@@ -27,7 +27,7 @@
                         in Bellin (5 Kilometer), Ueckermünde (8 Kilometer), Mönkebude (17 Kilometer).</p>
                 </header>
                 <section>
-                    <h2>Umgebung: Kultur im Seebad Ueckermünde</h2>
+                    <h2>Kultur im Seebad Ueckermünde</h2>
                     <p>Knapp acht Kilometer in Richtung Westen liegt das Seebad Ueckermünde. Eine Kleinstadt mit Bade- und Einkaufsmöglichkeiten,
                         kleinen Boutiquen und einem reizenden historischen Stadtkern. Im „Kulturspeicher“ können Sie regionale
                         Produkte erwerben oder Kunstausstellungen genießen. Der kleine Hafen bietet sich für Spaziergänge
@@ -37,7 +37,7 @@
                         polnische Großstadt Stettin.</p>
                 </section>
                 <section>
-                    <h2>Umgebung: Idyll, Natur und fangfrischen Fisch in Altwarp</h2>
+                    <h2>Idyll, Natur und fangfrischen Fisch in Altwarp</h2>
                     <p>Die gleiche Strecke in Richtung Osten bringt Sie zum kleinen Fischerdorf Altwarp. Von hier aus können
                         Sie Bootsausflüge machen, ursprüngliche Natur genießen, fangfrischen Fisch einkaufen oder gleich
                         vor Ort verspeisen: Altwarp gilt als Geheimtipp für köstliche Fischrestaurants.</p>
@@ -52,14 +52,17 @@
                             <li>Mönkebude: 16 Kilometer</li>
                             <li>Torgelow: 21 Kilometer</li>
                             <li>Stettin: 51 Kilometer</li>
+                            <li>Swinemünde: 70 Kilometer</li>
                             <li>Neubrandenburg: 72 Kilometer</li>
+                            <li>Greifswald: 82 Kilometer</li>
                             <li>Heringsdorf auf Usedom: 90 Kilometer</li>
+                            
                         </ul>
                     </p>
                 </footer>
             </article>
             <aside>
-                <h3>Weitere Ausflugsziele</h3>
+                <h2>Weitere Ausflugsziele</h2>
                 <p>
                     <ul>
                         <li>Ukranenland Torgelow</li>
@@ -71,6 +74,9 @@
                         <li>Einkaufsbummel in Stettin</li>
                         <li>Shopping in Neubrandenburg</li>
                         <li>Insel Usedom</li>
+                        <li>Sightseeing in Greifswald</li>
+                        <li>Ozeaneum Stralsund</li>
+                        <li>Hanseatische Kultur und Architektur in Rostock</li>
                     </ul>
                 </p>
             </aside>
