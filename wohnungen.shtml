@@ -18,7 +18,7 @@
         <div class="main wrapper clearfix">
             <article>
                 <header>
-                    <h1 class="heading">Die Ferienwohnungen: Ursprünglichkeit sorgfältig ausgestattet</h1>
+                    <h1 class="heading">Ursprünglichkeit sorgfältig ausgestattet</h1>
                     <p>Im Dachgeschoss des Hauses befinden sich zwei 70-80 Quadratmeter große Ferienwohnungen:
                     </p>
                 </header>
@@ -66,7 +66,7 @@
                 </section>
                 <section>
                     <h2>
-                        Die Ausstattung lässt keine Wünsche offen:</h2>
+                        Die Ausstattung lässt keine Wünsche offen</h2>
                     <p>
                         Allgemein:
                         <ul>
@@ -121,30 +121,27 @@
     <div class="footer-container">
         <footer class="wrapper">
             <div id="gallery" style="display:none">
-                <img alt="Das ist ein Titel" data-description="Hier kann eine ganz lange Beschreibung für jedes Bild hin" data-image="img/gallery/wohnungen/DSC_0229.JPG" src="img/gallery/wohnungen/thumbs/DSC_0229.JPG">
-                <img alt="Das ist ein Titel2" data-description="Hier kann eine ganz lange Beschreibung für jedes Bild hin2" data-image="img/gallery/wohnungen/DSC_0233.JPG" src="img/gallery/wohnungen/thumbs/DSC_0233.JPG">
-                <img alt="Das ist eine Überschrift" data-description="Hier kann eine ganz lange Beschreibung für jedes Bild hin3" data-image="img/gallery/wohnungen/DSC_0280.JPG" src="img/gallery/wohnungen/thumbs/DSC_0280.JPG">
-                <img alt="Das ist ein Titel3" data-description="Hier kann eine ganz lange Beschreibung für jedes Bild hin4" data-image="img/gallery/wohnungen/DSC_0289.JPG" src="img/gallery/wohnungen/thumbs/DSC_0289.JPG">
-                <img data-image="img/gallery/wohnungen/DSC_0290.JPG" src="img/gallery/wohnungen/thumbs/DSC_0290.JPG">
-                <img alt="Das ist ein Titel4" data-description="Hier kann eine ganz lange Beschreibung für jedes Bild hin5" data-image="img/gallery/wohnungen/DSC_0248.JPG" src="img/gallery/wohnungen/thumbs/DSC_0248.JPG">
-                <img data-image="img/gallery/wohnungen/DSC_0291.JPG" src="img/gallery/wohnungen/thumbs/DSC_0291.JPG">
-                <img data-image="img/gallery/wohnungen/DSC_0293.JPG" src="img/gallery/wohnungen/thumbs/DSC_0293.JPG">
-                <img alt="Das ist ein Titel5" data-description="Hier kann eine ganz lange Beschreibung für jedes Bild hin7" data-image="img/gallery/wohnungen/DSC_0298.JPG" src="img/gallery/wohnungen/thumbs/DSC_0298.JPG">
-                <img alt="" data-image="img/gallery/wohnungen/DSC_0299.JPG" src="img/gallery/wohnungen/thumbs/DSC_0299.JPG">
-                <img alt=""  data-image="img/gallery/wohnungen/DSC_0300.JPG" src="img/gallery/wohnungen/thumbs/DSC_0300.JPG">
-                <img alt=""  data-image="img/gallery/wohnungen/DSC_0301.JPG" src="img/gallery/wohnungen/thumbs/DSC_0301.JPG">
-                <img alt=""  data-image="img/gallery/wohnungen/DSC_0309.JPG" src="img/gallery/wohnungen/thumbs/DSC_0309.JPG">
-                <img alt=""  data-image="img/gallery/wohnungen/DSC_0310.JPG" src="img/gallery/wohnungen/thumbs/DSC_0310.JPG">
-                <img alt=""  data-image="img/gallery/wohnungen/DSC_0316.JPG" src="img/gallery/wohnungen/thumbs/DSC_0316.JPG">
-                <img alt=""  data-image="img/gallery/wohnungen/DSC_0327.JPG" src="img/gallery/wohnungen/thumbs/DSC_0327.JPG">
-                <img alt=""  data-image="img/gallery/wohnungen/DSC_0333.JPG" src="img/gallery/wohnungen/thumbs/DSC_0333.JPG">
-                <img alt=""  data-image="img/gallery/wohnungen/DSC_0334.JPG" src="img/gallery/wohnungen/thumbs/DSC_0334.JPG">
-                <img alt=""  data-image="img/gallery/wohnungen/DSC_0338.JPG" src="img/gallery/wohnungen/thumbs/DSC_0338.JPG">
-                <img alt=""  data-image="img/gallery/wohnungen/DSC_0345.JPG" src="img/gallery/wohnungen/thumbs/DSC_0345.JPG">
-                <img alt=""  data-image="img/gallery/wohnungen/DSC_0346.JPG" src="img/gallery/wohnungen/thumbs/DSC_0346.JPG">
-                <img alt=""  data-image="img/gallery/wohnungen/DSC_0348.JPG" src="img/gallery/wohnungen/thumbs/DSC_0348.JPG">
-                <img alt=""  data-image="img/gallery/wohnungen/DSC_0356.JPG" src="img/gallery/wohnungen/thumbs/DSC_0356.JPG">
-                <img alt=""  data-image="img/gallery/wohnungen/DSC_0363.JPG" src="img/gallery/wohnungen/thumbs/DSC_0363.JPG">
+                <img alt="Die Küche in der Wohnung „Ueckermünde“ bietet Platz für sechs Personen." src="img/gallery/wohnungen/thumbs/wohnungen_01.jpg"
+                    data-image="img/gallery/wohnungen/wohnungen_01.jpg">
+                    <img alt="Direkt neben dem Esstisch der Wohnung „Ueckermünde“ befindet sich die Spielecke." src="img/gallery/wohnungen/thumbs/wohnungen_02.jpg"
+                        data-image="img/gallery/wohnungen/wohnungen_02.jpg">
+                        <img alt="In der Spielecke der Wohnung „Ueckermünde“ fühlen sich nicht nur die Kleinsten wohl. " src="img/gallery/wohnungen/thumbs/wohnungen_03.jpg"
+                            data-image="img/gallery/wohnungen/wohnungen_03.jpg">
+                            <img alt="Das gemütliche Einzelzimmer der Wohnung „Ueckermünde“." src="img/gallery/wohnungen/thumbs/wohnungen_04.jpg" data-image="img/gallery/wohnungen/wohnungen_04.jpg">
+                            <img alt="Das Badezimmer der Wohnung „Ueckermünde“ verfügt über Handtuch- und Fußbodenheizung." src="img/gallery/wohnungen/thumbs/wohnungen_05.jpg"
+                                data-image="img/gallery/wohnungen/wohnungen_05.jpg">
+                                <img alt="Das kuschelige Wohnzimmer mit Doppelschlafcouch Wohnung „Ueckermünde“." src="img/gallery/wohnungen/thumbs/wohnungen_06.jpg"
+                                    data-image="img/gallery/wohnungen/wohnungen_06.jpg">
+                                    <img alt="Doppelbett im Vierbettzimmer Wohnung „Ueckermünde" src="img/gallery/wohnungen/thumbs/wohnungen_07.jpg" data-image="img/gallery/wohnungen/wohnungen_07.jpg">
+                                    <img alt="Im Dachzimmer der Wohnung „Ueckermünde“ befinden sich ein Doppelbett und zwei Einzelbetten." src="img/gallery/wohnungen/thumbs/wohnungen_08.jpg"
+                                        data-image="img/gallery/wohnungen/wohnungen_08.jpg">
+                                        <img alt="Das Schlafzimmer der Wohnung „Altwarp“ sorgt für schöne Träume." src="img/gallery/wohnungen/thumbs/wohnungen_10.jpg"
+                                            data-image="img/gallery/wohnungen/wohnungen_10.jpg">
+                                            <img alt="Das Doppelbett in offener Galerie Wohnung „Altwarp“." src="img/gallery/wohnungen/thumbs/wohnungen_11.jpg" data-image="img/gallery/wohnungen/wohnungen_11.jpg">
+                                            <img alt="Das Badezimmer Wohnung „Altwarp“ verfügt über Handtuch- und Fußbodenheizung." src="img/gallery/wohnungen/thumbs/wohnungen_12.jpg"
+                                                data-image="img/gallery/wohnungen/wohnungen_12.jpg">
+                                                <img alt="Das gemütliche Wohnzimmer der Wohnung „Altwarp“ lädt zu Spiele-, Lese- oder Fernsehabenden. " src="img/gallery/wohnungen/thumbs/wohnungen_13.jpg"
+                                                    data-image="img/gallery/wohnungen/wohnungen_13.jpg">
             </div>
         </footer>
     </div>

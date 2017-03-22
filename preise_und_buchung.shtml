@@ -20,17 +20,21 @@
                 <header>
                     <h1 class="heading">Preise und Buchung</h1>
                     <p>Die angegebenen Preise verstehen sich pro Wohnung und Nacht, inkl. Sauna, Bad- und Bettwäsche, zzgl.
-                        50 Euro Endreinigung, 100 Euro Kaution. Babybett und Kinderhochstuhl stehen Ihnen auf Anfrage kostenfrei
-                        zur Verfügung. Die Mindestmietdauer beträgt zwei Nächte.
+                        50 Euro Endreinigung und 100 Euro Kaution. Babybett und Kinderhochstuhl stehen Ihnen auf Anfrage
+                        kostenfrei zur Verfügung. Die Mindestmietdauer beträgt zwei Nächte.
                     </p>
-                    <h2>Wohnung Ueckermünde (2-6 Personen)</h2>
-                    1. Oktober bis 30. April: 75 Euro/Nacht<br/> 1. Mai bis 30. September: 95 Euro/Nacht<br/>
-                    <h2>Wohnung Altwarp (2-4 Personen)</h2>
-                    1. Oktober bis 30. April: 65 Euro/Nacht<br/> 1. Mai bis 30. September: 85 Euro/Nacht<br/>
                 </header>
+                <section>
+                    <p>
+                        <h2>Wohnung Ueckermünde (2-6 Personen)</h2>
+                        1. Oktober bis 30. April: 75 Euro/Nacht<br/> 1. Mai bis 30. September: 95 Euro/Nacht<br/>
+                        <h2>Wohnung Altwarp (2-4 Personen)</h2>
+                        1. Oktober bis 30. April: 65 Euro/Nacht<br/> 1. Mai bis 30. September: 85 Euro/Nacht<br/>
+                    </p>
+                </section>
             </article>
             <aside>
-                <h3>Kontakt und Buchungsanfragen</h3>
+                <h2>Kontakt und Buchungsanfragen</h2>
                 <p>
                     Sie haben Fragen zu den Ferienwohnungen, rund um Ihre Urlaubsplanung oder eine Buchungsanfrage? Wir freuen uns über Ihre
                     Kontaktaufnahme.
@@ -43,7 +47,7 @@
         <!-- #main -->
     </div>
     <!-- #main-container -->
-<!--    <div class="footer-container">
+    <!--    <div class="footer-container">
         <footer class="wrapper">
         </footer>
     </div>-->

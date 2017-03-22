@@ -24,7 +24,7 @@
                         15 Gehminuten vom Müllerhaus entfernt. Das Ufer fällt langsam ab und bietet somit eine optimale Bade-
                         und Spielmöglichkeit für Kinder. Bei gutem Wetter können Sie bis nach Usedom blicken.</p>
                     <p>Weitere Strände in der Umgebung sind bequem mit dem Fahrrad oder dem Auto erreichbar, beispielsweise
-                        in Bellin (5 Kilometer), Ueckermünde (8 Kilometer), Mönkebude (17 Kilometer).</p>
+                        in Bellin (5 Kilometer), Ueckermünde (8 Kilometer), Altwarp (8 Kilometer) oder Mönkebude (17 Kilometer).</p>
                 </header>
                 <section>
                     <h2>Kultur im Seebad Ueckermünde</h2>
@@ -86,9 +86,8 @@
     <!-- #main-container -->
     <div class="footer-container">
         <footer class="wrapper">
-            <div id="gallery" style="display:none">
-                <img data-image="img/gallery/umgebung/DSC_0259.JPG" src="img/gallery/umgebung/thumbs/DSC_0259.JPG">
-                <img data-image="img/gallery/umgebung/DSC_0275.JPG" src="img/gallery/umgebung/thumbs/DSC_0275.JPG">
+            <div id="gallery" style="display:none; width:200px">
+               <img alt="Der Strand von Vogelsang ist auch im Winter ein Idyll. " src="img/gallery/umgebung/thumbs/umgebung_01.jpg" data-image="img/gallery/umgebung/umgebung_01.jpg">
             </div>
         </footer>
     </div>

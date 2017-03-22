@@ -38,9 +38,9 @@
     <div class="footer-container">
         <footer class="wrapper">
             <div id="gallery" style="display:none">
-                <img alt="Hier kann man schon ein schärferes Bildla hin machen" data-image="img/gallery/garten/DSC_9305.JPG" src="img/gallery/garten/thumbs/DSC_9305.JPG">
-                <img alt="" data-image="img/gallery/garten/DSC_9277.JPG" src="img/gallery/garten/thumbs/DSC_9277.JPG">
-                <img alt="Tolle Blume" data-image="img/gallery/garten/DSC_9294.JPG" src="img/gallery/garten/thumbs/DSC_9294.JPG">
+                <img alt="Egal ob Toben oder Entspannen, der Garten bietet genug Platz für alle Bedürfnisse." src="img/gallery/garten/thumbs/garten_01.jpg"
+                    data-image="img/gallery/garten/garten_01.jpg">
+                    <img alt="Die Scheunen-Sauna beschert entspannende Ruhepausen." src="img/gallery/garten/thumbs/garten_02.jpg" data-image="img/gallery/garten/garten_02.jpg">
             </div>
         </footer>
     </div>
