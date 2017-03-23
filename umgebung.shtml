@@ -5,12 +5,7 @@
     <meta charset="utf-8">
     <title>Müllerhaus - Strand und Umgebung</title>
     <!--#include virtual="_head.html" -->
-    <style type="text/css">
-
-
-    </style>
 </head>
-
 <body>
     <!--#include virtual="_menu.html" -->
     <div class="header-image header-image--umgebung"></div>
@@ -87,11 +82,10 @@
     <div class="footer-container">
         <footer class="wrapper">
             <div id="gallery" style="display:none; width:200px">
-               <img alt="Der Strand von Vogelsang ist auch im Winter ein Idyll. " src="img/gallery/umgebung/thumbs/umgebung_01.jpg" data-image="img/gallery/umgebung/umgebung_01.jpg">
+               <img alt="Der Strand von Vogelsang ist auch im Winter ein Idyll." src="img/gallery/umgebung/thumbs/umgebung_01.jpg" data-image="img/gallery/umgebung/umgebung_01.jpg">
             </div>
         </footer>
     </div>
     <!--#include virtual="_scripts.html" -->
 </body>
-
 </html>

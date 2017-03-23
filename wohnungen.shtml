@@ -5,10 +5,6 @@
     <meta charset="utf-8">
     <title>Müllerhaus - Wohnungen</title>
     <!--#include virtual="_head.html" -->
-    <style type="text/css">
-
-
-    </style>
 </head>
 
 <body>
@@ -23,7 +19,7 @@
                     </p>
                 </header>
                 <section>
-                    <h2>Wohnung Ueckermünde (2 - 6 Personen)</h2>
+                    <h2>Wohnung „Ueckermünde“ (2 - 6 Personen)</h2>
                     <p>
                         <ul>
                             <li>Geräumige Wohnküche mit Spielecke</li>
@@ -34,22 +30,22 @@
                     </p>
                     <p>
                         Die helle Küche mit Blick in den Garten und einem Esstisch für bis zu sechs Personen lädt zum Beisammensein ein. Über einen
-                        kleinen Flur gelangen Sie in das geräumige Badezimmer mit Fußbodenheizung und Dusche, in die Schlafkammer
+                        kleinen Flur gelangen Sie in das große Badezimmer mit Fußbodenheizung und Dusche, in die Schlafkammer
                         mit Einzelbett und in das Wohnzimmer, in dem einst der Müllergeselle wohnte. Der Raum mit zum Teil
                         naturbelassenen Wänden strahlt eine besonders gemütliche und warme Atmosphäre aus.
                     </p>
                     <p>
                         Brettspiele, Sat-TV, Sitzmöbel und eine Eckcouch (ausziehbar) ermöglichen gemütliche Familienabende. Eine schmale Wendeltreppe
-                        führt vom Eingangsbereich der Wohnung in die obere Etage zum Schlafraum mit einem Doppelbett, zwei
-                        Einzelbetten und, bei Bedarf, weiteren Kinderbetten.
+                        führt vom Eingangsbereich der Wohnung in die obere Etage zum Schlafraum mit einem Doppelbett und zwei
+                        Einzelbetten.
                     </p>
                 </section>
                 <section>
-                    <h2>Wohnung Altwarp (2 - 4 Personen)</h2>
+                    <h2>Wohnung „Altwarp“ (2 - 4 Personen)</h2>
                     <p>
                         <ul>
                             <li>Schlafzimmer mit Doppelbett</li>
-                            <li>Galeriezimmer mit wahlweise Doppelbett oder zwei Einzelbetten</li>
+                            <li>Galerie mit wahlweise Doppelbett oder zwei Einzelbetten</li>
                             <li>Kinderbetten und Zusatzbett bei Bedarf</li>
                             <li>Großes Wohnzimmer mit Eckcouch</li>
                             <li>Herrlicher Ausblick bis hin zum Haff</li>
@@ -130,22 +126,21 @@
                             <img alt="Das gemütliche Einzelzimmer der Wohnung „Ueckermünde“." src="img/gallery/wohnungen/thumbs/wohnungen_04.jpg" data-image="img/gallery/wohnungen/wohnungen_04.jpg">
                             <img alt="Das Badezimmer der Wohnung „Ueckermünde“ verfügt über Handtuch- und Fußbodenheizung." src="img/gallery/wohnungen/thumbs/wohnungen_05.jpg"
                                 data-image="img/gallery/wohnungen/wohnungen_05.jpg">
-                                <img alt="Das kuschelige Wohnzimmer mit Doppelschlafcouch Wohnung „Ueckermünde“." src="img/gallery/wohnungen/thumbs/wohnungen_06.jpg"
+                                <img alt="Das kuschelige Wohnzimmer mit Doppelschlafcouch in der Wohnung „Ueckermünde“." src="img/gallery/wohnungen/thumbs/wohnungen_06.jpg"
                                     data-image="img/gallery/wohnungen/wohnungen_06.jpg">
-                                    <img alt="Doppelbett im Vierbettzimmer Wohnung „Ueckermünde" src="img/gallery/wohnungen/thumbs/wohnungen_07.jpg" data-image="img/gallery/wohnungen/wohnungen_07.jpg">
+                                    <img alt="Doppelbett im Vierbettzimmer Wohnung „Ueckermünde“." src="img/gallery/wohnungen/thumbs/wohnungen_07.jpg" data-image="img/gallery/wohnungen/wohnungen_07.jpg">
                                     <img alt="Im Dachzimmer der Wohnung „Ueckermünde“ befinden sich ein Doppelbett und zwei Einzelbetten." src="img/gallery/wohnungen/thumbs/wohnungen_08.jpg"
                                         data-image="img/gallery/wohnungen/wohnungen_08.jpg">
                                         <img alt="Das Schlafzimmer der Wohnung „Altwarp“ sorgt für schöne Träume." src="img/gallery/wohnungen/thumbs/wohnungen_10.jpg"
                                             data-image="img/gallery/wohnungen/wohnungen_10.jpg">
-                                            <img alt="Das Doppelbett in offener Galerie Wohnung „Altwarp“." src="img/gallery/wohnungen/thumbs/wohnungen_11.jpg" data-image="img/gallery/wohnungen/wohnungen_11.jpg">
-                                            <img alt="Das Badezimmer Wohnung „Altwarp“ verfügt über Handtuch- und Fußbodenheizung." src="img/gallery/wohnungen/thumbs/wohnungen_12.jpg"
+                                            <img alt="Das Doppelbett in der offenen Galerie in der Wohnung „Altwarp“." src="img/gallery/wohnungen/thumbs/wohnungen_11.jpg" data-image="img/gallery/wohnungen/wohnungen_11.jpg">
+                                            <img alt="Das Badezimmer der Wohnung „Altwarp“ verfügt über Handtuch- und Fußbodenheizung." src="img/gallery/wohnungen/thumbs/wohnungen_12.jpg"
                                                 data-image="img/gallery/wohnungen/wohnungen_12.jpg">
-                                                <img alt="Das gemütliche Wohnzimmer der Wohnung „Altwarp“ lädt zu Spiele-, Lese- oder Fernsehabenden. " src="img/gallery/wohnungen/thumbs/wohnungen_13.jpg"
+                                                <img alt="Das gemütliche Wohnzimmer der Wohnung „Altwarp“ lädt zu Spiele-, Lese- oder Fernsehabenden ein." src="img/gallery/wohnungen/thumbs/wohnungen_13.jpg"
                                                     data-image="img/gallery/wohnungen/wohnungen_13.jpg">
             </div>
         </footer>
     </div>
     <!--#include virtual="_scripts.html" -->
 </body>
-
 </html>
