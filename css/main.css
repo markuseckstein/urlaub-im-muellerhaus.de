@@ -84,7 +84,7 @@ nav {
 
 nav.unhide {
     max-height: 800px;
-    overflow: initial;
+    overflow: inherit;
 }
 
 h1.title {
@@ -239,8 +239,8 @@ li {
    ==================== */
     nav {
         height: auto;
-        overflow: initial;
-        max-height: initial;
+        overflow: inherit;
+        max-height: inherit;
     }
     nav ul {
         display: flex;
