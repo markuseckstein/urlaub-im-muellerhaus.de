@@ -5,87 +5,117 @@
     <meta charset="utf-8">
     <title>Müllerhaus - Strand und Umgebung</title>
     <!--#include virtual="_head.html" -->
+
+    <style>
+        li.hidden {
+            display: none;
+        }
+    </style>
 </head>
 <body>
-    <!--#include virtual="_menu.html" -->
-    <div class="header-image header-image--umgebung"></div>
-    <div class="main-container">
-        <div class="main wrapper clearfix">
-            <article>
-                <header>
-                    <h1 class="heading">Strand und Umgebung</h1>
-                    <h2>Naturstrand in Laufnähe</h2>
-                    <p>Vogelsang liegt direkt an der Küste des Stettiner Haffs. Der Sandstrand mit kleinem Bootshafen ist rund
-                        15 Gehminuten vom Müllerhaus entfernt. Das Ufer fällt langsam ab und bietet somit eine optimale Bade-
-                        und Spielmöglichkeit für Kinder. Bei gutem Wetter können Sie bis nach Usedom blicken.</p>
-                    <p>Weitere Strände in der Umgebung sind bequem mit dem Fahrrad oder dem Auto erreichbar, beispielsweise
-                        in Bellin (5 Kilometer), Ueckermünde (8 Kilometer), Altwarp (8 Kilometer) oder Mönkebude (17 Kilometer).</p>
-                </header>
-                <section>
-                    <h2>Kultur im Seebad Ueckermünde</h2>
-                    <p>Knapp acht Kilometer in Richtung Westen liegt das Seebad Ueckermünde. Eine Kleinstadt mit Bade- und Einkaufsmöglichkeiten,
-                        kleinen Boutiquen und einem reizenden historischen Stadtkern. Im „Kulturspeicher“ können Sie regionale
-                        Produkte erwerben oder Kunstausstellungen genießen. Der kleine Hafen bietet sich für Spaziergänge
-                        an. Weiterhin erwarten Sie ein Kletterwald, der Tierpark sowie ein großer Badestrand mit Gastronomie,
-                        Strandkörben, Volleyballfeld, Kinderspielplatz, Hunde- und FKK-Bereich und vielem mehr. Die Hafenstadt
-                        Ueckermünde ist außerdem Ausgangspunkt für Fährfahrten auf die Insel Usedom oder für Touren in die
-                        polnische Großstadt Stettin.</p>
-                </section>
-                <section>
-                    <h2>Idyll, Natur und fangfrischen Fisch in Altwarp</h2>
-                    <p>Die gleiche Strecke in Richtung Osten bringt Sie zum kleinen Fischerdorf Altwarp. Von hier aus können
-                        Sie Bootsausflüge machen, ursprüngliche Natur genießen, fangfrischen Fisch einkaufen oder gleich
-                        vor Ort verspeisen: Altwarp gilt als Geheimtipp für köstliche Fischrestaurants.</p>
-                </section>
-                <footer>
-                    <h2>Entfernungen</h2>
-                    <p>
-                        <ul>
-                            <li>Ueckermünde: 8 Kilometer</li>
-                            <li>Altwarp: 8 Kilometer</li>
-                            <li>Rieth: 12 Kilometer</li>
-                            <li>Mönkebude: 16 Kilometer</li>
-                            <li>Torgelow: 21 Kilometer</li>
-                            <li>Stettin: 51 Kilometer</li>
-                            <li>Swinemünde: 70 Kilometer</li>
-                            <li>Neubrandenburg: 72 Kilometer</li>
-                            <li>Greifswald: 82 Kilometer</li>
-                            <li>Heringsdorf auf Usedom: 90 Kilometer</li>
-                            
-                        </ul>
-                    </p>
-                </footer>
-            </article>
-            <aside>
-                <h2>Weitere Ausflugsziele</h2>
+<!--#include virtual="_menu.html" -->
+<div class="header-image header-image--umgebung"></div>
+<div class="main-container">
+    <div class="main wrapper clearfix">
+        <article>
+            <header>
+                <h1 class="heading">Strand und Umgebung</h1>
+                <h2>Naturstrand in Laufnähe</h2>
+                <p>Vogelsang liegt direkt an der Küste des Stettiner Haffs. Der Sandstrand mit kleinem Bootshafen ist
+                    rund
+                    15 Gehminuten vom Müllerhaus entfernt. Das Ufer fällt langsam ab und bietet somit eine optimale
+                    Bade-
+                    und Spielmöglichkeit für Kinder. Bei gutem Wetter können Sie bis nach Usedom blicken.</p>
+                <p>Weitere Strände in der Umgebung sind bequem mit dem Fahrrad oder dem Auto erreichbar, beispielsweise
+                    in Bellin (5 Kilometer), Ueckermünde (8 Kilometer), Altwarp (8 Kilometer) oder Mönkebude (17
+                    Kilometer).</p>
+            </header>
+            <section>
+                <h2>Kultur im Seebad Ueckermünde</h2>
+                <p>Knapp acht Kilometer in Richtung Westen liegt das Seebad Ueckermünde. Eine Kleinstadt mit Bade- und
+                    Einkaufsmöglichkeiten,
+                    kleinen Boutiquen und einem reizenden historischen Stadtkern. Im „Kulturspeicher“ können Sie
+                    regionale
+                    Produkte erwerben oder Kunstausstellungen genießen. Der kleine Hafen bietet sich für Spaziergänge
+                    an. Weiterhin erwarten Sie ein Kletterwald, der Tierpark sowie ein großer Badestrand mit
+                    Gastronomie,
+                    Strandkörben, Volleyballfeld, Kinderspielplatz, Hunde- und FKK-Bereich und vielem mehr. Die
+                    Hafenstadt
+                    Ueckermünde ist außerdem Ausgangspunkt für Fährfahrten auf die Insel Usedom oder für Touren in die
+                    polnische Großstadt Stettin.</p>
+            </section>
+            <section>
+                <h2>Idyll, Natur und fangfrischen Fisch in Altwarp</h2>
+                <p>Die gleiche Strecke in Richtung Osten bringt Sie zum kleinen Fischerdorf Altwarp. Von hier aus können
+                    Sie Bootsausflüge machen, ursprüngliche Natur genießen, fangfrischen Fisch einkaufen oder gleich
+                    vor Ort verspeisen: Altwarp gilt als Geheimtipp für köstliche Fischrestaurants.</p>
+            </section>
+            <footer>
+                <h2>Entfernungen</h2>
                 <p>
-                    <ul>
-                        <li>Ukranenland Torgelow</li>
-                        <li>Haffmuseum Ueckermünde</li>
-                        <li>Straußenfarm Ahlbeck</li>
-                        <li>Fischer- und Künstlerdorf Rieth am Neuwarper See</li>
-                        <li>Tierpark Ueckermünde</li>
-                        <li>Strände in Vogelsang, Bellin, Mönkebude, Ueckermünde</li>
-                        <li>Einkaufsbummel in Stettin</li>
-                        <li>Shopping in Neubrandenburg</li>
-                        <li>Insel Usedom</li>
-                        <li>Sightseeing in Greifswald</li>
-                        <li>Ozeaneum Stralsund</li>
-                        <li>Hanseatische Kultur und Architektur in Rostock</li>
-                    </ul>
+                <ul>
+                    <li>Ueckermünde: 8 Kilometer</li>
+                    <li>Altwarp: 8 Kilometer</li>
+                    <li>Rieth: 12 Kilometer</li>
+                    <li>Mönkebude: 16 Kilometer</li>
+                    <li>Torgelow: 21 Kilometer</li>
+                    <li>Stettin: 51 Kilometer</li>
+                    <li>Swinemünde: 70 Kilometer</li>
+                    <li>Neubrandenburg: 72 Kilometer</li>
+                    <li>Greifswald: 82 Kilometer</li>
+                    <li>Heringsdorf auf Usedom: 90 Kilometer</li>
+                    <li class="hidden">Pattenhofen: 634 Kilometer</li>
+                    <li class="hidden">Lindelburg: 642 Kilometer</li>
+                    <li class="hidden">Altenthann: 633 Kilometer</li>
+                </ul>
                 </p>
-            </aside>
+            </footer>
+        </article>
+        <aside>
+            <h2>Weitere Ausflugsziele</h2>
+            <p>
+            <ul>
+                <li>Ukranenland Torgelow</li>
+                <li>Haffmuseum Ueckermünde</li>
+                <li>Straußenfarm Ahlbeck</li>
+                <li>Fischer- und Künstlerdorf Rieth am Neuwarper See</li>
+                <li>Tierpark Ueckermünde</li>
+                <li>Strände in Vogelsang, Bellin, Mönkebude, Ueckermünde</li>
+                <li>Einkaufsbummel in Stettin</li>
+                <li>Shopping in Neubrandenburg</li>
+                <li>Insel Usedom</li>
+                <li>Sightseeing in Greifswald</li>
+                <li>Ozeaneum Stralsund</li>
+                <li>Hanseatische Kultur und Architektur in Rostock</li>
+            </ul>
+            </p>
+        </aside>
+    </div>
+    <!-- #main -->
+</div>
+<!-- #main-container -->
+<div class="footer-container">
+    <footer class="wrapper">
+        <div id="gallery" style="display:none; width:200px">
+            <img alt="Der Strand von Vogelsang ist auch im Winter ein Idyll."
+                 src="img/gallery/umgebung/thumbs/umgebung_01.jpg" data-image="img/gallery/umgebung/umgebung_01.jpg">
         </div>
-        <!-- #main -->
-    </div>
-    <!-- #main-container -->
-    <div class="footer-container">
-        <footer class="wrapper">
-            <div id="gallery" style="display:none; width:200px">
-               <img alt="Der Strand von Vogelsang ist auch im Winter ein Idyll." src="img/gallery/umgebung/thumbs/umgebung_01.jpg" data-image="img/gallery/umgebung/umgebung_01.jpg">
-            </div>
-        </footer>
-    </div>
-    <!--#include virtual="_scripts.html" -->
+    </footer>
+</div>
+<!--#include virtual="_scripts.html" -->
+
+<script type="text/javascript" src="https://unpkg.com/rxjs/bundles/Rx.min.js"></script>
+<script type="text/javascript">
+    (function initialize() {
+        var codes = [72, 79, 77, 69];
+        Rx.Observable.fromEvent(document, 'keyup')
+            .pluck('keyCode')
+            .bufferCount(codes.length, 1)
+            .filter(function (data) { return data.toString() === codes.toString(); })
+            .subscribe(function () {
+                $('li.hidden').removeClass('hidden');
+            });
+    })();
+</script>
 </body>
 </html>
