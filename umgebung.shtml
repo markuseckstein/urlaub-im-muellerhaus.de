@@ -104,14 +104,15 @@
 </div>
 <!--#include virtual="_scripts.html" -->
 
-<script type="text/javascript" src="https://unpkg.com/rxjs/bundles/Rx.min.js"></script>
+
 <script type="text/javascript">
     (function initialize() {
-        var codes = [72, 79, 77, 69];
+        var codes = ['h','o','m','e'];
         Rx.Observable.fromEvent(document, 'keyup')
-            .pluck('keyCode')
+            .pluck('key')
             .bufferCount(codes.length, 1)
             .filter(function (data) { return data.toString() === codes.toString(); })
+            .first()
             .subscribe(function () {
                 $('li.hidden').removeClass('hidden');
             });
