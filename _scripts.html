@@ -8,11 +8,22 @@
 <script type='text/javascript' src='js/vendor/unitegallery/themes/tiles/ug-theme-tiles.js'></script>
 <script src="js/main.js"></script>
 <script type="text/javascript" src="js/vendor/Rx.min.js"></script>
+<script type="text/javascript" src="js/vendor/hammer.min.js"></script>
 
 
 
 <script type="text/javascript">
-    (function initHaarlem() {
+
+
+    (function initHarlemByKeys() {
+        function harlem() {
+            console.log('harlem triggered');
+            var script = document.createElement('script');
+            script.src = '/js/harlem/harlem-shake-script.js';
+            document.body.appendChild(script);
+        }
+
+
         var codes = ['s', 'h', 'a', 'k', 'e'];
         Rx.Observable.fromEvent(document, 'keyup')
             .pluck('key')
@@ -20,11 +31,12 @@
             .filter(function (data) { return data.toString() === codes.toString(); })
             .first()
             .subscribe(function () {
-                console.log('harlem triggered');
-                var script = document.createElement('script');
-                script.src = '/js/harlem/harlem-shake-script.js';
-                document.body.appendChild(script);
+                harlem();
             });
+
+        var mc = new Hammer.Manager(document.body);
+        mc.add( new Hammer.Swipe( {event: 'tripleSwipe', direction: Hammer.DIRECTION_HORIZONTAL, pointers: 3}) );
+        mc.on("tripleSwipe", harlem);
     })();
 </script>
 

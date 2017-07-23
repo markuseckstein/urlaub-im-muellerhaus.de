@@ -107,6 +107,10 @@
 
 <script type="text/javascript">
     (function initialize() {
+        function showHeimat() {
+            $('li.hidden').removeClass('hidden');
+        }
+
         var codes = ['h','o','m','e'];
         Rx.Observable.fromEvent(document, 'keyup')
             .pluck('key')
@@ -114,8 +118,12 @@
             .filter(function (data) { return data.toString() === codes.toString(); })
             .first()
             .subscribe(function () {
-                $('li.hidden').removeClass('hidden');
+                showHeimat();
             });
+
+        var mc = new Hammer.Manager(document.body);
+        mc.add( new Hammer.Swipe( {event: 'doubleSwipe', direction: Hammer.DIRECTION_HORIZONTAL, pointers: 2}) );
+        mc.on("doubleSwipe", showHeimat);
     })();
 </script>
 </body>
