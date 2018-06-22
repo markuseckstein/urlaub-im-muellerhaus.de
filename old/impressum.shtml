@@ -1,0 +1,40 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>Müllerhaus - Impressum und Kontakt</title>
+    <!--#include virtual="_head.html" -->
+    <style type="text/css">
+
+
+    </style>
+</head>
+
+<body>
+    <!--#include virtual="_menu.html" -->
+    <div class="header-image header-image--impressum"></div>
+    <div class="main-container">
+        <div class="main wrapper clearfix">
+            <article>
+                <header>
+                    <h2>Impressum und Kontakt</h2>
+                    <p>
+                        Ute und Johannes Lochner<br/> Dorfstraße 24<br/> 17375 Vogelsang-Warsin<br/> Tel: <a href="tel:+4939773269972">039773-269972</a><br/>
+                        <a href="mailto:info@urlaub-im-muellerhaus.de">info@urlaub-im-muellerhaus.de</a><br/>
+                    </p>
+                </header>
+            </article>
+        </div>
+        <!-- #main -->
+    </div>
+    <!-- #main-container -->
+    <!--<div class="footer-container">
+        <footer class="wrapper">
+            <h3>footer</h3>
+        </footer>
+    </div>-->
+    <!--#include virtual="_scripts.html" -->
+</body>
+
+</html>

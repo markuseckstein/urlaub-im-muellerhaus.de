@@ -1,0 +1,381 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Architects+Daughter|Harmattan|Reenie+Beanie');
+@import url('header-images.css');
+@import url('gallery.css');
+
+html {
+    
+    font-size: 1em;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+.header-container,
+.main-container,
+.footer-container {
+    padding: 5px 10px 0 10px;
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background: rgba(110, 130, 147, .7);
+}
+
+
+
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+.header-container header {
+    min-height: 100px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+nav {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 200ms ease-in-out;
+}
+
+nav.unhide {
+    max-height: 800px;
+    overflow: inherit;
+}
+
+h1.title {
+    display: none;
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #222;
+}
+
+nav a.active {
+    color: black;
+}
+
+
+/* =============
+    MOBILE: Hamburger
+================ */
+
+#navMenu {
+    margin: 20px 0 0 50px;
+    width: 80px;
+    height: 60px;
+    cursor: pointer;
+    transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
+    display: inline-block;
+}
+
+#navMenu.animate {
+    transform: rotate(180deg);
+}
+
+#navMenuInner,
+#navMenuInner:after,
+#navMenuInner:before {
+    width: 80px;
+    height: 10px;
+}
+
+#navMenuInner {
+    position: relative;
+    transform: translateY(25px);
+    background: white;
+}
+
+#navMenuInner:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 25px;
+    background: white;
+    transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+#navMenuInner:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 25px;
+    background: white;
+    transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+#navMenuInner.animate:after {
+    width: 50px;
+    transform: rotate(-45deg) translateX(15px);
+}
+
+#navMenuInner.animate:before {
+    width: 50px;
+    transform: rotate(45deg) translateX(15px);
+}
+
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: white;
+    padding: 3px 5% 10px;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+}
+
+.logo {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    width: 160px;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 1.2em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    
+}
+
+aside h1,
+aside h2,
+aside h3 {
+    
+    
+}
+
+.title {
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+}
+
+p,
+li {
+    line-height: 1.6;
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 650px) {
+    /* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+    nav {
+        height: auto;
+        overflow: inherit;
+        max-height: inherit;
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    nav ul li {
+        margin-left: 22px;
+    }
+    h1.title {
+        display: block;
+        margin-left: 170px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    .header-container header {
+        min-height: inherit;
+    }
+    div#navMenu {
+        display: none;
+    }
+    .logo {
+        position: absolute;
+        right: unset;
+        width: 140px;
+    }
+    .heading {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+    .header-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #000;
+        -moz-box-shadow: 0 5px 10px #000;
+        box-shadow: 0 5px 18px #888;
+    }
+    /* ============
+    WIDE: Menu
+   ============ */
+    .title {}
+    /* ============
+    WIDE: Main
+   ============ */
+    .main article {
+        float: left;
+        width: 57%;
+    }
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+    /* ===============
+    Maximal Width
+   =============== */
+    .wrapper {
+        width: 1026px;
+        /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+    thead {
+        display: table-header-group;
+    }
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+    img {
+        max-width: 100% !important;
+    }
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
