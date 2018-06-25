@@ -3,6 +3,7 @@ import Helmet from "react-helmet";
 import Gallery from "react-grid-gallery";
 import { fromEvent, Subscription } from "rxjs";
 import { pluck, filter, bufferCount } from "rxjs/operators";
+
 import * as Hammer from "hammerjs";
 
 const styleHidden = {
@@ -16,7 +17,10 @@ class UmgebungPage extends React.Component {
     }
 
     _subscription = Subscription.EMPTY;
-    mc = new Hammer.Manager(document.body);
+    mc =
+        typeof document !== `undefined`
+            ? new Hammer.Manager(document.body)
+            : undefined;
 
     render() {
         const images = this.props.data.umgebungImages.edges.map(x => {
@@ -179,26 +183,28 @@ class UmgebungPage extends React.Component {
 
     componentDidMount() {
         var codes = ["h", "o", "m", "e"];
-        this._subscription = fromEvent(document, "keyup")
-            .pipe(
-                pluck("key"),
-                bufferCount(codes.length, 1),
-                filter(function(data) {
-                    return data.toString() === codes.toString();
-                })
-            )
-            .subscribe(() => {
-                this.toggleHeimat();
-            });
+        if (typeof document !== `undefined`) {
+            this._subscription = fromEvent(document, "keyup")
+                .pipe(
+                    pluck("key"),
+                    bufferCount(codes.length, 1),
+                    filter(function(data) {
+                        return data.toString() === codes.toString();
+                    })
+                )
+                .subscribe(() => {
+                    this.toggleHeimat();
+                });
 
-        this.mc.add(
-            new Hammer.Swipe({
-                event: "doubleSwipe",
-                direction: Hammer.DIRECTION_HORIZONTAL,
-                pointers: 2
-            })
-        );
-        this.mc.on("doubleSwipe", this.toggleHeimat);
+            this.mc.add(
+                new Hammer.Swipe({
+                    event: "doubleSwipe",
+                    direction: Hammer.DIRECTION_HORIZONTAL,
+                    pointers: 2
+                })
+            );
+            this.mc.on("doubleSwipe", this.toggleHeimat);
+        }
     }
 
     componentWillUnmount() {

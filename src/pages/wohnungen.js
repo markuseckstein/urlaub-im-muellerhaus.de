@@ -1,18 +1,12 @@
 import React from "react";
 import Helmet from "react-helmet";
 import Gallery from "react-grid-gallery";
-import { fromEvent, Subscription } from "rxjs";
-import { pluck, filter, bufferCount } from "rxjs/operators";
-import * as Hammer from "hammerjs";
 
 class WohnungenPage extends React.Component {
     constructor(props) {
         super(props);
         this.state = { areHometownsShown: false };
     }
-
-    _subscription = Subscription.EMPTY;
-    mc = new Hammer.Manager(document.body);
 
     render() {
         const images = this.props.data.wohnungenImages.edges.map(x => {
@@ -198,7 +192,7 @@ export const pageQuery = graphql`
         ) {
             edges {
                 node {
-                    orig: resize(width: 1300, quality: 80) {
+                    orig: resize(width: 1300, quality: 65) {
                         src
                     }
                     thumb: resize(width: 280) {
@@ -218,57 +212,3 @@ export const pageQuery = graphql`
 `;
 
 export default WohnungenPage;
-
-// <div id="gallery" style="display:none">
-// <img alt="Der Esstisch in der Wohnung „Ueckermünde“ bietet Platz für sechs Personen."
-//      src="img/gallery/wohnungen/thumbs/wohnungen_01.jpg"
-//      data-image="img/gallery/wohnungen/wohnungen_01.jpg">
-// <img alt="Die Küchen sind voll ausgestattet mit 4-Plattenherd, Backofen, Geschirrspüler und den üblichen Kochutensilien."
-//      src="img/gallery/wohnungen/thumbs/wohnungen_02.jpg"
-//      data-image="img/gallery/wohnungen/wohnungen_02.jpg">
-// <img alt="Direkt neben dem Esstisch der Wohnung „Ueckermünde“ befindet sich die Spielecke."
-//      src="img/gallery/wohnungen/thumbs/wohnungen_03.jpg"
-//      data-image="img/gallery/wohnungen/wohnungen_03.jpg">
-// <img alt="Von der Küche führt der Flur ins Wohnzimmer, zum Einzelzimmer und ins Bad."
-//      src="img/gallery/wohnungen/thumbs/wohnungen_04.jpg"
-//      data-image="img/gallery/wohnungen/wohnungen_04.jpg">
-// <img alt="Das gemütliche Einzelzimmer der Wohnung „Ueckermünde“."
-//      src="img/gallery/wohnungen/thumbs/wohnungen_05.jpg"
-//      data-image="img/gallery/wohnungen/wohnungen_05.jpg">
-// <img alt="Einst wohnte hier der Müllergeselle: Das Wohnzimmer des Appartements „Ueckermünde“."
-//      src="img/gallery/wohnungen/thumbs/wohnungen_06.jpg"
-//      data-image="img/gallery/wohnungen/wohnungen_06.jpg">
-// <img alt="Besonders warmes Flair: Im Wohnzimmer des Appartements „Ueckermünde“ sind die Wände noch naturbelassen."
-//      src="img/gallery/wohnungen/thumbs/wohnungen_07.jpg"
-//      data-image="img/gallery/wohnungen/wohnungen_07.jpg">
-// <img alt="Mit Fußboden- und Handtuchheizung: Das geräumige Badezimmer der Wohnung „Ueckermünde“."
-//      src="img/gallery/wohnungen/thumbs/wohnungen_08.jpg"
-//      data-image="img/gallery/wohnungen/wohnungen_08.jpg">
-// <img alt="Im gemütlichen Dachzimmer der Wohnung „Ueckermünde“ befinden sich ein Doppel- und zwei Einzelbetten."
-//      src="img/gallery/wohnungen/thumbs/wohnungen_09.jpg"
-//      data-image="img/gallery/wohnungen/wohnungen_09.jpg">
-// <img alt="Das Doppelbett im Dachzimmer der Wohnung „Ueckermünde“."
-//      src="img/gallery/wohnungen/thumbs/wohnungen_10.jpg"
-//      data-image="img/gallery/wohnungen/wohnungen_10.jpg">
-// <img alt="Das gemütliche Wohnzimmer des Appartements „Altwarp“ lädt zu Spiele-, Lese- oder Fernsehabenden ein."
-//      src="img/gallery/wohnungen/thumbs/wohnungen_11.jpg"
-//      data-image="img/gallery/wohnungen/wohnungen_11.jpg">
-// <img alt="Gemütlicher Essplatz in der Wohnung „Altwarp“."
-//      src="img/gallery/wohnungen/thumbs/wohnungen_12.jpg"
-//      data-image="img/gallery/wohnungen/wohnungen_12.jpg">
-// <img alt="Das Schlafzimmer der Wohnung „Altwarp“ sorgt für schöne Träume."
-//      src="img/gallery/wohnungen/thumbs/wohnungen_13.jpg"
-//      data-image="img/gallery/wohnungen/wohnungen_13.jpg">
-// <img alt="Das Schlafzimmer der Wohnung „Altwarp“ sorgt für schöne Träume."
-//      src="img/gallery/wohnungen/thumbs/wohnungen_14.jpg"
-//      data-image="img/gallery/wohnungen/wohnungen_14.jpg">
-// <img alt="Doppelbett in der offenen Galerie der Wohnung „Altwarp“."
-//      src="img/gallery/wohnungen/thumbs/wohnungen_15.jpg"
-//      data-image="img/gallery/wohnungen/wohnungen_15.jpg">
-// <img alt="Mit Fußboden- und Handtuchheizung: Das geräumige Badezimmer der Wohnung „Altwarp“."
-//      src="img/gallery/wohnungen/thumbs/wohnungen_16.jpg"
-//      data-image="img/gallery/wohnungen/wohnungen_16.jpg">
-// <img alt="Treppenaufgang zu den Ferienwohnungen."
-//      src="img/gallery/wohnungen/thumbs/wohnungen_17.jpg"
-//      data-image="img/gallery/wohnungen/wohnungen_17.jpg">
-//       </div>
