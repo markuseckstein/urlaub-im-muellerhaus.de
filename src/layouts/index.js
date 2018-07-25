@@ -10,7 +10,9 @@ import "../css/normalize.min.css";
 
 const Layout = ({ children, data }) => (
     <div>
-        <Helmet title={data.site.siteMetadata.title} />
+        <Helmet title={data.site.siteMetadata.title}>
+            <html lang="de" />
+        </Helmet>
         <Menu />
         {children()}
     </div>
