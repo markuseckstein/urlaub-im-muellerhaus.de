@@ -15,10 +15,9 @@ class PreiseBuchungPage extends React.Component {
                                 <p>
                                     Die angegebenen Preise verstehen sich pro
                                     Wohnung und Nacht, inkl. Sauna, Bad- und
-                                    Bettwäsche, zzgl. 50 Euro Endreinigung und
-                                    100 Euro Kaution. Babybett und
-                                    Kinderhochstuhl stehen Ihnen auf Anfrage
-                                    kostenfrei zur Verfügung. Die
+                                    Bettwäsche, zzgl. 50 Euro Endreinigung.
+                                    Babybett und Kinderhochstuhl stehen Ihnen
+                                    auf Anfrage kostenfrei zur Verfügung. Die
                                     Mindestmietdauer beträgt zwei Nächte.
                                 </p>
                             </header>

@@ -145,6 +145,10 @@ class UmgebungPage extends React.Component {
                         <aside>
                             <h2>Weitere Ausflugsziele</h2>
                             <ul>
+                                <li>
+                                    Wellness im „Haffhus“ in Bellin
+                                    (Nachbardorf)
+                                </li>
                                 <li>Ukranenland Torgelow</li>
                                 <li>Haffmuseum Ueckermünde</li>
                                 <li>Straußenfarm Ahlbeck</li>
