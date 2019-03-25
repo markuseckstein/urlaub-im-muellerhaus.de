@@ -149,7 +149,7 @@ class DatenschutzPage extends React.Component {
                                 <ul>
                                     <li>
                                         Informationen &uuml;ber den Browsertyp
-                                        und die verwendete Version
+                                        und die verwendete Browser Version
                                     </li>
                                     <li>Das Betriebssystem des Nutzers</li>
                                     <li>
