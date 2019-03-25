@@ -1,8 +1,8 @@
 {
-    "name": "gatsby-starter-default",
-    "description": "Gatsby default starter",
+    "name": "urlaub-im-muellerhaus",
+    "description": "Website for www.urlaub-im-muellerhaus.de",
     "version": "1.0.0",
-    "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+    "author": "Markus Eckstein",
     "dependencies": {
         "gatsby": "^1.9.277",
         "gatsby-image": "^1.0.55",
@@ -13,12 +13,13 @@
         "gatsby-source-filesystem": "^1.5.39",
         "gatsby-transformer-sharp": "^1.6.27",
         "hammerjs": "^2.0.8",
-        "react-grid-gallery": "^0.5.1",
+        "react-grid-gallery": "^0.5.4",
         "react-helmet": "^5.2.0",
         "rxjs": "^6.2.2"
     },
     "keywords": [
-        "gatsby"
+        "gatsby",
+        "urlaub-im-muellerhaus"
     ],
     "license": "MIT",
     "scripts": {
@@ -28,12 +29,12 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "devDependencies": {
-        "lodash": "^4.17.10",
+        "lodash": "^4.17.11",
         "node-iptc": "^1.0.5",
-        "prettier": "^1.13.7"
+        "prettier": "^1.16.4"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+        "url": "https://github.com/markuseckstein/urlaub-im-muellerhaus.de"
     }
 }
