@@ -6,6 +6,12 @@ const greetingStyle = {
     transform: "rotate(2deg)"
 };
 
+const eventTeaserStyle = {
+    backgroundColor: "#f1f1f1",
+    padding: "0 0.4rem",
+    borderRadius: "4px"
+};
+
 const IndexPage = () => (
     <div>
         <div className="header-image header-image--index" />
@@ -28,6 +34,31 @@ const IndexPage = () => (
                             </span>
                         </p>
                     </header>
+                </article>
+                <article style={eventTeaserStyle}>
+                    <h2>Kunst:Offen in der Kunstscheune am Müllerhaus</h2>
+                    <p>
+                        Vom 8.-10. Juni öffnet die Kunstscheune am Müllerhaus im
+                        Rahmen von{" "}
+                        <a
+                            href="https://www.vorpommern.de/fileadmin/documents/kunst_offen/TVV-KunstOffen-2019-Faltblatt-700x420mm-Web-gesamt.pdf"
+                            target="_blank"
+                        >
+                            Kunst:Offen 2019
+                        </a>{" "}
+                        mit der Ausstellung „Abstraktes von{" "}
+                        <a
+                            href="https://www.brigitte-danner.de/"
+                            target="_blank"
+                        >
+                            Brigitte Danner
+                        </a>
+                        “ ihre Tore für alle Interessierten.
+                        <p>
+                            Besichtigung der Galerie auch im Nachgang auf
+                            Terminanfrage möglich.
+                        </p>
+                    </p>
                 </article>
                 <aside>
                     <h3>Modernes Leben in historischem Ambiente</h3>
