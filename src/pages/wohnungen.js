@@ -37,7 +37,7 @@ class WohnungenPage extends React.Component {
                                 </p>
                             </header>
                             <section>
-                                <h2>Wohnung „Ueckermünde“ (2 - 6 Personen)</h2>
+                                <h2>Wohnung „Ueckermünde“ (2 - 5 Personen)</h2>
                                 <ul>
                                     <li>Geräumige Wohnküche mit Spielecke</li>
                                     <li>
@@ -45,9 +45,7 @@ class WohnungenPage extends React.Component {
                                         Einzelbetten
                                     </li>
                                     <li>Einzelzimmer</li>
-                                    <li>
-                                        Bequeme Doppelschlafcouch im Wohnzimmer
-                                    </li>
+                                    <li>Bequeme Eckcouch im Wohnzimmer</li>
                                 </ul>
                                 <p>
                                     Die helle Küche mit Blick in den Garten und
@@ -55,8 +53,8 @@ class WohnungenPage extends React.Component {
                                     lädt zum Beisammensein ein. Über einen
                                     kleinen Flur gelangen Sie in das große
                                     Badezimmer mit Fußbodenheizung und Dusche,
-                                    in die Schlafkammer mit Einzelbett und in
-                                    das Wohnzimmer, in dem einst der
+                                    in die kleine Schlafkammer mit Einzelbett
+                                    und in das Wohnzimmer, in dem einst der
                                     Müllergeselle wohnte. Der Raum mit zum Teil
                                     naturbelassenen Wänden strahlt eine
                                     besonders gemütliche und warme Atmosphäre
@@ -69,6 +67,10 @@ class WohnungenPage extends React.Component {
                                     führt vom Eingangsbereich der Wohnung in die
                                     obere Etage zum Schlafraum mit einem
                                     Doppelbett und zwei Einzelbetten.
+                                </p>
+                                <p>
+                                    Überbelegung mit 2 Personen auf Anfrage
+                                    möglich.
                                 </p>
                             </section>
                             <section>
