@@ -35,7 +35,7 @@ const IndexPage = () => (
                         </p>
                     </header>
                 </article>
-                <article style={eventTeaserStyle}>
+                {/*       <article style={eventTeaserStyle}>
                     <h2>Kunst:Offen in der Kunstscheune am Müllerhaus</h2>
                     <p>
                         Vom 8.-10. Juni öffnet die Kunstscheune am Müllerhaus im
@@ -59,7 +59,7 @@ const IndexPage = () => (
                             Terminanfrage möglich.
                         </p>
                     </p>
-                </article>
+                </article> */}
                 <aside>
                     <h3>Modernes Leben in historischem Ambiente</h3>
                     <p>
