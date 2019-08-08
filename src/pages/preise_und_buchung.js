@@ -15,23 +15,23 @@ class PreiseBuchungPage extends React.Component {
                                 <p>
                                     Die angegebenen Preise verstehen sich pro
                                     Wohnung und Nacht, inkl. Sauna, Bad- und
-                                    Bettwäsche, zzgl. 50 Euro Endreinigung.
+                                    Bettwäsche, zzgl. 60 Euro Endreinigung.
                                     Babybett und Kinderhochstuhl stehen Ihnen
                                     auf Anfrage kostenfrei zur Verfügung. Die
                                     Mindestmietdauer beträgt zwei Nächte.
                                 </p>
                             </header>
                             <section>
-                                <h2>Wohnung „Ueckermünde“ (2-6 Personen)</h2>
-                                1. Oktober bis 31. März: 85 Euro/Nacht
-                                <br /> 1. April bis 30. September: 95 Euro/Nacht
-                                <br /> Weihnachts- und Silvesterwoche 95
+                                <h2>Wohnung „Ueckermünde“ (2-5 Personen, Überbelegung möglich)</h2>
+                                1. Oktober bis 31. März: 90 Euro/Nacht
+                                <br /> 1. April bis 30. September: 105 Euro/Nacht
+                                <br /> Weihnachts- und Silvesterwoche 105
                                 Euro/Nacht
                                 <br />
                                 <h2>Wohnung „Altwarp“ (2-4 Personen)</h2>
-                                1. Oktober bis 31. März: 75 Euro/Nacht
-                                <br /> 1. April bis 30. September: 85 Euro/Nacht
-                                <br /> Weihnachts- und Silvesterwoche 85
+                                1. Oktober bis 31. März: 80 Euro/Nacht
+                                <br /> 1. April bis 30. September: 95 Euro/Nacht
+                                <br /> Weihnachts- und Silvesterwoche 95
                                 Euro/Nacht
                                 <br />
                             </section>

@@ -14,6 +14,13 @@ module.exports = {
             }
         },
         {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `documents`,
+                path: `${__dirname}/src/documents/`
+            }
+        },
+        {
             resolve: `gatsby-plugin-google-analytics`,
             options: {
                 trackingId: "UA-96104696-1",

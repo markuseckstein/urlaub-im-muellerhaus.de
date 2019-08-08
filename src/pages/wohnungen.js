@@ -45,7 +45,7 @@ class WohnungenPage extends React.Component {
                                         Einzelbetten
                                     </li>
                                     <li>Einzelzimmer</li>
-                                    <li>Bequeme Eckcouch im Wohnzimmer</li>
+                                    <li>Bequemes Ecksofa (ausziehbar) im Wohnzimmer</li>
                                 </ul>
                                 <p>
                                     Die helle Küche mit Blick in den Garten und
@@ -125,6 +125,9 @@ class WohnungenPage extends React.Component {
                                     <li>Sat-TV</li>
                                     <li>Fön</li>
                                     <li>Bügelbrett und -eisen</li>
+                                    <li>Bluetooth-Stereo-Lautsprecher mit Wecker und Radio</li>
+                                    <li>Zimmersafe</li>
+                                    <li>Ganzkörperspiegel</li>
                                 </ul>
 
                                 <p>Küche:</p>
@@ -133,7 +136,7 @@ class WohnungenPage extends React.Component {
                                     <li>Backofen</li>
                                     <li>Kaffeemaschine</li>
                                     <li>Wasserkocher</li>
-                                    <li>Geschirr für bis zu 6 Personen</li>
+                                    <li>Geschirr</li>
                                     <li>
                                         übliche Kochutensilien (Töpfe, Pfannen,
                                         Auflaufform, Kochbesteck etc.)
@@ -155,15 +158,14 @@ class WohnungenPage extends React.Component {
                                 <li>Sauna im Nebengebäude</li>
                                 <li>Bollerwägen für Strandausflüge</li>
                                 <li>
-                                    Garten mit Schaukel, Sandkasten, Liege- und
+                                    Garten mit Spielehaus inkl. Rutsche und Schaukeln, Sandkasten, Sitzgelegenheiten, Liege- und
                                     Spielflächen
                                 </li>
                                 <li>Holzkohlegrill</li>
                                 <li>Gartenmöbel</li>
                                 <li>Liegen</li>
                                 <li>
-                                    Diverse Spielgeräte (Fußballtor,
-                                    Badmintonschläger etc.)
+                                    Sport-Spielgeräte (Fußballtore, Speedminton-Netz und -Schläger, etc.)
                                 </li>
                                 <li>Waschmaschine im Nebengebäude</li>
                                 <li>Autostellplatz</li>
@@ -171,6 +173,8 @@ class WohnungenPage extends React.Component {
                                     Absperrbare Scheune zur Unterbringung von
                                     Fahrrädern, Kinderwägen etc.
                                 </li>
+                                <li>Diverse Gästefahrräder und kleine Laufräder</li>
+                                <li>Kunstscheune mit Sitzgelegenheiten</li>
                             </ul>
                         </aside>
                     </div>
