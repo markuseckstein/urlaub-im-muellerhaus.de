@@ -21,7 +21,9 @@ class AnfahrtPage extends React.Component {
                             <header>
                                 <h2>Ihr Weg zu uns</h2>
                                 <p>
-                                    Dorfstraße 24<br /> 17375 Vogelsang-Warsin<br />
+                                    Dorfstraße 24
+                                    <br /> 17375 Vogelsang-Warsin
+                                    <br />
                                 </p>
                             </header>
                         </article>

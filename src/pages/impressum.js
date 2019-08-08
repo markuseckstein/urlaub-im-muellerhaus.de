@@ -14,8 +14,10 @@ class ImpressumPage extends React.Component {
                             <header>
                                 <h2>Impressum und Kontakt</h2>
                                 <p>
-                                    Ute und Johannes Lochner<br /> Dorfstraße 24<br />{" "}
-                                    17375 Vogelsang-Warsin<br /> Tel:{" "}
+                                    Ute und Johannes Lochner
+                                    <br /> Dorfstraße 24
+                                    <br /> 17375 Vogelsang-Warsin
+                                    <br /> Tel:{" "}
                                     <a href="tel:+4939773269972">
                                         039773-269972
                                     </a>

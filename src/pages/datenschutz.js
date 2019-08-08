@@ -426,7 +426,8 @@ class DatenschutzPage extends React.Component {
                                         class="href"
                                     >
                                         https://www.google.com/policies/privacy/
-                                    </a>.
+                                    </a>
+                                    .
                                 </p>
                             </header>
                             <p>
