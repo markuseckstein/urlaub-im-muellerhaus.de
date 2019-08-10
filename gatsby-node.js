@@ -44,12 +44,15 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
 
 exports.onCreateWebpackConfig = ({ stage, actions }) => {
     if (stage === "build-html") {
-        // config.loader("null", {
-        //     test: /hammerjs/,
-        //     loader: "null-loader"
-        // });
         actions.setWebpackConfig({
-            // loader:
+            module: {
+                rules: [
+                    {
+                        test: /hammerjs/,
+                        use: ["null-loader"]
+                    }
+                ]
+            }
         });
     }
 };
