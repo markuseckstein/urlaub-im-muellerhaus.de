@@ -6,7 +6,6 @@ import { fromEvent, Subscription } from "rxjs";
 import { pluck, filter, bufferCount } from "rxjs/operators";
 import Layout from "../components/layout"
 
-import * as Hammer from "hammerjs";
 
 const styleHidden = {
     display: "none"
@@ -19,10 +18,6 @@ class UmgebungPage extends React.Component {
     }
 
     _subscription = Subscription.EMPTY;
-    mc =
-        typeof document !== `undefined`
-            ? new Hammer.Manager(document.body)
-            : undefined;
 
     render() {
         const images = this.props.data.umgebungImages.edges.map(x => {
@@ -203,22 +198,11 @@ class UmgebungPage extends React.Component {
                 .subscribe(() => {
                     this.toggleHeimat();
                 });
-
-            this.mc.add(
-                new Hammer.Swipe({
-                    event: "doubleSwipe",
-                    direction: Hammer.DIRECTION_HORIZONTAL,
-                    pointers: 2
-                })
-            );
-            this.mc.on("doubleSwipe", this.toggleHeimat);
         }
     }
 
     componentWillUnmount() {
         this._subscription.unsubscribe();
-        this.mc.off("doubleSwipe", this.toggleHeimat);
-        this.mc.destroy();
     }
 
     toggleHeimat() {

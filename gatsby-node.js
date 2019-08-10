@@ -42,17 +42,17 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
     }
 };
 
-exports.onCreateWebpackConfig = ({ stage, actions }) => {
-    if (stage === "build-html") {
-        actions.setWebpackConfig({
-            module: {
-                rules: [
-                    {
-                        test: /hammerjs/,
-                        use: ["null-loader"]
-                    }
-                ]
-            }
-        });
-    }
-};
+// exports.onCreateWebpackConfig = ({ stage, actions }) => {
+//     if (stage === "build-html") {
+//         actions.setWebpackConfig({
+//             module: {
+//                 rules: [
+//                     {
+//                         test: /hammerjs/,
+//                         use: ["null-loader"]
+//                     }
+//                 ]
+//             }
+//         });
+//     }
+// };

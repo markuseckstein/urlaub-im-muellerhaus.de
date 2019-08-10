@@ -12,7 +12,6 @@
         "gatsby-plugin-sharp": "^2.2.11",
         "gatsby-source-filesystem": "^2.1.9",
         "gatsby-transformer-sharp": "^2.2.6",
-        "hammerjs": "^2.0.8",
         "react": "^16.9.0",
         "react-dom": "^16.9.0",
         "react-grid-gallery": "^0.5.5",
