@@ -13,12 +13,11 @@ const eventTeaserStyle = {
     borderRadius: "4px"
 };
 
-const IndexPage = (props) => (
+const IndexPage = props => (
     <div>
         <div className="header-image header-image--index" />
         <div className="main-container">
             <div className="main wrapper clearfix">
-
                 <article>
                     <header>
                         <h1 className="heading">Das Müllerhaus in Vogelsang</h1>
@@ -77,38 +76,48 @@ const IndexPage = (props) => (
                         gemütlichen Beisammensein nutzen.
                     </p>
                     <p>
-                        Für Interessierte hier der <a href={props.data.zeitung.src} target="_blank">Zeitungsartikel</a>, der zu
-                Kunst:Offen erschienen ist.
+                        Für Interessierte hier der{" "}
+                        <a href={props.data.zeitung.src} target="_blank">
+                            Zeitungsartikel
+                        </a>
+                        , der zu Kunst:Offen erschienen ist.
                     </p>
                 </article>
                 <article>
                     <p>
-                        <img src={props.data.dtvLogo.childImageSharp.image.src} width={props.data.dtvLogo.childImageSharp.image.width} height={props.data.dtvLogo.childImageSharp.image.height} alt="DTV-4-Sterne-Logo"></img>
-
+                        <img
+                            src={props.data.dtvLogo.childImageSharp.image.src}
+                            width="100%"
+                            alt="DTV-4-Sterne-Logo"
+                        ></img>
                     </p>
                 </article>
-
             </div>
         </div>
     </div>
 );
 
-
 export const query = graphql`
-query LogoAndZeitung {
-    dtvLogo: file(sourceInstanceName: {eq: "images"}, relativePath: {eq: "dtv_4sterne.jpg"}) {
-      childImageSharp {
-        image: resize(width: 600, quality: 77, toFormat: PNG) {
-          src
-          width
-          height
+    query LogoAndZeitung {
+        dtvLogo: file(
+            sourceInstanceName: { eq: "images" }
+            relativePath: { eq: "dtv_4sterne.jpg" }
+        ) {
+            childImageSharp {
+                image: resize(width: 600, quality: 77, toFormat: PNG) {
+                    src
+                    width
+                    height
+                }
+            }
         }
-      }
+        zeitung: file(
+            sourceInstanceName: { eq: "documents" }
+            relativePath: { eq: "kunstoffen_nordkurier.pdf" }
+        ) {
+            src: publicURL
+        }
     }
-    zeitung:file(sourceInstanceName: {eq: "documents"}, relativePath: {eq: "kunstoffen_nordkurier.pdf"}) {
-          src: publicURL
-    }
-  }
-`
+`;
 
 export default IndexPage;

@@ -4,15 +4,12 @@ import Link from "gatsby-link";
 
 const dtvStyle = {
     backgroundColor: "red",
-    padding: 0,
+    padding: 0
 };
 
-const smallArticleStyle = {
-};
+const smallArticleStyle = {};
 
-
-const ImpressumPage = (props) => (
-
+const ImpressumPage = props => (
     <div>
         <Helmet title="Müllerhaus - Impressum" />
         <div className="header-image header-image--impressum" />
@@ -23,16 +20,14 @@ const ImpressumPage = (props) => (
                         <h2>Impressum und Kontakt</h2>
                         <p>
                             Ute und Johannes Lochner
-                                    <br /> Dorfstraße 24
-                                    <br /> 17375 Vogelsang-Warsin
-                                    <br /> Tel:{" "}
-                            <a href="tel:+4939773269972">
-                                039773-269972
-                                    </a>
+                            <br /> Dorfstraße 24
+                            <br /> 17375 Vogelsang-Warsin
+                            <br /> Tel:{" "}
+                            <a href="tel:+4939773269972">039773-269972</a>
                             <br />
                             <a href="mailto:info@urlaub-im-muellerhaus.de">
                                 info@urlaub-im-muellerhaus.de
-                                    </a>
+                            </a>
                             <br />
                         </p>
                         <p>
@@ -41,25 +36,31 @@ const ImpressumPage = (props) => (
                     </header>
                 </article>
                 <aside style={dtvStyle}>
-                    <img src={props.data.dtvLogo.childImageSharp.image.src} width="100%" alt="DTV-4-Sterne-Logo"></img>
-
+                    <img
+                        src={props.data.dtvLogo.childImageSharp.image.src}
+                        width="100%"
+                        alt="DTV-4-Sterne-Logo"
+                    ></img>
                 </aside>
             </div>
         </div>
     </div>
 );
 export const query = graphql`
-query Logo {
-    dtvLogo: file(sourceInstanceName: {eq: "images"}, relativePath: {eq: "dtv_4sterne.jpg"}) {
-      childImageSharp {
-        image: resize(width: 600, quality: 77, toFormat: PNG) {
-          src
-          width
-          height
+    query Logo {
+        dtvLogo: file(
+            sourceInstanceName: { eq: "images" }
+            relativePath: { eq: "dtv_4sterne.jpg" }
+        ) {
+            childImageSharp {
+                image: resize(width: 600, quality: 77, toFormat: PNG) {
+                    src
+                    width
+                    height
+                }
+            }
         }
-      }
     }
-  }
-`
+`;
 
 export default ImpressumPage;

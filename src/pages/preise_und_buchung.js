@@ -22,9 +22,13 @@ class PreiseBuchungPage extends React.Component {
                                 </p>
                             </header>
                             <section>
-                                <h2>Wohnung „Ueckermünde“ (2-5 Personen, Überbelegung möglich)</h2>
+                                <h2>
+                                    Wohnung „Ueckermünde“ (2-5 Personen,
+                                    Überbelegung möglich)
+                                </h2>
                                 1. Oktober bis 31. März: 90 Euro/Nacht
-                                <br /> 1. April bis 30. September: 105 Euro/Nacht
+                                <br /> 1. April bis 30. September: 105
+                                Euro/Nacht
                                 <br /> Weihnachts- und Silvesterwoche 105
                                 Euro/Nacht
                                 <br />
