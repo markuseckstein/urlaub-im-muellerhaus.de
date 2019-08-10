@@ -1,6 +1,8 @@
 import React from "react";
 import Helmet from "react-helmet";
 import Gallery from "react-grid-gallery";
+import { graphql } from "gatsby";
+import Layout from "../components/layout"
 
 class GartenPage extends React.Component {
     render() {
@@ -15,75 +17,80 @@ class GartenPage extends React.Component {
         });
 
         return (
-            <div>
-                <Helmet title="Müllerhaus - Garten und Sauna" />
-                <div className="header-image header-image--garten" />
-                <div className="main-container">
-                    <div className="main wrapper clearfix">
-                        <article>
-                            <header>
-                                <h1 className="heading">Garten und Sauna</h1>
-                            </header>
-                            <section>
-                                <p>
-                                    Egal ob Sie sich auf einer Liege entspannen
-                                    oder mit Ihren Kindern toben möchten, der
-                                    Garten ist groß genug für alle Bedürfnisse.
-                                    Nach Belieben stehen Ihnen Gartenmöbel,
-                                    Spielgeräte, Sandkasten, Schaukel,
-                                    Sonnenschirme, Grill und eine Feuerstelle
-                                    zur Verfügung.
+            <Layout>
+                <div>
+                    <Helmet title="Müllerhaus - Garten und Sauna" />
+                    <div className="header-image header-image--garten" />
+                    <div className="main-container">
+                        <div className="main wrapper clearfix">
+                            <article>
+                                <header>
+                                    <h1 className="heading">Garten und Sauna</h1>
+                                </header>
+                                <section>
+                                    <p>
+                                        Egal ob Sie sich auf einer Liege entspannen
+                                        oder mit Ihren Kindern toben möchten, der
+                                        Garten ist groß genug für alle Bedürfnisse.
+                                        Nach Belieben stehen Ihnen Gartenmöbel,
+                                        Spielgeräte, Sandkasten, Schaukel,
+                                        Sonnenschirme, Grill und eine Feuerstelle
+                                        zur Verfügung.
                                 </p>
-                            </section>
-                        </article>
-                        <aside>
-                            <h2>Ausspannen in der Scheunen-Sauna</h2>
-                            <p>
-                                Lassen Sie Ihre Seele in der Außensauna des
-                                Müllerhauses baumeln. Genießen Sie dabei ein
-                                Glas Tee im Ruhebereich mit Blick über Feld und
-                                Wiese in Richtung Haff.
+                                </section>
+                            </article>
+                            <aside>
+                                <h2>Ausspannen in der Scheunen-Sauna</h2>
+                                <p>
+                                    Lassen Sie Ihre Seele in der Außensauna des
+                                    Müllerhauses baumeln. Genießen Sie dabei ein
+                                    Glas Tee im Ruhebereich mit Blick über Feld und
+                                    Wiese in Richtung Haff.
                             </p>
-                        </aside>
+                            </aside>
+                        </div>
+                    </div>
+
+                    <div className="footer-container">
+                        <footer>
+                            <Gallery images={images} enableImageSelection={false} />
+                            <div style={{ clear: "both" }}>&nbsp;</div>
+                        </footer>
                     </div>
                 </div>
-
-                <div className="footer-container">
-                    <footer>
-                        <Gallery images={images} enableImageSelection={false} />
-                        <div style={{ clear: "both" }}>&nbsp;</div>
-                    </footer>
-                </div>
-            </div>
+            </Layout>
         );
     }
 }
 
 export const pageQuery = graphql`
-    query GartenQuery {
-        gartenImages: allImageSharp(
-            sort: { fields: [id] }
-            filter: { id: { regex: "//garten//" } }
-        ) {
-            edges {
-                node {
-                    orig: resize(width: 1300, quality: 80) {
-                        src
-                    }
-                    thumb: resize(width: 280) {
-                        src
-                        width
-                        height
-                    }
-                    fields {
-                        exif {
-                            title
-                        }
-                    }
-                }
+query GartenQuery {
+    gartenImages: allImageSharp(sort: {fields: [fields___file___path]}, 
+      filter: {fields: {file: {path: {regex: "//gallery/garten//"}}}}) {
+      edges {
+        node {
+          id
+          orig: resize(width: 1300, quality: 80) {
+            src
+          }
+          thumb: resize(width: 280) {
+            src
+            width
+            height
+          }
+          fields {
+            exif {
+              title
             }
+            file {
+              path
+            }
+          }
         }
+      }
     }
+  }
+  
 `;
 
 export default GartenPage;
