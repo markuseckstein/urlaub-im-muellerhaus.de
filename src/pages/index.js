@@ -98,7 +98,7 @@ export const query = graphql`
 query LogoAndZeitung {
     dtvLogo: file(sourceInstanceName: {eq: "images"}, relativePath: {eq: "dtv_4sterne.jpg"}) {
       childImageSharp {
-        image: resize(width: 350, quality: 80) {
+        image: resize(width: 600, quality: 77, toFormat: PNG) {
           src
           width
           height
