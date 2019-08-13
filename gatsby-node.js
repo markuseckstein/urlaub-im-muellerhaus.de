@@ -9,18 +9,28 @@
 const get = require("lodash/get");
 const fs = require("fs");
 const iptc = require("node-iptc");
+const { createFilePath } = require(`gatsby-source-filesystem`)
 
-exports.onCreateNode = ({ node, boundActionCreators }) => {
+exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
     const { createNodeField } = boundActionCreators;
 
-    if (node.internal.type === "ImageSharp" && node.id.includes("img/")) {
-        const absolutePath = node.id.split(" ")[0];
-        const fileContent = fs.readFileSync(absolutePath);
+    if (node.internal.type === "ImageSharp") {
+        const fileNode = getNode(node.parent)
+
+        const fileContent = fs.readFileSync(fileNode.absolutePath);
         const iptcData = iptc(fileContent);
 
         const title = get(iptcData, ["caption"], "");
 
-        console.log("****  iptc caption of " + node.id, title);
+        console.log("****  iptc caption of " + fileNode.absolutePath, title);
+        createNodeField({
+            node,
+            name: "file",
+            value: {
+                path: fileNode.absolutePath.toString()
+            }
+
+        });
         createNodeField({
             node,
             name: "exif",
@@ -28,14 +38,8 @@ exports.onCreateNode = ({ node, boundActionCreators }) => {
                 title
             }
         });
+
     }
 };
 
-exports.modifyWebpackConfig = ({ config, stage }) => {
-    if (stage === "build-html") {
-        config.loader("null", {
-            test: /hammerjs/,
-            loader: "null-loader"
-        });
-    }
-};
+

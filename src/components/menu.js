@@ -31,10 +31,10 @@ class Menu extends React.Component {
                         id="navMain"
                         className={this.state.isOpen ? "unhide" : ""}
                     >
-                        <img className="logo" src={logo} />
+                        <img className="logo" alt="" src={logo} />
                         <ul className="navMain__list">
                             <li>
-                                <Link exact activeClassName="active" to="/">
+                                <Link activeClassName="active" to="/">
                                     Home
                                 </Link>
                             </li>
