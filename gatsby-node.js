@@ -9,27 +9,28 @@
 const get = require("lodash/get");
 const fs = require("fs");
 const iptc = require("node-iptc");
-const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
     const { createNodeField } = boundActionCreators;
 
     if (node.internal.type === "ImageSharp") {
-        const fileNode = getNode(node.parent)
+        const fileNode = getNode(node.parent);
 
         const fileContent = fs.readFileSync(fileNode.absolutePath);
         const iptcData = iptc(fileContent);
 
+        console.log(
+            "**** iptc data of " + fileNode.absolutePath + ":\n   ",
+            iptcData
+        );
         const title = get(iptcData, ["caption"], "");
 
-        console.log("****  iptc caption of " + fileNode.absolutePath, title);
         createNodeField({
             node,
             name: "file",
             value: {
                 path: fileNode.absolutePath.toString()
             }
-
         });
         createNodeField({
             node,
@@ -38,8 +39,5 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
                 title
             }
         });
-
     }
 };
-
-
