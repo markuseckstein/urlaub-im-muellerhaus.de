@@ -59,18 +59,23 @@ const IndexPage = props => (
                             historisches Ambiente mit modernem Wohnkomfort.
                         </p>
                     </aside>
+
                     <article style={eventTeaserStyle}>
-                        <h3>Neu: Kunstscheune im Müllerhausgarten</h3>
-                        <p>
-                            Seit unserer Teilnahme bei{" "}
+                        <h3>
+                            Pfingsten 2020 -{" "}
                             <a
-                                href="https://www.vorpommern.de/fileadmin/documents/kunst_offen/TVV-KunstOffen-2019-Faltblatt-700x420mm-Web-gesamt.pdf"
+                                href="https://www.vorpommern.de/fileadmin/documents/kunst_offen/KunstOffen_Faltblatt_2020_web.pdf"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                Kunst:Offen 2019
+                                Kunst:Offen
                             </a>{" "}
-                            mit der Bildern der Malerin{" "}
+                            im Müllerhausgarten
+                        </h3>
+                        <p>
+                            Über Pfingsten öffnet unsere Kunstscheune mit neuen
+                            Werken ihre Tore: „Ruhe und Unruhe“ titelt die
+                            Ausstellung von{" "}
                             <a
                                 href="https://www.brigitte-danner.de/"
                                 target="_blank"
@@ -78,17 +83,38 @@ const IndexPage = props => (
                             >
                                 Brigitte Danner
                             </a>{" "}
-                            gibt es im Garten eine kleine Kunstscheune. Die
-                            Dauerausstellung können unsere Gäste auf Nachfrage
-                            besichtigen und die Sitzgruppen in der Galerie zum
-                            gemütlichen Beisammensein nutzen.
+                            in diesem Jahr. Ihre abstrakten Werke greifen Themen
+                            der Zeit, Inspiration durch das Haff und
+                            Zwischenmenschlichkeit auf. Brigitte Danner hat sich
+                            mit ihren Ausstellungen in Nordbayern einen Namen
+                            gemacht. 2019 zeigte sie ihre Bilder erstmals in
+                            Vorpommern und begeisterte die Besucher mit der
+                            gestalterischen Harmonie ihrer Kunst. Hier ein{" "}
+                            <a
+                                href={props.data.zeitung.src}
+                                target="_blank"
+                                rel="noopener"
+                            >
+                                Rückblick
+                            </a>
+                            .
                         </p>
                         <p>
-                            Für Interessierte hier der{" "}
-                            <a href={props.data.zeitung.src} target="_blank" rel="noopener">
-                                Zeitungsartikel
-                            </a>
-                            , der zu Kunst:Offen erschienen ist.
+                            Öffnungszeiten: 30.5. bis 1.6. 2020, 10-18 Uhr.
+                            Besichtigungen sind auch nach Pfingsten möglich. Wir
+                            bitten dafür um{" "}
+                            <a href="/impressum">Kontaktaufnahme</a> per Mail
+                            oder telefonisch.
+                        </p>
+                        <p>
+                            <img
+                                src={
+                                    props.data.kunstscheune.childImageSharp
+                                        .image.src
+                                }
+                                width="100%"
+                                alt="Kunstausstellung in der Kunstscheune"
+                            ></img>
                         </p>
                     </article>
                     <article>
@@ -110,6 +136,18 @@ const IndexPage = props => (
 
 export const query = graphql`
     query LogoAndZeitung {
+        kunstscheune: file(
+            sourceInstanceName: { eq: "images" }
+            relativePath: { eq: "kunstscheune.jpg" }
+        ) {
+            childImageSharp {
+                image: resize(width: 600, quality: 77, toFormat: JPG) {
+                    src
+                    width
+                    height
+                }
+            }
+        }
         dtvLogo: file(
             sourceInstanceName: { eq: "images" }
             relativePath: { eq: "dtv_4sterne.jpg" }

@@ -19,11 +19,13 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
         const fileContent = fs.readFileSync(fileNode.absolutePath);
         const iptcData = iptc(fileContent);
 
-        console.log(
-            "**** iptc data of " + fileNode.absolutePath + ":\n   ",
-            iptcData
-        );
         const title = get(iptcData, ["caption"], "");
+        if (!title) {
+            console.log(
+                "*** iptc data of " + fileNode.absolutePath + ":\n     ",
+                iptcData
+            );
+        }
 
         createNodeField({
             node,
