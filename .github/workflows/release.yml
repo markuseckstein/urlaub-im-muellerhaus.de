@@ -7,15 +7,10 @@ jobs:
         steps:
             - uses: actions/checkout@master
             - name: GitHub Action for npm
-              uses: actions/npm@master
+              uses: actions/setup-node@v1
               with:
-                  entrypoint: npm
-                  args: ci
-            - name: "Build "
-              uses: actions/npm@master
-              with:
-                  entrypoint: npm
-                  args: run build
+                  node-version: "12.x"
+            - run: npm run build
             - name: markuseckstein/github_actions/ftp-deploy@master
               uses: markuseckstein/github_actions/ftp-deploy@master
               env:
