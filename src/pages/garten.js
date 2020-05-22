@@ -1,18 +1,18 @@
 import React from "react";
-import Helmet from "react-helmet";
+import { Helmet } from "react-helmet";
 import Gallery from "react-grid-gallery";
 import { graphql } from "gatsby";
-import Layout from "../components/layout"
+import Layout from "../components/layout";
 
 class GartenPage extends React.Component {
     render() {
-        const images = this.props.data.gartenImages.edges.map(x => {
+        const images = this.props.data.gartenImages.edges.map((x) => {
             return {
                 src: x.node.orig.src,
                 thumbnail: x.node.thumb.src,
                 thumbnailWidth: x.node.thumb.width,
                 thumbnailHeight: x.node.thumb.height,
-                caption: x.node.fields.exif.title
+                caption: x.node.fields.exif.title,
             };
         });
 
@@ -25,18 +25,21 @@ class GartenPage extends React.Component {
                         <div className="main wrapper clearfix">
                             <article>
                                 <header>
-                                    <h1 className="heading">Garten und Sauna</h1>
+                                    <h1 className="heading">
+                                        Garten und Sauna
+                                    </h1>
                                 </header>
                                 <section>
                                     <p>
-                                        Egal ob Sie sich auf einer Liege entspannen
-                                        oder mit Ihren Kindern toben möchten, der
-                                        Garten ist groß genug für alle Bedürfnisse.
-                                        Nach Belieben stehen Ihnen Gartenmöbel,
-                                        Spielgeräte, Sandkasten, Schaukel,
-                                        Sonnenschirme, Grill und eine Feuerstelle
-                                        zur Verfügung.
-                                </p>
+                                        Egal ob Sie sich auf einer Liege
+                                        entspannen oder mit Ihren Kindern toben
+                                        möchten, der Garten ist groß genug für
+                                        alle Bedürfnisse. Nach Belieben stehen
+                                        Ihnen Gartenmöbel, Spielgeräte,
+                                        Sandkasten, Schaukel, Sonnenschirme,
+                                        Grill und eine Feuerstelle zur
+                                        Verfügung.
+                                    </p>
                                 </section>
                             </article>
                             <aside>
@@ -44,16 +47,19 @@ class GartenPage extends React.Component {
                                 <p>
                                     Lassen Sie Ihre Seele in der Außensauna des
                                     Müllerhauses baumeln. Genießen Sie dabei ein
-                                    Glas Tee im Ruhebereich mit Blick über Feld und
-                                    Wiese in Richtung Haff.
-                            </p>
+                                    Glas Tee im Ruhebereich mit Blick über Feld
+                                    und Wiese in Richtung Haff.
+                                </p>
                             </aside>
                         </div>
                     </div>
 
                     <div className="footer-container">
                         <footer>
-                            <Gallery images={images} enableImageSelection={false} />
+                            <Gallery
+                                images={images}
+                                enableImageSelection={false}
+                            />
                             <div style={{ clear: "both" }}>&nbsp;</div>
                         </footer>
                     </div>
@@ -64,33 +70,36 @@ class GartenPage extends React.Component {
 }
 
 export const pageQuery = graphql`
-query GartenQuery {
-    gartenImages: allImageSharp(sort: {fields: [fields___file___path]}, 
-      filter: {fields: {file: {path: {regex: "//gallery/garten//"}}}}) {
-      edges {
-        node {
-          id
-          orig: resize(width: 1300, quality: 80) {
-            src
-          }
-          thumb: resize(width: 280) {
-            src
-            width
-            height
-          }
-          fields {
-            exif {
-              title
+    query GartenQuery {
+        gartenImages: allImageSharp(
+            sort: { fields: [fields___file___path] }
+            filter: {
+                fields: { file: { path: { regex: "//gallery/garten//" } } }
             }
-            file {
-              path
+        ) {
+            edges {
+                node {
+                    id
+                    orig: resize(width: 1300, quality: 80) {
+                        src
+                    }
+                    thumb: resize(width: 280) {
+                        src
+                        width
+                        height
+                    }
+                    fields {
+                        exif {
+                            title
+                        }
+                        file {
+                            path
+                        }
+                    }
+                }
             }
-          }
         }
-      }
     }
-  }
-  
 `;
 
 export default GartenPage;

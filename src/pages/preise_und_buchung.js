@@ -1,6 +1,6 @@
 import React from "react";
-import Helmet from "react-helmet";
-import Layout from "../components/layout"
+import { Helmet } from "react-helmet";
+import Layout from "../components/layout";
 
 class PreiseBuchungPage extends React.Component {
     render() {
@@ -13,47 +13,52 @@ class PreiseBuchungPage extends React.Component {
                         <div className="main wrapper clearfix">
                             <article>
                                 <header>
-                                    <h1 className="heading">Preise und Buchung</h1>
+                                    <h1 className="heading">
+                                        Preise und Buchung
+                                    </h1>
                                     <p>
-                                        Die angegebenen Preise verstehen sich pro
-                                        Wohnung und Nacht, inkl. Sauna, Bad- und
-                                        Bettwäsche, zzgl. 60 Euro Endreinigung.
-                                        Babybett und Kinderhochstuhl stehen Ihnen
-                                        auf Anfrage kostenfrei zur Verfügung. Die
+                                        Die angegebenen Preise verstehen sich
+                                        pro Wohnung und Nacht, inkl. Sauna, Bad-
+                                        und Bettwäsche, zzgl. 60 Euro
+                                        Endreinigung. Babybett und
+                                        Kinderhochstuhl stehen Ihnen auf Anfrage
+                                        kostenfrei zur Verfügung. Die
                                         Mindestmietdauer beträgt zwei Nächte.
-                                </p>
+                                    </p>
                                 </header>
                                 <section>
                                     <h2>
                                         Wohnung „Ueckermünde“ (2-5 Personen,
                                         Überbelegung möglich)
-                                </h2>
+                                    </h2>
                                     1. Oktober bis 31. März: 90 Euro/Nacht
-                                <br /> 1. April bis 30. September: 105
+                                    <br /> 1. April bis 30. September: 105
                                     Euro/Nacht
-                                <br /> Weihnachts- und Silvesterwoche 105
+                                    <br /> Weihnachts- und Silvesterwoche 105
                                     Euro/Nacht
-                                <br />
+                                    <br />
                                     <h2>Wohnung „Altwarp“ (2-4 Personen)</h2>
                                     1. Oktober bis 31. März: 80 Euro/Nacht
-                                <br /> 1. April bis 30. September: 95 Euro/Nacht
-                                <br /> Weihnachts- und Silvesterwoche 95
+                                    <br /> 1. April bis 30. September: 95
                                     Euro/Nacht
-                                <br />
+                                    <br /> Weihnachts- und Silvesterwoche 95
+                                    Euro/Nacht
+                                    <br />
                                 </section>
                             </article>
                             <aside>
                                 <h2>Kontakt und Buchungsanfragen</h2>
                                 <p>
-                                    Sie haben Fragen zu den Ferienwohnungen, rund um
-                                    Ihre Urlaubsplanung oder eine Buchungsanfrage?
-                                    Wir freuen uns über Ihre Kontaktaufnahme.
-                            </p>
+                                    Sie haben Fragen zu den Ferienwohnungen,
+                                    rund um Ihre Urlaubsplanung oder eine
+                                    Buchungsanfrage? Wir freuen uns über Ihre
+                                    Kontaktaufnahme.
+                                </p>
                                 <p>
                                     Familie Lochner
-                                <br /> Email: info@urlaub-im-muellerhaus.de
-                                <br /> Telefon: 039773-269972
-                                <br />
+                                    <br /> Email: info@urlaub-im-muellerhaus.de
+                                    <br /> Telefon: 039773-269972
+                                    <br />
                                 </p>
                             </aside>
                         </div>

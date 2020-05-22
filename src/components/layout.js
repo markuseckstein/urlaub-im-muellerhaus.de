@@ -1,5 +1,5 @@
 import React from "react";
-import Helmet from "react-helmet";
+import { Helmet } from "react-helmet";
 import { graphql, StaticQuery } from "gatsby";
 
 import Menu from "../components/menu";
@@ -20,7 +20,7 @@ export default ({ children }) => (
                 }
             }
         `}
-        render={data => (
+        render={(data) => (
             <>
                 <div>
                     <Helmet title={data.site.siteMetadata.title}>

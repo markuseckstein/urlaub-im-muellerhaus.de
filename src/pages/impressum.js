@@ -1,17 +1,17 @@
 import React from "react";
-import Helmet from "react-helmet";
+import { Helmet } from "react-helmet";
 import Link from "gatsby-link";
 import { graphql } from "gatsby";
-import Layout from "../components/layout"
+import Layout from "../components/layout";
 
 const dtvStyle = {
     backgroundColor: "red",
-    padding: 0
+    padding: 0,
 };
 
 const smallArticleStyle = {};
 
-const ImpressumPage = props => (
+const ImpressumPage = (props) => (
     <Layout>
         <div>
             <Helmet title="Müllerhaus - Impressum" />
@@ -23,14 +23,14 @@ const ImpressumPage = props => (
                             <h2>Impressum und Kontakt</h2>
                             <p>
                                 Ute und Johannes Lochner
-                            <br /> Dorfstraße 24
-                            <br /> 17375 Vogelsang-Warsin
-                            <br /> Tel:{" "}
+                                <br /> Dorfstraße 24
+                                <br /> 17375 Vogelsang-Warsin
+                                <br /> Tel:{" "}
                                 <a href="tel:+4939773269972">039773-269972</a>
                                 <br />
                                 <a href="mailto:info@urlaub-im-muellerhaus.de">
                                     info@urlaub-im-muellerhaus.de
-                            </a>
+                                </a>
                                 <br />
                             </p>
                             <p>
