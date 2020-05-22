@@ -1,4 +1,7 @@
-on: push
+on:
+    push:
+        branches:
+            - master
 name: Build
 jobs:
     installNode_modules:
@@ -12,7 +15,11 @@ jobs:
                   node-version: "12.x"
             - run: npm ci
             - run: npm run build
-            - name: Build
-              uses: actions/setup-node@v1
-              with:
-                  node-version: "12.x"
+            - name: markuseckstein/github_actions/ftp-deploy@master
+              uses: markuseckstein/github_actions/ftp-deploy@master
+              env:
+                  FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+                  FTP_SERVER: ${{ secrets.FTP_SERVER }}
+                  FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+                  LOCAL_DIR: ${{ secrets.LOCAL_DIR }}
+                  REMOTE_DIR: ${{ secrets.REMOTE_DIR }}
