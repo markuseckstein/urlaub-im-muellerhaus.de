@@ -7,6 +7,7 @@ import Menu from "../components/menu";
 import "../css/header-images.css";
 import "../css/main.css";
 import "../css/normalize.min.css";
+import openGraphImage from "../img/logo-muellerhaus.png";
 
 export default ({ children }) => (
     <StaticQuery
@@ -103,6 +104,21 @@ export default ({ children }) => (
                         />
                         <link rel="manifest" href="/favicons/manifest.json" />
                         <meta name="theme-color" content="#ffffff" />
+
+                        <meta
+                            property="og:url"
+                            content="https://www.urlaub-im-muellerhaus.de"
+                        />
+                        <meta property="og:type" content="website" />
+                        <meta
+                            property="og:title"
+                            content="Willkommen im Müllerhaus in Vogelsang"
+                        />
+                        <meta
+                            property="og:description"
+                            content="Verbringen Sie erholsame Tage im liebevoll eingerichteten Müllerhaus"
+                        />
+                        <meta property="og:image" content={openGraphImage} />
                     </Helmet>
                     <Menu />
                     {children}
