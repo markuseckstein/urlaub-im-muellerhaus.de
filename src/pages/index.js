@@ -5,17 +5,17 @@ import Layout from "../components/layout";
 const greetingStyle = {
     fontFamily: "Reenie Beanie, cursive",
     fontSize: "2.6em",
-    transform: "rotate(2deg)"
+    transform: "rotate(2deg)",
 };
 
 const eventTeaserStyle = {
     backgroundColor: "#f1f1f1",
     padding: "0 0.4rem",
     //padding: "3px 5% 10px",
-    borderRadius: "4px"
+    borderRadius: "4px",
 };
 
-const IndexPage = props => (
+const IndexPage = (props) => (
     <Layout>
         <div>
             <div className="header-image header-image--index" />
