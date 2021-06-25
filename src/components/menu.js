@@ -18,7 +18,7 @@ class Menu extends React.Component {
         return (
             <div className="header-container">
                 <header className="wrapper clearfix">
-                    <div
+                    <div role="button"
                         id="navMenu"
                         onClick={this.toggle}
                         className={this.state.isOpen ? "animate" : ""}

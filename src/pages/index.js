@@ -62,7 +62,6 @@ const IndexPage = (props) => (
 
                     <article style={eventTeaserStyle}>
                         <h3>
-                            Pfingsten 2020 -{" "}
                             <a
                                 href="https://www.vorpommern.de/fileadmin/documents/kunst_offen/KunstOffen_Faltblatt_2020_web.pdf"
                                 target="_blank"
@@ -70,12 +69,21 @@ const IndexPage = (props) => (
                             >
                                 Kunst:Offen
                             </a>{" "}
-                            im Müllerhausgarten
+                            im Müllerhausgarten verschoben auf Mitte/Ende August
+                            2021
                         </h3>
                         <p>
-                            Über Pfingsten öffnet unsere Kunstscheune mit neuen
-                            Werken ihre Tore: „Ruhe und Unruhe“ titelt die
-                            Ausstellung von{" "}
+                            Über Pfingsten durften wir unsere Kunstscheune
+                            pandemiebedingt nicht öffnen. Nun hat der
+                            Veranstalter das mittlerweile legendäre MV-weite
+                            Event Kunst:Offen auf den Spätsommer verlegt und
+                            ermöglicht dafür Kunstinteressierten die Möglichkeit
+                            an vier Wochenenden die Galerien der Region zu
+                            besichtigen.
+                        </p>
+                        <p>
+                            An zwei davon zeigen auch wir wieder die Ausstellung
+                            „Ruhe und Unruhe“ von{" "}
                             <a
                                 href="https://www.brigitte-danner.de/"
                                 target="_blank"
@@ -83,13 +91,15 @@ const IndexPage = (props) => (
                             >
                                 Brigitte Danner
                             </a>{" "}
-                            in diesem Jahr. Ihre abstrakten Werke greifen Themen
-                            der Zeit, Inspiration durch das Haff und
-                            Zwischenmenschlichkeit auf. Brigitte Danner hat sich
-                            mit ihren Ausstellungen in Nordbayern einen Namen
-                            gemacht. 2019 zeigte sie ihre Bilder erstmals in
-                            Vorpommern und begeisterte die Besucher mit der
-                            gestalterischen Harmonie ihrer Kunst. Hier ein{" "}
+                            in unserer kleinen Scheunengalerie. Danner greift in
+                            ihren abstrakten Werken Themen der Zeit auf
+                            – inspiriert durch das Haff, an dem sie viel Zeit
+                            verbringt und die fränkische Hügellandschaft in der
+                            sie zu Hause ist. Danner hat sich mit ihren
+                            Ausstellungen in Nordbayern einen Namen gemacht.
+                            2019 zeigte sie ihre Bilder erstmals in Vorpommern
+                            und begeisterte die Besucher mit der gestalterischen
+                            Harmonie ihrer Kunst. Hier ein{" "}
                             <a
                                 href={props.data.zeitung.src}
                                 target="_blank"
@@ -98,13 +108,24 @@ const IndexPage = (props) => (
                                 Rückblick
                             </a>
                             .
-                        </p>
-                        <p>
-                            Öffnungszeiten: 30.5. bis 1.6. 2020, 10-18 Uhr.
-                            Besichtigungen sind auch nach Pfingsten möglich. Wir
-                            bitten dafür um{" "}
-                            <a href="/impressum">Kontaktaufnahme</a> per Mail
-                            oder telefonisch.
+                            <p>
+                                Öffnungszeiten: 20./21.8. und 28./28.8. von
+                                10-18 Uhr. Besichtigungen sind auch an anderen
+                                Tagen möglich. Wir bitten dafür um
+                                Kontaktaufnahme per Mail oder telefonisch.
+                            </p>
+                            <p>
+                                Weitere Informationen zu Kunst:Offen in
+                                Vorpommern finden Sie{" "}
+                                <a
+                                    href="https://www.vorpommern.de/kunstoffen-in-vorpommern/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    hier
+                                </a>
+                                .
+                            </p>
                         </p>
                         <p>
                             <img
