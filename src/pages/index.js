@@ -109,7 +109,7 @@ const IndexPage = (props) => (
                             </a>
                             .
                             <p>
-                                Öffnungszeiten: 20./21.8. und 28./28.8. von
+                                Öffnungszeiten: 20./21.8. und 28./29.8. von
                                 10-18 Uhr. Besichtigungen sind auch an anderen
                                 Tagen möglich. Wir bitten dafür um
                                 Kontaktaufnahme per Mail oder telefonisch.
