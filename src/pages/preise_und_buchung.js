@@ -31,17 +31,17 @@ class PreiseBuchungPage extends React.Component {
                                         Wohnung „Ueckermünde“ (2-5 Personen,
                                         Überbelegung möglich)
                                     </h2>
-                                    1. Oktober bis 31. März: 90 Euro/Nacht
-                                    <br /> 1. April bis 30. September: 105
+                                    1. Oktober bis 31. März: 100 Euro/Nacht
+                                    <br /> 1. April bis 30. September: 115
                                     Euro/Nacht
-                                    <br /> Weihnachts- und Silvesterwoche 105
+                                    <br /> Weihnachts- und Silvesterwoche 115
                                     Euro/Nacht
                                     <br />
                                     <h2>Wohnung „Altwarp“ (2-4 Personen)</h2>
-                                    1. Oktober bis 31. März: 80 Euro/Nacht
-                                    <br /> 1. April bis 30. September: 95
+                                    1. Oktober bis 31. März: 95 Euro/Nacht
+                                    <br /> 1. April bis 30. September: 105
                                     Euro/Nacht
-                                    <br /> Weihnachts- und Silvesterwoche 95
+                                    <br /> Weihnachts- und Silvesterwoche 105
                                     Euro/Nacht
                                     <br />
                                 </section>
