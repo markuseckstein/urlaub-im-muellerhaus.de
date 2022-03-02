@@ -33,7 +33,7 @@
     "devDependencies": {
         "lodash": "^4.17.15",
         "node-iptc": "^1.0.5",
-        "prettier": "^2.0.5"
+        "prettier": "^2.5.1"
     },
     "repository": {
         "type": "git",

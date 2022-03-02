@@ -62,57 +62,50 @@ const IndexPage = (props) => (
 
                     <article style={eventTeaserStyle}>
                         <h3>
-                            <a
-                                href="https://www.vorpommern.de/fileadmin/documents/kunst_offen/KunstOffen_Faltblatt_2020_web.pdf"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                Kunst:Offen
-                            </a>{" "}
-                            im Müllerhausgarten verschoben auf Mitte/Ende August
-                            2021
+                            Kunst:Offen 2022 an Pfingsten im Müllerhausgarten
                         </h3>
                         <p>
-                            Über Pfingsten durften wir unsere Kunstscheune
-                            pandemiebedingt nicht öffnen. Nun hat der
-                            Veranstalter das mittlerweile legendäre MV-weite
-                            Event Kunst:Offen auf den Spätsommer verlegt und
-                            ermöglicht dafür Kunstinteressierten die Möglichkeit
-                            an vier Wochenenden die Galerien der Region zu
-                            besichtigen.
-                        </p>
-                        <p>
-                            An zwei davon zeigen auch wir wieder die Ausstellung
-                            „Ruhe und Unruhe“ von{" "}
+                            Wenn es in diesem Jahr an Pfingsten in
+                            Mecklenburg-Vorpommern wieder heißt: „Kunst:offen“,
+                            öffnen wir im Müllerhaus zum vierten Mal die Pforten
+                            unserer Galerie. Die Künstlerin{" "}
                             <a
                                 href="https://www.brigitte-danner.de/"
                                 target="_blank"
-                                rel="noopener"
+                                rel="noreferrer"
                             >
                                 Brigitte Danner
                             </a>{" "}
-                            in unserer kleinen Scheunengalerie. Danner greift in
-                            ihren abstrakten Werken Themen der Zeit auf
-                            – inspiriert durch das Haff, an dem sie viel Zeit
-                            verbringt und die fränkische Hügellandschaft in der
-                            sie zu Hause ist. Danner hat sich mit ihren
-                            Ausstellungen in Nordbayern einen Namen gemacht.
-                            2019 zeigte sie ihre Bilder erstmals in Vorpommern
-                            und begeisterte die Besucher mit der gestalterischen
-                            Harmonie ihrer Kunst. Hier ein{" "}
+                            arbeitet schon an neuen Werken, bei denen Sie ihrer
+                            Art, verschiedenste Materialien und Techniken
+                            zusammen zu bringen eindrucksvoll treu bleibt. Bald
+                            schon werden wir eine kleine Vorschau geben.
+                            Interessierte laden wir herzlich zu einem Besuch an
+                            den Tagen vom 4. Bis 6. Juni 2022 zu uns in die
+                            Kunstscheune ein.
+                        </p>
+                        <p>
+                            Brigitte Danner greift in ihren abstrakten Werken
+                            Themen der Zeit auf – inspiriert durch das Haff, an
+                            dem sie viel Zeit verbringt und die fränkische
+                            Hügellandschaft in der sie zu Hause ist. Die
+                            Künstlerin hat sich mit ihren Ausstellungen in
+                            Nordbayern einen Namen gemacht. 2019 zeigte sie ihre
+                            Bilder erstmals in Vorpommern und begeisterte die
+                            Besucher mit der gestalterischen Harmonie ihrer
+                            Kunst. Hier ein{" "}
                             <a
                                 href={props.data.zeitung.src}
                                 target="_blank"
-                                rel="noopener"
+                                rel="noreferrer"
                             >
                                 Rückblick
                             </a>
                             .
                             <p>
-                                Öffnungszeiten: 20./21.8. und 28./29.8. von
-                                10-18 Uhr. Besichtigungen sind auch an anderen
-                                Tagen möglich. Wir bitten dafür um
-                                Kontaktaufnahme per Mail oder telefonisch.
+                                Besichtigungen sind auch an anderen Tagen
+                                möglich. Wir bitten dafür um Kontaktaufnahme per
+                                Mail oder telefonisch.
                             </p>
                             <p>
                                 Weitere Informationen zu Kunst:Offen in
@@ -183,7 +176,7 @@ export const query = graphql`
         }
         zeitung: file(
             sourceInstanceName: { eq: "documents" }
-            relativePath: { eq: "kunstoffen_nordkurier.pdf" }
+            relativePath: { eq: "kunstoffen_nordkurier_2021.pdf" }
         ) {
             src: publicURL
         }
