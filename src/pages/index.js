@@ -1,5 +1,5 @@
 import React from "react";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 import Layout from "../components/layout";
 
 const greetingStyle = {
@@ -62,63 +62,26 @@ const IndexPage = (props) => (
 
                     <article style={eventTeaserStyle}>
                         <h3>
-                            Kunst:Offen 2022 an Pfingsten im Müllerhausgarten
+                            Kunstscheune im Müllerhausgarten
                         </h3>
                         <p>
-                            Wenn es in diesem Jahr an Pfingsten in
-                            Mecklenburg-Vorpommern wieder heißt: „Kunst:offen“,
-                            öffnen wir im Müllerhaus zum vierten Mal die Pforten
-                            unserer Galerie. Die Künstlerin{" "}
-                            <a
+                            Etwa 200 Besucher haben am Pfingstwochenende im Rahmen von Kunst:Offen in unserer  Kunstscheune die neue Ausstellung von <a
                                 href="https://www.brigitte-danner.de/"
                                 target="_blank"
                                 rel="noreferrer"
                             >
                                 Brigitte Danner
-                            </a>{" "}
-                            arbeitet schon an neuen Werken, bei denen Sie ihrer
-                            Art, verschiedenste Materialien und Techniken
-                            zusammen zu bringen eindrucksvoll treu bleibt. Bald
-                            schon werden wir eine kleine Vorschau geben.
-                            Interessierte laden wir herzlich zu einem Besuch an
-                            den Tagen vom 4. Bis 6. Juni 2022 zu uns in die
-                            Kunstscheune ein.
-                        </p>
+                            </a> besichtigt. Die Künstlerin hat weitere Techniken für sich entdeckt und dadurch auch andere Motive, Formate und Stimmungen als in den Vorjahren mitgebracht.</p><p>
+                            Treu blieb sie sich in der abstrakten Malerei harmonischer Kompositionen, wenngleich Interpretationen von Naturmotiven aus dem Haff hinzugekommen sind.</p>
                         <p>
-                            Brigitte Danner greift in ihren abstrakten Werken
-                            Themen der Zeit auf – inspiriert durch das Haff, an
-                            dem sie viel Zeit verbringt und die fränkische
-                            Hügellandschaft in der sie zu Hause ist. Die
-                            Künstlerin hat sich mit ihren Ausstellungen in
-                            Nordbayern einen Namen gemacht. 2019 zeigte sie ihre
-                            Bilder erstmals in Vorpommern und begeisterte die
-                            Besucher mit der gestalterischen Harmonie ihrer
-                            Kunst. Hier ein{" "}
-                            <a
+                            Wer die Ausstellung verpasst hat, findet <a
                                 href={props.data.zeitung.src}
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                Rückblick
-                            </a>
-                            .
-                            <p>
-                                Besichtigungen sind auch an anderen Tagen
-                                möglich. Wir bitten dafür um Kontaktaufnahme per
-                                Mail oder telefonisch.
-                            </p>
-                            <p>
-                                Weitere Informationen zu Kunst:Offen in
-                                Vorpommern finden Sie{" "}
-                                <a
-                                    href="https://www.vorpommern.de/kunstoffen-in-vorpommern/"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                >
-                                    hier
-                                </a>
-                                .
-                            </p>
+                                hier
+                            </a> einen Rückblick.
+                            Bis September können Sie auch vor Ort noch einen Einblick in die stimmungsvolle Malerei der Künstlerin bekommen - bitte vereinbaren Sie hierfür einen Termin (<Link to="/impressum">Kontakt</Link>). Wir freuen uns auf Ihren Besuch!
                         </p>
                         <p>
                             <img
@@ -176,7 +139,7 @@ export const query = graphql`
         }
         zeitung: file(
             sourceInstanceName: { eq: "documents" }
-            relativePath: { eq: "kunstoffen_nordkurier_2021.pdf" }
+            relativePath: { eq: "kunstoffen_2022_pfingsten.pdf" }
         ) {
             src: publicURL
         }
