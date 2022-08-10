@@ -12,7 +12,7 @@ jobs:
             - name: Install node_modules
               uses: actions/setup-node@v1
               with:
-                  node-version: "12.x"
+                  node-version: "16.x"
             - run: npm ci
             - run: npm run build
             - name: markuseckstein/github_actions/ftp-deploy@master

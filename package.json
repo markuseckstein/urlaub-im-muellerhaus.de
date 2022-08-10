@@ -31,9 +31,9 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "devDependencies": {
-        "lodash": "^4.17.15",
+        "lodash": "^4.17.21",
         "node-iptc": "^1.0.5",
-        "prettier": "^2.5.1"
+        "prettier": "^2.7.1"
     },
     "repository": {
         "type": "git",

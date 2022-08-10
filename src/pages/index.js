@@ -61,27 +61,44 @@ const IndexPage = (props) => (
                     </aside>
 
                     <article style={eventTeaserStyle}>
-                        <h3>
-                            Kunstscheune im Müllerhausgarten
-                        </h3>
+                        <h3>Kunstscheune im Müllerhausgarten</h3>
                         <p>
-                            Etwa 200 Besucher haben am Pfingstwochenende im Rahmen von Kunst:Offen in unserer  Kunstscheune die neue Ausstellung von <a
+                            Etwa 200 Besucher haben am Pfingstwochenende im
+                            Rahmen von Kunst:Offen in unserer Kunstscheune die
+                            neue Ausstellung von{" "}
+                            <a
                                 href="https://www.brigitte-danner.de/"
                                 target="_blank"
                                 rel="noreferrer"
                             >
                                 Brigitte Danner
-                            </a> besichtigt. Die Künstlerin hat weitere Techniken für sich entdeckt und dadurch auch andere Motive, Formate und Stimmungen als in den Vorjahren mitgebracht.</p><p>
-                            Treu blieb sie sich in der abstrakten Malerei harmonischer Kompositionen, wenngleich Interpretationen von Naturmotiven aus dem Haff hinzugekommen sind.</p>
+                            </a>{" "}
+                            besichtigt. Die Künstlerin hat weitere Techniken für
+                            sich entdeckt und dadurch auch andere Motive,
+                            Formate und Stimmungen als in den Vorjahren
+                            mitgebracht.
+                        </p>
                         <p>
-                            Wer die Ausstellung verpasst hat, findet <a
+                            Treu blieb sie sich in der abstrakten Malerei
+                            harmonischer Kompositionen, wenngleich
+                            Interpretationen von Naturmotiven aus dem Haff
+                            hinzugekommen sind.
+                        </p>
+                        <p>
+                            Wer die Ausstellung verpasst hat, findet{" "}
+                            <a
                                 href={props.data.zeitung.src}
                                 target="_blank"
                                 rel="noreferrer"
                             >
                                 hier
-                            </a> einen Rückblick.
-                            Bis September können Sie auch vor Ort noch einen Einblick in die stimmungsvolle Malerei der Künstlerin bekommen - bitte vereinbaren Sie hierfür einen Termin (<Link to="/impressum">Kontakt</Link>). Wir freuen uns auf Ihren Besuch!
+                            </a>{" "}
+                            einen Rückblick. Bis September können Sie auch vor
+                            Ort noch einen Einblick in die stimmungsvolle
+                            Malerei der Künstlerin bekommen - bitte vereinbaren
+                            Sie hierfür einen Termin (
+                            <Link to="/impressum">Kontakt</Link>). Wir freuen
+                            uns auf Ihren Besuch!
                         </p>
                         <p>
                             <img
