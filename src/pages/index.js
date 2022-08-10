@@ -11,7 +11,6 @@ const greetingStyle = {
 const eventTeaserStyle = {
     backgroundColor: "#f1f1f1",
     padding: "0 0.4rem",
-    //padding: "3px 5% 10px",
     borderRadius: "4px",
 };
 
