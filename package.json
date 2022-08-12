@@ -16,7 +16,7 @@
         "react-dom": "16.13.1",
         "react-grid-gallery": "0.5.5",
         "react-helmet": "6.0.0",
-        "rxjs": "6.5.5"
+        "rxjs": "6.6.7"
     },
     "keywords": [
         "gatsby",
