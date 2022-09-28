@@ -20,6 +20,6 @@ jobs:
               with:
                   password: ${{ secrets.FTP_PASSWORD }}
                   host: ${{ secrets.FTP_SERVER }}
-                  username: ${{ secrets.FTP_USERNAME }}
+                  user: ${{ secrets.FTP_USERNAME }}
                   localDir: ${{ secrets.LOCAL_DIR }}
                   remoteDir: ${{ secrets.REMOTE_DIR }}
