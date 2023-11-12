@@ -19,3 +19,8 @@ gatsby develop
 ## Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+
+
+## Bildunterschriften einfügen
+
+`exiftool -CodedCharacterSet=UTF8 -iptc:Caption-Abstract="bla bla" dateiname.jpg`

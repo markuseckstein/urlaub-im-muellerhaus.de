@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-        title: "Urlaub im Müllerhaus"
+        title: "Urlaub im Müllerhaus",
     },
     plugins: [
         "gatsby-plugin-react-helmet",
@@ -10,15 +10,15 @@ module.exports = {
             resolve: `gatsby-source-filesystem`,
             options: {
                 name: `images`,
-                path: `${__dirname}/src/img/`
-            }
+                path: `${__dirname}/src/img/`,
+            },
         },
         {
             resolve: `gatsby-source-filesystem`,
             options: {
                 name: `documents`,
-                path: `${__dirname}/src/documents/`
-            }
+                path: `${__dirname}/src/documents/`,
+            },
         },
         {
             resolve: `gatsby-plugin-google-analytics`,
@@ -29,8 +29,11 @@ module.exports = {
                 // Setting this parameter is optional
                 anonymize: true,
                 // Setting this parameter is also optional
-                respectDNT: true
-            }
-        }
-    ]
+                respectDNT: true,
+            },
+        },
+    ],
+    flags: {
+        THE_FLAG: false,
+    },
 };
