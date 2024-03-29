@@ -61,18 +61,13 @@ const IndexPage = (props) => (
 
                     <article style={eventTeaserStyle}>
                         <h3>
-                            Pfingsten 2023: Wir laden ein, zu „Kunst:Offen“ im
-                            Müllerhausgarten!
+                            Pfingsten 2024: Der Müllerhaus-Garten im Zeichen der Kunst
                         </h3>
                         <p>
-                            Zum fünften Mal in Folge nehmen wir an dem
-                            wunderbaren Format „Kunst Offen“ teil, bei dem
-                            Kunstinteressierte einen einmaligen Einblick in die
-                            Künstlerszene, in offene Ateliers und
-                            Kunstwerkstätten in Stadt und Land erhalten. Vom 27.
-                            Bis 29. Mai laden wir alle Interessierten zu einem
-                            Besuch in unsere Kunstscheune im Müllerhausgarten
-                            ein. Hier stellt die Künstlerin{" "}
+                            Im Rahmen des Formats „Kunst Offen“ laden wir vom 18. Bis 20. Mai Kunstinteressierte in unsere Galerie im Müllerhaus-Garten ein.
+                        </p>
+                        <p>
+                            Hier stellt die Malerin{" "}
                             <a
                                 href="https://www.brigitte-danner.de/"
                                 target="_blank"
@@ -80,34 +75,13 @@ const IndexPage = (props) => (
                             >
                                 Brigitte Danner
                             </a>{" "}
-                            ihre neuen Werke aus, bei denen Sie ihrer Art,
-                            verschiedenste Materialien und Techniken zusammen zu
-                            bringen treu bleibt und gleichzeitig neue Impulse
-                            setzt. Techniken treffen dabei auf Emotionen: Neben
-                            alt bewährten und von unseren regelmäßigen Besuchern
-                            geschätzten Darstellungen, überrascht sie mit neuen
-                            Formaten und Perspektiven. Wer sich einen Eindruck
-                            vom letzten Jahr verschaffen möchte, findet{" "}
-                            <a
-                                href={props.data.zeitung.src}
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                hier
-                            </a>{" "}
-                            einen Rückblick.
+                            ihre Werke aus, bei denen Sie verschiedenste Materialien und Techniken zu abstrakten Motiven vereint. Die Bilder geben in einer einzigartigen Ästhetik Natur und Emotionen wieder.
                         </p>
                         <p>
-                            Brigitte Danner greift in ihren abstrakten Werken
-                            Themen der Zeit auf – inspiriert durch das Haff, an
-                            dem sie viel Zeit verbringt und die fränkische
-                            Hügellandschaft in der sie zu Hause ist. Die
-                            Künstlerin hat sich mit ihren Ausstellungen in
-                            Nordbayern einen Namen gemacht. 2019 zeigte sie ihre
-                            Bilder erstmals in Vorpommern und begeistert die
-                            Besucher seither mit der gestalterischen Harmonie
-                            ihrer Kunst.
+                            Die Künstlerin hat sich in den vergangen 25 Jahren mit ihren Arbeiten in Nordbayern einen Namen gemacht. Inspiriert durch das Stettiner Haff und die Ostsee, zeigt seit 2019 ihre Bilder auch in Mecklenburg-Vorpommern. Viele Gäste sind so begeistert von der gestalterischen Harmonie ihrer Werke, dass sie der Kunstscheune im Müllerhausgarten jährlich zu Pfingsten einen Besuch abstatten, um die Bilder auf sich wirken zu lassen.
                         </p>
+
+
                         <p>
                             Besichtigungen sind auch an anderen Tagen möglich.
                             Wir bitten dafür um{" "}
