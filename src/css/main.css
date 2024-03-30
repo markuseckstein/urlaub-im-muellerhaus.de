@@ -43,6 +43,16 @@ video {
     background: rgba(110, 130, 147, 0.7);
 }
 
+aside {
+    a {
+        color: rgb(229, 253, 252);
+    }
+
+    li {
+        margin-bottom: 0.65rem;
+    }
+}
+
 /* ==============
     MOBILE: Menu
    ============== */
