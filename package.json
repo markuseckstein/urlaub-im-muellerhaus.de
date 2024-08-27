@@ -1,7 +1,7 @@
 {
     "name": "urlaub-im-muellerhaus",
     "description": "Website for www.urlaub-im-muellerhaus.de",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Markus Eckstein",
     "dependencies": {
         "gatsby": "2.32.13",
