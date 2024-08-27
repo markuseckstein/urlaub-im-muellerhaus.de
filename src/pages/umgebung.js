@@ -252,7 +252,7 @@ class UmgebungPage extends React.Component {
                                     <li>Shopping und See in Neubrandenburg</li>
                                     <li>Fischer- und Künstlerdorf Rieth am Neuwarper See</li>
                                     <li>Hanseatische Kultur und Architektur in Rostock</li>
-
+                                    <li>Weitere Schätze der <a href="https://www.kulturlandbuero.de/kulturlandschatzkarte/" target="_blank" rel="noreferrer">Kulturlandschatzkarte</a></li>
                                 </ul>
                             </aside>
                         </div>
