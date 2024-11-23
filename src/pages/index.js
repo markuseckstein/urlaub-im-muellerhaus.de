@@ -12,6 +12,7 @@ const eventTeaserStyle = {
     backgroundColor: "#f1f1f1",
     padding: "0 0.4rem",
     borderRadius: "4px",
+    marginBottom: "16px"
 };
 
 const IndexPage = (props) => (
@@ -58,6 +59,8 @@ const IndexPage = (props) => (
                             historisches Ambiente mit modernem Wohnkomfort.
                         </p>
                     </aside>
+
+                    
 
                     <article style={eventTeaserStyle}>
                         <h3>
@@ -112,7 +115,25 @@ const IndexPage = (props) => (
                             ></img>
                         </p>
                     </article>
-                    <article>
+                    
+                    <article style={eventTeaserStyle}>
+                        <h3>Würdigung für besondere Qualität</h3>
+                        <p><strong>Anlässlich des Qualitätstags, den der Tourismusverband MV am 18. November in Rövershagen veranstaltet hat, wurde unser Müllerhaus unter dem Titel „Ausgezeichnete Betriebe im Fokus“ geehrt.</strong></p>
+                        <p>Die Urkunde für die „höherwertige Gesamtausstattung und gehobenen Komfort“ unserer Ferienunterkunft mit 4-Sterne-Klassifizierung überreichte Wolfgang Waldmüller (MDL, stellvertretender Vorsitzender des Tourismusverbandes Mecklenburg-Vorpommern). In seiner Rede betonte er: „Qualität ist kein Ziel, das man erreicht oder abhakt, es ist ein ständiger Prozess, zwischen der Region, den Gästen und uns selbst“.</p>
+
+                        <p>Dem können wir nur zustimmen und wir freuen uns darauf, liebe Gäste, diesen Prozess in den kommenden Jahren weiterhin kreativ und aufmerksam voranzutreiben. Denn uns geht es darum, Euch einen unvergesslichen Erholungsort anzubieten.</p>
+                        <p>Wir freuen uns auf Euch!</p>
+                        <p>Eure Lochners</p>
+
+                        <p>
+                            <img
+                                src={
+                                    props.data.sterneSiegel.childImageSharp.image.src
+                                }
+                                width="100%"
+                                alt="DTV-4-Sterne-Siegel Wohnung Altwarp"
+                            ></img>
+                        </p>
                         <p>
                             <img
                                 src={
@@ -155,6 +176,18 @@ export const query = graphql`
                 }
             }
         }
+        sterneSiegel: file(
+            sourceInstanceName: { eq: "images" }
+            relativePath: { eq: "dtv_4sterne_siegel.png" }
+        ) {
+            childImageSharp {
+                image: resize(width: 600, quality: 77, toFormat: JPG) {
+                    src
+                    width
+                    height
+                }
+            }
+        }    
         zeitung: file(
             sourceInstanceName: { eq: "documents" }
             relativePath: { eq: "kunstoffen_2022_pfingsten.pdf" }
