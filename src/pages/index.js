@@ -16,9 +16,13 @@ const eventTeaserStyle = {
     marginBottom: "1.5rem",
 };
 
+const logoDtvStyle = {
+    padding: "0 1rem",
+};
+
 const asideStyle = {
-    marginBottom: "1.5rem"
-}
+    marginBottom: "1.5rem",
+};
 
 const IndexPage = (props) => (
     <Layout>
@@ -64,7 +68,6 @@ const IndexPage = (props) => (
                             historisches Ambiente mit modernem Wohnkomfort.
                         </p>
                     </aside>
-
                     <article style={eventTeaserStyle}>
                         <p>
                             <img
@@ -108,18 +111,7 @@ const IndexPage = (props) => (
                         </p>
                         <p>Wir freuen uns auf Euch!</p>
                         <p>Eure Lochners</p>
-
-                        <p>
-                            <img
-                                src={
-                                    props.data.dtvLogo.childImageSharp.image.src
-                                }
-                                width="100%"
-                                alt="DTV-4-Sterne-Logo"
-                            ></img>
-                        </p>
                     </article>
-
                     <article style={eventTeaserStyle}>
                         <h3>Der Müllerhaus-Garten im Zeichen der Kunst</h3>
 
@@ -165,7 +157,6 @@ const IndexPage = (props) => (
                             zeigen (Vernissage am 7. März 2025).
                         </p>
 
-
                         <p>
                             <img
                                 src={
@@ -177,6 +168,17 @@ const IndexPage = (props) => (
                             ></img>
                         </p>
                     </article>
+                    <article style={logoDtvStyle}>
+                        <p>
+                            <img
+                                src={
+                                    props.data.dtvLogo.childImageSharp.image.src
+                                }
+                                width="100%"
+                                alt="DTV-4-Sterne-Logo"
+                            ></img>
+                        </p>
+                    </article>{" "}
                 </div>
             </div>
         </div>
