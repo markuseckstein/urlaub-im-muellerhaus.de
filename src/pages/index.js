@@ -12,7 +12,7 @@ const eventTeaserStyle = {
     backgroundColor: "#f1f1f1",
     padding: "0 0.4rem",
     borderRadius: "4px",
-    marginBottom: "16px"
+    marginBottom: "18px"
 };
 
 const IndexPage = (props) => (
