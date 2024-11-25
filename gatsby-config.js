@@ -2,8 +2,6 @@ module.exports = {
     siteMetadata: {
         title: "Urlaub im Müllerhaus",
     },
-    assetPrefix: "/urlaub-im-muellerhaus.de",
-    pathPrefix: "/urlaub-im-muellerhaus.de",
     plugins: [
         "gatsby-plugin-react-helmet",
         "gatsby-transformer-sharp",
