@@ -2,7 +2,7 @@ module.exports = {
     siteMetadata: {
         title: "Urlaub im Müllerhaus",
     },
-    assetPrefix: "urlaub-im-muellerhaus.de",
+    assetPrefix: "https://markuseckstein.github.io/urlaub-im-muellerhaus.de",
     plugins: [
         "gatsby-plugin-react-helmet",
         "gatsby-transformer-sharp",
