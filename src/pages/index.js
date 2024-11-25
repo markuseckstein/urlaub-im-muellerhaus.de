@@ -10,10 +10,15 @@ const greetingStyle = {
 
 const eventTeaserStyle = {
     backgroundColor: "#f1f1f1",
-    padding: "0 0.4rem",
+    padding: "0 1rem",
     borderRadius: "4px",
-    marginBottom: "18px"
+    float: "left",
+    marginBottom: "1.5rem",
 };
+
+const asideStyle = {
+    marginBottom: "1.5rem"
+}
 
 const IndexPage = (props) => (
     <Layout>
@@ -42,7 +47,7 @@ const IndexPage = (props) => (
                             </p>
                         </header>
                     </article>
-                    <aside>
+                    <aside style={asideStyle}>
                         <h3>Modernes Leben in historischem Ambiente</h3>
                         <p>
                             Das denkmalgeschützte Fachwerkhaus liegt an der
@@ -60,17 +65,75 @@ const IndexPage = (props) => (
                         </p>
                     </aside>
 
-                    
-
                     <article style={eventTeaserStyle}>
-                        <h3>
-                            Pfingsten 2024: Der Müllerhaus-Garten im Zeichen der Kunst
-                        </h3>
                         <p>
-                            Im Rahmen des Formats „Kunst Offen“ laden wir vom 18. Bis 20. Mai Kunstinteressierte in unsere Galerie im Müllerhaus-Garten ein.
+                            <img
+                                src={
+                                    props.data.sterneSiegel.childImageSharp
+                                        .image.src
+                                }
+                                width="100%"
+                                alt="DTV-4-Sterne-Siegel Wohnung Altwarp"
+                            ></img>
+                        </p>
+                        <h3>Würdigung für besondere Qualität</h3>
+
+                        <p>
+                            <strong>
+                                Anlässlich des Qualitätstags, den der
+                                Tourismusverband MV am 18. November in
+                                Rövershagen veranstaltet hat, wurde unser
+                                Müllerhaus unter dem Titel „Ausgezeichnete
+                                Betriebe im Fokus“ geehrt.
+                            </strong>
                         </p>
                         <p>
-                            Hier stellt die Malerin{" "}
+                            Die Urkunde für die „höherwertige Gesamtausstattung
+                            und gehobenen Komfort“ unserer Ferienunterkunft mit
+                            4-Sterne-Klassifizierung überreichte Wolfgang
+                            Waldmüller (MDL, stellvertretender Vorsitzender des
+                            Tourismusverbandes Mecklenburg-Vorpommern). In
+                            seiner Rede betonte er: „Qualität ist kein Ziel, das
+                            man erreicht oder abhakt, es ist ein ständiger
+                            Prozess, zwischen der Region, den Gästen und uns
+                            selbst“.
+                        </p>
+
+                        <p>
+                            Dem können wir nur zustimmen und wir freuen uns
+                            darauf, liebe Gäste, diesen Prozess in den kommenden
+                            Jahren weiterhin kreativ und aufmerksam
+                            voranzutreiben. Denn uns geht es darum, Euch einen
+                            unvergesslichen Erholungsort anzubieten.
+                        </p>
+                        <p>Wir freuen uns auf Euch!</p>
+                        <p>Eure Lochners</p>
+
+                        <p>
+                            <img
+                                src={
+                                    props.data.dtvLogo.childImageSharp.image.src
+                                }
+                                width="100%"
+                                alt="DTV-4-Sterne-Logo"
+                            ></img>
+                        </p>
+                    </article>
+
+                    <article style={eventTeaserStyle}>
+                        <h3>Der Müllerhaus-Garten im Zeichen der Kunst</h3>
+
+                        <p>
+                            Im Rahmen des Formats{" "}
+                            <a
+                                href="https://www.vorpommern.de/kunstoffen-in-vorpommern/"
+                                target="_blank"
+                            >
+                                „Kunst Offen“
+                            </a>{" "}
+                            haben am Pfingstwochenende wieder über 200
+                            Kunstinteressierte unsere Galerie im
+                            Müllerhaus-Garten besucht. Hier stellt die Malerin{" "}
                             <a
                                 href="https://www.brigitte-danner.de/"
                                 target="_blank"
@@ -78,12 +141,17 @@ const IndexPage = (props) => (
                             >
                                 Brigitte Danner
                             </a>{" "}
-                            ihre Werke aus, bei denen Sie verschiedenste Materialien und Techniken zu abstrakten Motiven vereint. Die Bilder geben in einer einzigartigen Ästhetik Natur und Emotionen wieder.
+                            ihre Werke aus, bei denen Sie verschiedenste
+                            Materialien und Techniken zu abstrakten Motiven
+                            vereint. Die Bilder geben in einer einzigartigen
+                            Ästhetik Natur und Emotionen wieder.
                         </p>
                         <p>
-                            Die Künstlerin hat sich in den vergangen 25 Jahren mit ihren Arbeiten in Nordbayern einen Namen gemacht. Inspiriert durch das Stettiner Haff und die Ostsee, zeigt seit 2019 ihre Bilder auch in Mecklenburg-Vorpommern. Viele Gäste sind so begeistert von der gestalterischen Harmonie ihrer Werke, dass sie der Kunstscheune im Müllerhausgarten jährlich zu Pfingsten einen Besuch abstatten, um die Bilder auf sich wirken zu lassen.
+                            Viele Gäste sind so begeistert von der
+                            gestalterischen Harmonie ihrer Werke, dass sie der
+                            Kunstscheune im Müllerhausgarten jedes Jahr an
+                            Pfingsten einen Besuch abstatten.
                         </p>
-
 
                         <p>
                             Besichtigungen sind auch an anderen Tagen möglich.
@@ -91,18 +159,12 @@ const IndexPage = (props) => (
                             <Link to="/impressum">Kontaktaufnahme</Link> per
                             Mail oder telefonisch.
                         </p>
-
                         <p>
-                            Weitere Informationen zu Kunst:Offen in Vorpommern
-                            finden Sie{" "}
-                            <a
-                                href="https://www.vorpommern.de/kunstoffen-in-vorpommern/"
-                                target="_blank"
-                            >
-                                hier
-                            </a>
-                            .
+                            Außerdem wird Brigitte Danner im Frühjahr 2025 im
+                            Kulturspeicher Ueckermünde ihre neuesten Werke
+                            zeigen (Vernissage am 7. März 2025).
                         </p>
+
 
                         <p>
                             <img
@@ -112,35 +174,6 @@ const IndexPage = (props) => (
                                 }
                                 width="100%"
                                 alt="Kunstausstellung in der Kunstscheune"
-                            ></img>
-                        </p>
-                    </article>
-                    
-                    <article style={eventTeaserStyle}>
-                        <h3>Würdigung für besondere Qualität</h3>
-                        <p><strong>Anlässlich des Qualitätstags, den der Tourismusverband MV am 18. November in Rövershagen veranstaltet hat, wurde unser Müllerhaus unter dem Titel „Ausgezeichnete Betriebe im Fokus“ geehrt.</strong></p>
-                        <p>Die Urkunde für die „höherwertige Gesamtausstattung und gehobenen Komfort“ unserer Ferienunterkunft mit 4-Sterne-Klassifizierung überreichte Wolfgang Waldmüller (MDL, stellvertretender Vorsitzender des Tourismusverbandes Mecklenburg-Vorpommern). In seiner Rede betonte er: „Qualität ist kein Ziel, das man erreicht oder abhakt, es ist ein ständiger Prozess, zwischen der Region, den Gästen und uns selbst“.</p>
-
-                        <p>Dem können wir nur zustimmen und wir freuen uns darauf, liebe Gäste, diesen Prozess in den kommenden Jahren weiterhin kreativ und aufmerksam voranzutreiben. Denn uns geht es darum, Euch einen unvergesslichen Erholungsort anzubieten.</p>
-                        <p>Wir freuen uns auf Euch!</p>
-                        <p>Eure Lochners</p>
-
-                        <p>
-                            <img
-                                src={
-                                    props.data.sterneSiegel.childImageSharp.image.src
-                                }
-                                width="100%"
-                                alt="DTV-4-Sterne-Siegel Wohnung Altwarp"
-                            ></img>
-                        </p>
-                        <p>
-                            <img
-                                src={
-                                    props.data.dtvLogo.childImageSharp.image.src
-                                }
-                                width="100%"
-                                alt="DTV-4-Sterne-Logo"
                             ></img>
                         </p>
                     </article>
@@ -187,7 +220,7 @@ export const query = graphql`
                     height
                 }
             }
-        }    
+        }
         zeitung: file(
             sourceInstanceName: { eq: "documents" }
             relativePath: { eq: "kunstoffen_2022_pfingsten.pdf" }

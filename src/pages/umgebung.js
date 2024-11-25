@@ -102,7 +102,17 @@ class UmgebungPage extends React.Component {
                                 </section>
                                 <section>
                                     <h2>Weitere Ziele</h2>
-                                    <p>Weitere interessante Ziele finden Sie auf der <a href="https://www.kulturlandbuero.de/kulturlandschatzkarte/" target="_blank" rel="noreferrer">Kulturlandschatzkarte</a>.
+                                    <p>
+                                        Weitere interessante Ziele finden Sie
+                                        auf der{" "}
+                                        <a
+                                            href="https://www.kulturlandbuero.de/kulturlandschatzkarte/"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            Kulturlandschatzkarte
+                                        </a>
+                                        .
                                     </p>
                                 </section>
                                 <footer>
@@ -154,110 +164,160 @@ class UmgebungPage extends React.Component {
                             <aside>
                                 <h2>Weitere Ausflugsziele</h2>
                                 <ul>
-                                    <li>Einzigartige Strände in Vogelsang, Bellin (mit {" "}
+                                    <li>
+                                        Einzigartige Strände in Vogelsang,
+                                        Bellin (mit{" "}
                                         <a
                                             href="https://www.facebook.com/bellinibeach/"
                                             target="_blank"
                                             rel="noreferrer"
                                         >
                                             Bar
-                                        </a>{" "}), Mönkebude, Ueckermünde (mit Café, Imbiss und {" "}
+                                        </a>{" "}
+                                        ), Mönkebude, Ueckermünde (mit Café,
+                                        Imbiss und{" "}
                                         <a
                                             href="https://www.strandhalle-ueckermuende.de/"
                                             target="_blank"
                                             rel="noreferrer"
                                         >
                                             Restaurant
-                                        </a>{" "})</li>
-                                    <li>Frühstücken im {" "}
+                                        </a>{" "}
+                                        )
+                                    </li>
+                                    <li>
+                                        Frühstücken im{" "}
                                         <a
                                             href="https://wohlfuehleck-ueckermuende.eatbu.com/"
                                             target="_blank"
                                             rel="noreferrer"
                                         >
                                             Wohlfühleck
-                                        </a>{" "} in {" "}
+                                        </a>{" "}
+                                        in{" "}
                                         <a
                                             href="https://www.ueckermuende.de/"
                                             target="_blank"
                                             rel="noreferrer"
                                         >
                                             Ueckermünde
-                                        </a>{" "}</li>
-                                    <li>Filmabend im {" "}
+                                        </a>{" "}
+                                    </li>
+                                    <li>
+                                        Filmabend im{" "}
                                         <a
                                             href="https://www.kino-ueckermuende.de/"
                                             target="_blank"
                                             rel="noreferrer"
                                         >
                                             Kino
-                                        </a>{" "} Ueckermünde</li>
-                                    <li>{" "}
+                                        </a>{" "}
+                                        Ueckermünde
+                                    </li>
+                                    <li>
+                                        {" "}
                                         <a
                                             href="https://www.ueckermuende.de/portal/seiten/haffmuseum-mit-regionaler-geschichte-900000069-34850.html"
                                             target="_blank"
                                             rel="noreferrer"
                                         >
                                             Haffmuseum
-                                        </a>{" "} Ueckermünde</li>
-                                    <li>Geschichte erleben im {" "}
+                                        </a>{" "}
+                                        Ueckermünde
+                                    </li>
+                                    <li>
+                                        Geschichte erleben im{" "}
                                         <a
                                             href="http://ukranenland.de/"
                                             target="_blank"
                                             rel="noreferrer"
                                         >
                                             Ukranenland
-                                        </a>{" "} Torgelow</li>
-                                    <li>Fischerdorf {" "}
+                                        </a>{" "}
+                                        Torgelow
+                                    </li>
+                                    <li>
+                                        Fischerdorf{" "}
                                         <a
                                             href="https://www.fischerdorf-altwarp.de/"
                                             target="_blank"
                                             rel="noreferrer"
                                         >
                                             Altwarp
-                                        </a>{" "}: Bootsfahrten und Fischspezialitäten</li>
-                                    <li>{" "}
+                                        </a>{" "}
+                                        : Bootsfahrten und Fischspezialitäten
+                                    </li>
+                                    <li>
+                                        {" "}
                                         <a
                                             href="https://www.naturpark-am-stettiner-haff.de/"
                                             target="_blank"
                                             rel="noreferrer"
                                         >
                                             Naturpark am Stettiner Haff
-                                        </a>{" "}: Natur hautnah, Biber-Wanderungen, Führungen durch die Binnendüne, Informationszentrum</li>
-                                    <li>{" "}
+                                        </a>{" "}
+                                        : Natur hautnah, Biber-Wanderungen,
+                                        Führungen durch die Binnendüne,
+                                        Informationszentrum
+                                    </li>
+                                    <li>
+                                        {" "}
                                         <a
                                             href="https://tierpark-ueckermuende.de/"
                                             target="_blank"
                                             rel="noreferrer"
                                         >
                                             Tierpark
-                                        </a>{" "} Ueckermünde</li>
+                                        </a>{" "}
+                                        Ueckermünde
+                                    </li>
                                     <li>Straußenfarm Ahlbeck</li>
                                     <li>Einkaufsbummel in Stettin</li>
                                     <li>Radtour auf der Insel Usedom</li>
-                                    <li>Entspannen in der {" "}
+                                    <li>
+                                        Entspannen in der{" "}
                                         <a
                                             href="https://www.ostseetherme-usedom.de/"
                                             target="_blank"
                                             rel="noreferrer"
                                         >
                                             OstseeTherme
-                                        </a>{" "} Usedom</li>
-                                    <li>Spaziergang auf den Strandpromenaden der Kaiserbäder Heringsdorf, Ahlbeck und Bansin</li>
-                                    <li>Kreidefelsen und Störtebeker-Festspiele auf der Insel Rügen</li>
-                                    <li>Sightseeing und Shopping in Greifswald</li>
-                                    <li>{" "}
+                                        </a>{" "}
+                                        Usedom
+                                    </li>
+                                    <li>
+                                        Spaziergang auf den Strandpromenaden der
+                                        Kaiserbäder Heringsdorf, Ahlbeck und
+                                        Bansin
+                                    </li>
+                                    <li>
+                                        Kreidefelsen und Störtebeker-Festspiele
+                                        auf der Insel Rügen
+                                    </li>
+                                    <li>
+                                        Sightseeing und Shopping in Greifswald
+                                    </li>
+                                    <li>
+                                        {" "}
                                         <a
                                             href="https://www.ozeaneum.de/"
                                             target="_blank"
                                             rel="noreferrer"
                                         >
                                             Ozeaneum
-                                        </a>{" "} Stralsund</li>
+                                        </a>{" "}
+                                        Stralsund
+                                    </li>
                                     <li>Shopping und See in Neubrandenburg</li>
-                                    <li>Fischer- und Künstlerdorf Rieth am Neuwarper See</li>
-                                    <li>Hanseatische Kultur und Architektur in Rostock</li>
-                                    </ul>
+                                    <li>
+                                        Fischer- und Künstlerdorf Rieth am
+                                        Neuwarper See
+                                    </li>
+                                    <li>
+                                        Hanseatische Kultur und Architektur in
+                                        Rostock
+                                    </li>
+                                </ul>
                             </aside>
                         </div>
                     </div>
