@@ -113,48 +113,55 @@ const IndexPage = (props) => (
                         <p>Eure Lochners</p>
                     </article>
                     <article style={eventTeaserStyle}>
-                        <h3>Der Müllerhaus-Garten im Zeichen der Kunst</h3>
+                        <h3>
+                            Ausstellung „Natur und Wunder“ ab Pfingsten im
+                            Müllerhausgarten
+                        </h3>
 
                         <p>
-                            Im Rahmen des Formats{" "}
+                            Nach zwölf gut besuchten Wochen im Kulturspeicher
+                            Ueckermünde, wandert die Bilderausstellung „Natur
+                            und Wunder“ der Künstlerin Brigitte Danner
+                            anlässlich der MV-weiten Veranstaltung{" "}
                             <a
                                 href="https://www.vorpommern.de/kunstoffen-in-vorpommern/"
                                 target="_blank"
                             >
-                                „Kunst Offen“
+                                Kunst Offen
                             </a>{" "}
-                            haben am Pfingstwochenende wieder über 200
-                            Kunstinteressierte unsere Galerie im
-                            Müllerhaus-Garten besucht. Hier stellt die Malerin{" "}
+                            in unsere Kunstscheune.
+                        </p>
+
+                        <p>
+                            Vom 7. bis 9. Juni laden wir alle Interessierten
+                            herzlich zur Ausstellungsbesichtigung und zu
+                            Gesprächen mit der Malerin bei Kaffee und Kuchen in
+                            den Müllerhausgarten ein. In ihrer unnachahmlichen
+                            Art, verschiedenste Techniken und Farben zu einem
+                            harmonischen Miteinander zu verbinden, zeigt die
+                            Künstlerin Welten, Ereignisse und natürliche
+                            Abstraktionen.
+                        </p>
+
+                        <p>
+                            Hier finden Sie die{" "}
+                            <a
+                                rel="noreferrer"
+                                href="https://www.nordkurier.de/regional/ueckermuende/ins-haff-verliebt-abstrakte-naturbilder-entstehen-auch-aus-asche-und-rost-3398899"
+                                target="_blank"
+                            >
+                                Pressestimme
+                            </a>{" "}
+                            über die Ausstellung im Kulturspeicher Ueckermünde.
+                            Mehr zur Künstlerin unter{" "}
                             <a
                                 href="https://www.brigitte-danner.de/"
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                Brigitte Danner
-                            </a>{" "}
-                            ihre Werke aus, bei denen Sie verschiedenste
-                            Materialien und Techniken zu abstrakten Motiven
-                            vereint. Die Bilder geben in einer einzigartigen
-                            Ästhetik Natur und Emotionen wieder.
-                        </p>
-                        <p>
-                            Viele Gäste sind so begeistert von der
-                            gestalterischen Harmonie ihrer Werke, dass sie der
-                            Kunstscheune im Müllerhausgarten jedes Jahr an
-                            Pfingsten einen Besuch abstatten.
-                        </p>
-
-                        <p>
-                            Besichtigungen sind auch an anderen Tagen möglich.
-                            Wir bitten dafür um{" "}
-                            <Link to="/impressum">Kontaktaufnahme</Link> per
-                            Mail oder telefonisch.
-                        </p>
-                        <p>
-                            Außerdem wird Brigitte Danner im Frühjahr 2025 im
-                            Kulturspeicher Ueckermünde ihre neuesten Werke
-                            zeigen (Vernissage am 7. März 2025).
+                                www.brigitte-danner.de
+                            </a>
+                            .
                         </p>
 
                         <p>
@@ -189,7 +196,7 @@ export const query = graphql`
     query LogoAndZeitung {
         kunstscheune: file(
             sourceInstanceName: { eq: "images" }
-            relativePath: { eq: "kunstscheune.jpg" }
+            relativePath: { eq: "kunst_offen.jpg" }
         ) {
             childImageSharp {
                 image: resize(width: 600, quality: 77, toFormat: JPG) {
