@@ -1,36 +1,35 @@
 .header-image {
-    height: 50vmin;
-    background-size: cover;
+  height: 50vmin;
+  background-size: cover;
 }
 
-
 .header-image--index {
-    background-image: url('../img/index_header.jpg');
-    background-position: 91% 69%;
-    height: 65vmin;
+  background-image: url("../img/index_header.jpg");
+  background-position: 91% 69%;
+  height: 65vmin;
 }
 
 .header-image--wohnungen {
-    background-image: url('../img/wohnungen_header.jpg');
-    background-position: 50% 61%;
+  background-image: url("../img/wohnungen_header.jpg");
+  background-position: 50% 61%;
 }
 
 .header-image--garten {
-    background-image: url('../img/garten_header.jpg');
-    background-position: 50% 63%;
+  background-image: url("../img/garten_header.jpg");
+  background-position: 50% 63%;
 }
 
 .header-image--umgebung {
-    background-image: url('../img/umgebung_header.jpg');
-    background-position: 50% 47%;
+  background-image: url("../img/umgebung_header.jpg");
+  background-position: 50% 47%;
 }
 
 .header-image--preise {
-    background-image: url('../img/preise_header.jpg');
-    background-position: 50% 47%;
+  background-image: url("../img/preise_header.jpg");
+  background-position: 50% 47%;
 }
 
 .header-image--impressum {
-    background-image: url('../img/impressum_header.jpg');
-    background-position: 50% 66%;
+  background-image: url("../img/impressum_header.jpg");
+  background-position: 50% 66%;
 }
