@@ -27,13 +27,13 @@ class PreiseBuchungPage extends React.Component {
                     Aufpreis möglich)
                   </h2>
                   1. Oktober bis 31. März: ab 105 Euro/Nacht
-                  <br /> 1. April bis 30. September: ab 115 Euro/Nacht
-                  <br /> Weihnachts- und Silvesterwoche ab 115 Euro/Nacht
+                  <br /> 1. April bis 30. September: ab 125 Euro/Nacht
+                  <br /> Weihnachts- und Silvesterwoche ab 125 Euro/Nacht
                   <br />
                   <h2>Wohnung „Altwarp“ (2-4 Personen)</h2>
                   1. Oktober bis 31. März: ab 95 Euro/Nacht
-                  <br /> 1. April bis 30. September: ab 105 Euro/Nacht
-                  <br /> Weihnachts- und Silvesterwoche ab 105 Euro/Nacht
+                  <br /> 1. April bis 30. September: ab 115 Euro/Nacht
+                  <br /> Weihnachts- und Silvesterwoche ab 115 Euro/Nacht
                   <br />
                 </section>
               </article>
