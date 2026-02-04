@@ -32,7 +32,6 @@ const UmgebungPage = props => {
     description: caption,
   }))
 
-  
   useEffect(() => {
     const codes = ["h", "o", "m", "e"]
     let buffer = []

@@ -93,37 +93,33 @@ const IndexPage = props => (
             <p>
               Dem können wir nur zustimmen und wir freuen uns darauf, liebe
               Gäste, diesen Prozess in den kommenden Jahren weiterhin kreativ
-              und aufmerksam voranzutreiben. Denn uns geht es darum, Euch einen
-              unvergesslichen Erholungsort anzubieten.
+              und aufmerksam voranzutreiben – immer im Austausch mit unseren
+              Besuchenden. Denn uns geht es darum, einen unvergesslichen
+              Erholungsort inmitten der einzigartigen Natur des Stettiner Haffs
+              anzubieten.
             </p>
-            <p>Wir freuen uns auf Euch!</p>
-            <p>Eure Lochners</p>
           </article>
           <article style={eventTeaserStyle}>
-            <h3>
-              Ausstellung „Natur und Wunder“ ab Pfingsten im Müllerhausgarten
-            </h3>
+            <h3>Pfingsten 2026: „Natur und Wunder“ im Müllerhausgarten</h3>
 
             <p>
-              Nach zwölf gut besuchten Wochen im Kulturspeicher Ueckermünde,
-              wandert die Bilderausstellung „Natur und Wunder“ der Künstlerin
-              Brigitte Danner anlässlich der MV-weiten Veranstaltung{" "}
+              Anlässlich der landesweiten Aktion{" "}
               <a
-                href="https://www.vorpommern.de/kunstoffen-in-vorpommern/"
+                href="https://www.vorpommern.de/kunst-offen.html"
                 target="_blank"
               >
-                Kunst Offen
+                Kunst:offen
               </a>{" "}
-              in unsere Kunstscheune.
-            </p>
-
-            <p>
-              Vom 7. bis 9. Juni laden wir alle Interessierten herzlich zur
-              Ausstellungsbesichtigung und zu Gesprächen mit der Malerin bei
-              Kaffee und Kuchen in den Müllerhausgarten ein. In ihrer
-              unnachahmlichen Art, verschiedenste Techniken und Farben zu einem
-              harmonischen Miteinander zu verbinden, zeigt die Künstlerin
-              Welten, Ereignisse und natürliche Abstraktionen.
+              öffnen vom 23. bis 25. Mai 2026 zahlreiche Künstlerinnen und
+              Künstler in MV ihre Ateliers, Werkstätten und Galerien. Auch wir
+              vom Müllerhaus sind wieder dabei und stellen die abstrakten, von
+              Natur und Emotionen inspirierten Werke von Brigitte Danner in
+              unserer Kunstscheune aus. In ihrer unnachahmlichen Art,
+              verschiedenste Techniken und Farben zu einem harmonischen
+              Miteinander zu verbinden, zeigt die Künstlerin Welten, Ereignisse
+              und natürliche Abstraktionen. Alle Interessierten laden wir
+              herzlich zur Ausstellungsbesichtigung und zu Gesprächen mit der
+              Malerin bei Kaffee und Kuchen in den Müllerhausgarten ein.
             </p>
 
             <p>
