@@ -1,0 +1,43 @@
+---
+import BaseLayout from "./BaseLayout.astro"
+import HeaderImage from "../components/HeaderImage.astro"
+import Gallery from "../components/Gallery.astro"
+import { getEntry, render } from "astro:content"
+
+interface Props {
+  pageName: string
+  sectionName: string
+  galleryFolder?: string
+  headerImg: string
+  headerPosition?: string
+}
+
+const { pageName, sectionName, galleryFolder, headerImg, headerPosition = "50% 50%" } = Astro.props
+
+const page = await getEntry("pages", pageName)
+const { Content } = await render(page)
+
+const aside = await getEntry("sections", sectionName)
+const { Content: AsideContent } = await render(aside)
+---
+
+<BaseLayout title={page.data.seoTitle}>
+  <div>
+    <HeaderImage src={headerImg} position={headerPosition} />
+    <div class="main-container">
+      <div class="main wrapper clearfix">
+        <article>
+          <header>
+            <h1 class="heading">{page.data.title}</h1>
+          </header>
+          <Content />
+        </article>
+        <aside>
+          <h2>{aside.data.title}</h2>
+          <AsideContent />
+        </aside>
+      </div>
+    </div>
+    {galleryFolder && <Gallery folder={galleryFolder} />}
+  </div>
+</BaseLayout>
