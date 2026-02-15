@@ -1,7 +1,6 @@
 ---
 title: Impressum und Kontakt
 seoTitle: Müllerhaus - Impressum
-headerImage: impressum
 ---
 
 Ute und Johannes Lochner<br>

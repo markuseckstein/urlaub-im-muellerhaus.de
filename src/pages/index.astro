@@ -2,6 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro"
 import HeaderImage from "../components/HeaderImage.astro"
 import { getEntry, render } from "astro:content"
+import headerImg from "../img/index_header.jpg"
 
 const page = await getEntry("pages", "index")
 const { Content } = await render(page)
@@ -22,7 +23,7 @@ import dtvLogo from "../img/dtv_4sterne.jpg"
 
 <BaseLayout title={page.data.seoTitle}>
   <div>
-    <HeaderImage page="index" />
+    <HeaderImage src={headerImg} position="91% 69%" height="65vmin" />
     <div class="main-container">
       <div class="main wrapper clearfix">
         <article>

@@ -1,7 +1,6 @@
 ---
 title: Garten und Sauna
 seoTitle: Müllerhaus - Garten und Sauna
-headerImage: garten
 gallery: garten
 ---
 

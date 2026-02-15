@@ -1,7 +1,6 @@
 ---
 title: Datenschutz
 seoTitle: Müllerhaus - Datenschutz
-headerImage: impressum
 ---
 
 ### 1. Name und Anschrift des Verantwortlichen
