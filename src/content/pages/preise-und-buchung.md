@@ -1,7 +1,6 @@
 ---
 title: Preise und Buchung
 seoTitle: Müllerhaus - Preise und Buchung
-headerImage: preise
 ---
 
 Die angegebenen Preise verstehen sich pro Wohnung und Nacht, inkl. Sauna, Bad- und Bettwäsche, zzgl. 60 Euro Endreinigung. Babybett und Kinderhochstuhl stehen Ihnen auf Anfrage kostenfrei zur Verfügung. Die Mindestmietdauer beträgt zwei Nächte.

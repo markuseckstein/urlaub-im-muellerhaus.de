@@ -1,7 +1,6 @@
 ---
 title: Strand und Umgebung
 seoTitle: Müllerhaus - Strand und Umgebung
-headerImage: umgebung
 gallery: umgebung
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Ursprünglichkeit sorgfältig ausgestattet
 seoTitle: Müllerhaus - Wohnungen
-headerImage: wohnungen
 gallery: wohnungen
 ---
 
