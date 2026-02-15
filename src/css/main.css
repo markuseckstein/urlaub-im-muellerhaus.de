@@ -201,17 +201,6 @@ body {
   font-size: 1.2em;
 }
 
-h1,
-h2,
-h3,
-h4 {
-}
-
-aside h1,
-aside h2,
-aside h3 {
-}
-
 .title {
   color: white;
   font-family: "Architects Daughter", cursive;
@@ -356,6 +345,7 @@ li {
 .hometown-visible {
   display: inline;
 }
+
 
 /* ==========================================================================
    Print styles
