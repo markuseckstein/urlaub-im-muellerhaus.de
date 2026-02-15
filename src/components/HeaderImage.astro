@@ -1,0 +1,9 @@
+---
+interface Props {
+  page: string
+}
+
+const { page } = Astro.props
+---
+
+<div class={`header-image header-image--${page}`}></div>

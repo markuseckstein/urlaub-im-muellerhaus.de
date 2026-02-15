@@ -3,14 +3,13 @@ on:
 name: Pull_Request
 jobs:
     buildWebsite:
-        name: Install node_modules
+        name: Build
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@master
-            - name: Install node_modules
-              uses: actions/setup-node@v3
+            - uses: actions/checkout@v4
+            - name: Setup Node
+              uses: actions/setup-node@v4
               with:
                   node-version: "22.x"
-            - run: npm ci --legacy-peer-deps
+            - run: npm ci
             - run: npm run build
-            

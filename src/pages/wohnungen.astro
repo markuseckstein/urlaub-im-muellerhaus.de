@@ -1,0 +1,33 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro"
+import HeaderImage from "../components/HeaderImage.astro"
+import Gallery from "../components/Gallery.astro"
+import { getEntry, render } from "astro:content"
+
+const page = await getEntry("pages", "wohnungen")
+const { Content } = await render(page)
+
+const aside = await getEntry("sections", "wohnungen-aside")
+const { Content: AsideContent } = await render(aside)
+---
+
+<BaseLayout title={page.data.seoTitle}>
+  <div>
+    <HeaderImage page="wohnungen" />
+    <div class="main-container">
+      <div class="main wrapper clearfix">
+        <article>
+          <header>
+            <h1 class="heading">{page.data.title}</h1>
+          </header>
+          <Content />
+        </article>
+        <aside>
+          <h2>{aside.data.title}</h2>
+          <AsideContent />
+        </aside>
+      </div>
+    </div>
+    <Gallery folder="wohnungen" />
+  </div>
+</BaseLayout>

@@ -1,0 +1,23 @@
+---
+title: Weitere Ausflugsziele
+---
+
+- Einzigartige Strände in Vogelsang, Bellin (mit <a href="https://www.facebook.com/bellinibeach/" target="_blank" rel="noreferrer">Bar</a>), Mönkebude, Ueckermünde (mit Café, Imbiss und <a href="https://www.strandhalle-ueckermuende.de/" target="_blank" rel="noreferrer">Restaurant</a>)
+- Frühstücken im <a href="https://wohlfuehleck-ueckermuende.eatbu.com/" target="_blank" rel="noreferrer">Wohlfühleck</a> in <a href="https://www.ueckermuende.de/" target="_blank" rel="noreferrer">Ueckermünde</a>
+- Filmabend im <a href="https://www.kino-ueckermuende.de/" target="_blank" rel="noreferrer">Kino</a> Ueckermünde
+- <a href="https://www.ueckermuende.de/portal/seiten/haffmuseum-mit-regionaler-geschichte-900000069-34850.html" target="_blank" rel="noreferrer">Haffmuseum</a> Ueckermünde
+- Geschichte erleben im <a href="http://ukranenland.de/" target="_blank" rel="noreferrer">Ukranenland</a> Torgelow
+- Fischerdorf <a href="https://www.fischerdorf-altwarp.de/" target="_blank" rel="noreferrer">Altwarp</a>: Bootsfahrten und Fischspezialitäten
+- <a href="https://www.naturpark-am-stettiner-haff.de/" target="_blank" rel="noreferrer">Naturpark am Stettiner Haff</a>: Natur hautnah, Biber-Wanderungen, Führungen durch die Binnendüne, Informationszentrum
+- <a href="https://tierpark-ueckermuende.de/" target="_blank" rel="noreferrer">Tierpark</a> Ueckermünde
+- Straußenfarm Ahlbeck
+- Einkaufsbummel in Stettin
+- Radtour auf der Insel Usedom
+- Entspannen in der <a href="https://www.ostseetherme-usedom.de/" target="_blank" rel="noreferrer">OstseeTherme</a> Usedom
+- Spaziergang auf den Strandpromenaden der Kaiserbäder Heringsdorf, Ahlbeck und Bansin
+- Kreidefelsen und Störtebeker-Festspiele auf der Insel Rügen
+- Sightseeing und Shopping in Greifswald
+- <a href="https://www.ozeaneum.de/" target="_blank" rel="noreferrer">Ozeaneum</a> Stralsund
+- Shopping und See in Neubrandenburg
+- Fischer- und Künstlerdorf Rieth am Neuwarper See
+- Hanseatische Kultur und Architektur in Rostock

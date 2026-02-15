@@ -1,0 +1,102 @@
+---
+import { getImage } from "astro:assets"
+
+interface Props {
+  folder: string
+}
+
+const { folder } = Astro.props
+
+// Import all gallery images
+const allImages = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/img/gallery/**/*.jpg",
+  { eager: true },
+)
+
+// Filter by folder and sort by filename
+const folderImages = Object.entries(allImages)
+  .filter(([path]) => path.includes(`/gallery/${folder}/`))
+  .sort(([a], [b]) => a.localeCompare(b))
+
+// Load captions
+let captions: Record<string, string> = {}
+try {
+  captions = (await import("../data/gallery-captions.json")).default
+} catch {
+  // captions file may not exist yet
+}
+
+// Build image data with thumbnails
+const images = await Promise.all(
+  folderImages.map(async ([path, mod]) => {
+    const thumb = await getImage({
+      src: mod.default,
+      width: 280,
+      format: "jpg",
+    })
+    const full = await getImage({
+      src: mod.default,
+      width: 1300,
+      quality: 75,
+      format: "jpg",
+    })
+    // Extract relative path for caption lookup: "garten/garten_01.jpg"
+    const relPath = path.replace(/^.*\/gallery\//, "")
+    const caption = captions[relPath] || ""
+    return { thumb, full, caption }
+  }),
+)
+---
+
+<div class="footer-container">
+  <footer class="wrapper">
+    <div class="gallery-grid">
+      {
+        images.map(img => (
+          <a
+            href={img.full.src}
+            class="glightbox"
+            data-gallery={folder}
+            data-title={img.caption}
+          >
+            <img
+              src={img.thumb.src}
+              width={img.thumb.attributes.width}
+              height={img.thumb.attributes.height}
+              alt={img.caption}
+              loading="lazy"
+            />
+          </a>
+        ))
+      }
+    </div>
+  </footer>
+</div>
+
+<style>
+  .gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .gallery-grid a {
+    display: block;
+    line-height: 0;
+  }
+  .gallery-grid img {
+    height: 180px;
+    width: auto;
+    object-fit: cover;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+  .gallery-grid img:hover {
+    opacity: 0.8;
+  }
+</style>
+
+<script>
+  import GLightbox from "glightbox"
+  import "glightbox/dist/css/glightbox.min.css"
+  GLightbox({ selector: ".glightbox" })
+</script>
