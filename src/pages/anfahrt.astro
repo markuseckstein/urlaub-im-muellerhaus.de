@@ -1,0 +1,36 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro"
+import { getEntry, render } from "astro:content"
+
+const page = await getEntry("pages", "anfahrt")
+const { Content } = await render(page)
+
+const aside = await getEntry("sections", "anfahrt-aside")
+const { Content: AsideContent } = await render(aside)
+---
+
+<BaseLayout title={page.data.seoTitle}>
+  <div>
+    <iframe
+      title="Anfahrtskarte"
+      width="100%"
+      height="580px"
+      style="border: 0;"
+      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB8BouMAnBVAs9lRRXjxMp-chcj_JzxiOQ&q=Dorfstraße 24,Vogelsang-Warsin"
+      allowfullscreen></iframe>
+    <div class="main-container">
+      <div class="main wrapper clearfix">
+        <article>
+          <header>
+            <h2>{page.data.title}</h2>
+            <Content />
+          </header>
+        </article>
+        <aside>
+          <h2>{aside.data.title}</h2>
+          <AsideContent />
+        </aside>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

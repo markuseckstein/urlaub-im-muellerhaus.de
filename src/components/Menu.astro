@@ -1,0 +1,58 @@
+---
+import logo from "../img/logo-muellerhaus.png"
+
+const currentPath = Astro.url.pathname
+const navItems = [
+  { href: "/", label: "Home" },
+  { href: "/wohnungen/", label: "Ferien\u00ADwohnungen" },
+  { href: "/garten/", label: "Garten & Sauna" },
+  { href: "/umgebung/", label: "Strand & Umgebung" },
+  { href: "/preise_und_buchung/", label: "Preise & Buchung" },
+  { href: "/anfahrt/", label: "Anfahrt" },
+  { href: "/impressum/", label: "Impressum" },
+]
+
+function isActive(href: string) {
+  if (href === "/") return currentPath === "/" || currentPath === "/index.html"
+  return currentPath.startsWith(href)
+}
+---
+
+<div class="header-container">
+  <header class="wrapper clearfix">
+    <div role="button" id="navMenu" tabindex="0">
+      <div id="navMenuInner"></div>
+    </div>
+    <h1 class="title">Willkommen im Müllerhaus!</h1>
+    <nav id="navMain">
+      <img class="logo" alt="" src={logo.src} />
+      <ul class="navMain__list">
+        {
+          navItems.map(item => (
+            <li>
+              <a
+                href={item.href}
+                class={isActive(item.href) ? "active" : ""}
+                set:html={item.label}
+              />
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+  </header>
+</div>
+
+<script>
+  const navMenu = document.getElementById("navMenu")
+  const navMenuInner = document.getElementById("navMenuInner")
+  const navMain = document.getElementById("navMain")
+
+  if (navMenu && navMenuInner && navMain) {
+    navMenu.addEventListener("click", () => {
+      navMenu.classList.toggle("animate")
+      navMenuInner.classList.toggle("animate")
+      navMain.classList.toggle("unhide")
+    })
+  }
+</script>

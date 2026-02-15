@@ -1,54 +1,30 @@
 {
   "name": "urlaub-im-muellerhaus",
   "description": "Website for www.urlaub-im-muellerhaus.de",
-  "version": "1.0.1",
-  "author": "Markus Eckstein",
+  "version": "2.0.0",
+  "author": "Ute Lochner, Markus Eckstein",
   "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npm run extract-iptc && astro dev --host",
+    "build": "npm run extract-iptc && astro build",
+    "preview": "astro preview",
+    "clean": "rm -rf dist .astro",
+    "extract-iptc": "node scripts/extract-iptc.mjs",
+    "format": "prettier --write \"**/*.{astro,js,ts,json,md,css}\""
+  },
   "dependencies": {
-    "baseline-browser-mapping": "^2.9.19",
-    "caniuse-lite": "^1.0.30001767",
-    "gatsby": "^5.14.1",
-    "gatsby-plugin-google-gtag": "^5.14.0",
-    "gatsby-plugin-image": "^3.14.0",
-    "gatsby-plugin-manifest": "^5.14.0",
-    "gatsby-plugin-react-helmet": "^6.14.0",
-    "gatsby-plugin-sharp": "^5.14.0",
-    "gatsby-source-filesystem": "^5.14.0",
-    "gatsby-transformer-sharp": "^5.14.0",
-    "lodash": "^4.17.21",
-    "node-iptc": "^1.0.5",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-grid-gallery": "^1.0.1",
-    "react-helmet": "^6.1.0",
-    "react-image-lightbox": "^5.1.4",
-    "rxjs": "^7.8.1",
-    "yet-another-react-lightbox": "^3.25.0"
+    "astro": "^5.17.2",
+    "glightbox": "3.3.0",
+    "sharp": "0.33.0"
   },
   "devDependencies": {
-    "ajv": "^8.17.1",
-    "ajv-keywords": "^5.1.0",
-    "prettier": "^3.6.2"
-  },
-  "keywords": [
-    "gatsby",
-    "urlaub-im-muellerhaus"
-  ],
-  "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop -H 0.0.0.0",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
-    "start": "gatsby develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "node-iptc": "1.0.5",
+    "prettier": "3.6.2",
+    "prettier-plugin-astro": "0.14.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/markuseckstein/urlaub-im-muellerhaus.de"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }

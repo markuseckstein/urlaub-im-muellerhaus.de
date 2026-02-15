@@ -1,0 +1,43 @@
+---
+import Seo from "../components/Seo.astro"
+import Menu from "../components/Menu.astro"
+import "../css/normalize.min.css"
+import "../css/main.css"
+
+interface Props {
+  title?: string
+  description?: string
+}
+
+const { title, description } = Astro.props
+---
+
+<!doctype html>
+<html lang="de">
+  <head>
+    <Seo title={title} description={description} />
+    <!-- Google Analytics -->
+    <script
+      is:inline
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-BW8ND2PF3P"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+      gtag("config", "G-BW8ND2PF3P", {
+        anonymize_ip: true,
+        cookie_expires: 0,
+      })
+    </script>
+  </head>
+  <body>
+    <div>
+      <Menu />
+      <slot />
+    </div>
+    <script src="../scripts/easter-eggs.js"></script>
+  </body>
+</html>

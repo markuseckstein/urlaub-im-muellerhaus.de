@@ -1,0 +1,25 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro"
+import HeaderImage from "../components/HeaderImage.astro"
+import { getEntry, render } from "astro:content"
+
+const page = await getEntry("pages", "datenschutz")
+const { Content } = await render(page)
+---
+
+<BaseLayout title={page.data.seoTitle}>
+  <div>
+    <HeaderImage page="impressum" />
+    <div class="main-container">
+      <div class="main wrapper clearfix">
+        <article>
+          <header>
+            <h1 class="heading">{page.data.title}</h1>
+            <Content />
+          </header>
+          <p><a href="/">zurück zur Homepage</a></p>
+        </article>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

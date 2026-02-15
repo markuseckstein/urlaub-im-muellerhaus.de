@@ -320,6 +320,45 @@ li {
 }
 
 /* ==========================================================================
+   Homepage styles
+   ========================================================================== */
+
+.greeting {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 2.6em;
+  transform: rotate(2deg);
+  display: inline-block;
+}
+
+.event-teaser {
+  background-color: #f1f1f1;
+  padding: 0 1rem;
+  border-radius: 4px;
+  float: left;
+  margin-bottom: 1.5rem;
+}
+
+.dtv-logo {
+  padding: 0 1rem;
+}
+
+.index-aside {
+  margin-bottom: 1.5rem;
+}
+
+/* ==========================================================================
+   Easter egg: hometown distances
+   ========================================================================== */
+
+.hometown-hidden {
+  display: none;
+}
+
+.hometown-visible {
+  display: inline;
+}
+
+/* ==========================================================================
    Print styles
    ========================================================================== */
 
