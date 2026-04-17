@@ -16,7 +16,7 @@ Knapp acht Kilometer in Richtung Westen liegt das Seebad Ueckermünde. Eine Klei
 
 ## Idyll, Natur und fangfrischen Fisch in Altwarp
 
-Die gleiche Strecke in Richtung Osten bringt Sie zum kleinen Fischerdorf Altwarp. Von hier aus können Sie Bootsausflüge machen, ursprüngliche Natur genießen, fangfrischen Fisch einkaufen oder gleich vor Ort verspeisen: Altwarp gilt als Geheimtipp für köstliche Fischrestaurants.
+Die gleiche Strecke in Richtung Osten bringt Sie zum kleinen Fischerdorf Altwarp. Von hier aus können Sie Bootsausflüge machen, ursprüngliche Natur genießen, fangfrischen Fisch einkaufen oder gleich vor Ort verspeisen: Altwarp gilt als Geheimtipp für köstliche Fischrestaurants. Seit 2026 gibt es dort außerdem eine <a href="https://www.segelschule-altwarp.de" target="_blank" rel="noreferrer">Segelschule</a>.
 
 ## Weitere Ziele
 
