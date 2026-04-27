@@ -14,7 +14,7 @@
     "format": "prettier --write \"**/*.{astro,js,ts,json,md,css}\""
   },
   "dependencies": {
-    "astro": "^5.17.2",
+    "astro": "^6.0.0",
     "glightbox": "3.3.1",
     "sharp": "0.33.0"
   },
